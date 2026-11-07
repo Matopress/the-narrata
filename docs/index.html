@@ -8,7 +8,7 @@
 <meta name="description" content="Headlines from Uganda, East Africa, Africa and the world, updated every 30 minutes.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,700&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#f5f6f1; --ink:#15231f; --muted:#5d6b66; --line:#d9ddd3; --card:#ffffff;
@@ -98,6 +98,41 @@ body{background:radial-gradient(1200px 400px at 50% -200px,color-mix(in srgb,var
 .ad{display:block;margin:12px 0 26px;text-decoration:none}
 .ad small{display:block;text-align:right;font:500 .68rem var(--head);color:var(--muted);margin-bottom:4px}
 .ad img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
+/* v3: editorial look, white page, red accent, serif headlines */
+:root{--head:"Libre Franklin","Helvetica Neue",Arial,sans-serif;--serif:"Source Serif 4",Georgia,"Times New Roman",serif}
+@media (prefers-color-scheme:light){:root{--paper:#fff;--card:#fff;--line:#d9d9d9;--muted:#595959;--ink:#121212;--brand:#e3120b}}
+body{background:var(--paper)}
+header{border-top:8px solid var(--brand);border-bottom:1px solid var(--ink)}
+.brand img{height:34px;padding:0;border-radius:0}
+.stamp{font-size:.78rem}
+.tab{font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.06em;border-radius:0;padding:10px 14px 11px;border-bottom-width:3px}
+.tab[aria-selected=true]{border-bottom-color:var(--brand)}
+input,select{border-radius:0;border-width:1px;font-weight:400}
+main{padding-top:22px}
+.brief{background:none;color:var(--ink);border:0;border-top:4px solid var(--ink);border-radius:0;padding:12px 0 6px;margin-bottom:30px}
+.brief h2{font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.brief .sub{opacity:1;color:var(--muted)}
+.brief .cols{gap:32px}
+.brief h3{font:700 1.15rem var(--serif)}
+.brief .dot{display:none}
+.brief p{font-family:var(--serif);font-size:1.02rem}
+.lead{background:none;border:0;border-bottom:1px solid var(--ink);box-shadow:none;border-radius:0;padding:0 0 28px;gap:32px}
+.lead .pic{border-radius:0}
+.lead h2{font:700 clamp(1.8rem,3.6vw,2.7rem)/1.1 var(--serif);letter-spacing:-.01em}
+.lead h2 a:hover{text-decoration-color:var(--brand)}
+.lead p{font-family:var(--serif);font-size:1.12rem;color:var(--ink)}
+.story{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:18px 0;margin:0}
+.story:hover{transform:none;box-shadow:none}
+.story h3{font:700 1.3rem/1.2 var(--serif);letter-spacing:0}
+.story h3 a:hover{color:var(--brand);text-decoration:none}
+.story p{font-family:var(--serif)}
+.story .thumb{border-radius:0}
+.chip{background:none;padding:0;border-radius:0;color:var(--brand);text-transform:uppercase;letter-spacing:.07em;font-size:.72rem}
+.chip .dot{display:none}
+.ai{border-radius:0}
+.ad img{border-radius:0}
+button.more{border-radius:0}
+footer{border-top:1px solid var(--ink);padding-top:14px}
 </style>
 </head>
 <body>

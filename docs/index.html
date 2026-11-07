@@ -74,6 +74,27 @@ footer{max-width:1080px;margin:0 auto;padding:0 20px 40px;color:var(--muted);fon
   .filters{margin-left:0;width:100%} input{flex:1;width:auto}
   .stamp{margin-left:0}
 }
+
+/* v2 look */
+body{background:radial-gradient(1200px 400px at 50% -200px,color-mix(in srgb,var(--brand) 10%,transparent),transparent),var(--paper)}
+.brief{background:var(--ink);color:var(--paper);border-radius:12px;padding:24px 28px;margin-bottom:30px;border-left:8px solid var(--brand)}
+.brief h2{font:800 1.3rem var(--head);margin:0 0 2px;letter-spacing:-.01em}
+.brief .sub{font:500 .8rem var(--head);opacity:.7;margin:0 0 16px}
+.brief .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.brief h3{font:700 .95rem var(--head);margin:0 0 6px;display:flex;align-items:center;gap:8px}
+.brief p{margin:0;font-size:.98rem;line-height:1.5}
+.chip{font:700 .75rem var(--head);padding:3px 10px;border-radius:99px;background:color-mix(in srgb,var(--c) 20%,transparent);color:var(--ink);display:inline-flex;align-items:center;gap:6px}
+.brief .dot{width:10px;height:10px}
+.ai{font:700 .68rem var(--head);margin-left:8px;padding:2px 7px;border-radius:4px;background:var(--brand);color:#fff;vertical-align:2px}
+.lead{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:0 8px 28px -14px rgba(0,0,0,.3)}
+.lead .pic{border-radius:8px}
+.story{border-left:5px solid var(--c,var(--line));padding-left:16px;margin-top:10px;background:var(--card);border-radius:0 10px 10px 0;border-bottom:0;padding-right:14px;transition:transform .15s,box-shadow .15s}
+.story:hover{transform:translateX(4px);box-shadow:0 6px 20px -12px rgba(0,0,0,.35)}
+.story .thumb{width:150px;height:100px;border-radius:8px}
+.tab{border-radius:8px 8px 0 0}
+.tab:hover{color:var(--ink)}
+@media (max-width:760px){.story .thumb{width:84px;height:64px}.brief{padding:18px}}
+@media (prefers-reduced-motion:reduce){.story{transition:none}.story:hover{transform:none}}
 </style>
 </head>
 <body>
@@ -106,7 +127,7 @@ footer{max-width:1080px;margin:0 auto;padding:0 20px 40px;color:var(--muted);fon
 
 <script>
 const PAGE = 30;
-let ALL = [], region = "All", shown = PAGE;
+let DIGEST = null, ALL = [], region = "All", shown = PAGE;
 const $ = s => document.querySelector(s);
 
 function ago(iso){
@@ -118,9 +139,17 @@ function ago(iso){
   return d + (d === 1 ? " day ago" : " days ago");
 }
 function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function txt(s){ return s.ai ? `<p>${esc(s.ai)}<span class="ai">AI summary</span></p>` : (s.snippet ? `<p>${esc(s.snippet)}</p>` : ""); }
+function digestHtml(){
+  if (!DIGEST || region !== "All" || $("#q").value || $("#cat").value) return "";
+  const cols = [["Uganda","uganda"],["East Africa","east_africa"],["Africa","africa"]]
+    .filter(([,k]) => DIGEST[k])
+    .map(([n,k]) => `<div data-r="${n}"><h3><span class="dot" aria-hidden="true"></span>${n}</h3><p>${esc(DIGEST[k])}</p></div>`).join("");
+  return cols ? `<section class="brief"><h2>Today's briefing</h2><p class="sub">Written by AI from the latest headlines. Always check the original reports.</p><div class="cols">${cols}</div></section>` : "";
+}
 function safeUrl(u){ try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; } }
 function metaLine(s){
-  return `<span class="meta" data-r="${esc(s.region)}"><span class="dot" aria-hidden="true"></span>${esc(s.region)}<span>${esc(s.source)}</span><span>${esc(s.category)}</span><time datetime="${esc(s.published)}">${ago(s.published)}</time></span>`;
+  return `<span class="meta" data-r="${esc(s.region)}"><span class="chip"><span class="dot" aria-hidden="true"></span>${esc(s.region)}</span><span>${esc(s.source)}</span><span>${esc(s.category)}</span><time datetime="${esc(s.published)}">${ago(s.published)}</time></span>`;
 }
 function filtered(){
   const q = $("#q").value.trim().toLowerCase(), c = $("#cat").value;
@@ -136,16 +165,16 @@ function render(){
   const leadIdx = withImg >= 0 && withImg < 6 ? withImg : 0;
   const lead = list[leadIdx];
   const rest = list.filter((_, i) => i !== leadIdx);
-  let html = `<article class="lead">
+  let html = digestHtml() + `<article class="lead">
     <div class="pic" ${lead.image ? `style="background-image:url('${esc(safeUrl(lead.image))}')"` : ""} role="img" aria-label=""></div>
     <div><div class="meta" style="margin-bottom:4px">${metaLine(lead)}</div>
       <h2><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
-      ${lead.snippet ? `<p>${esc(lead.snippet)}</p>` : ""}</div></article>`;
+      ${txt(lead)}</div></article>`;
   html += rest.slice(0, shown).map(s => `
-    <article class="story">
+    <article class="story" data-r="${esc(s.region)}">
       <div class="when">${ago(s.published)}</div>
       <div class="text"><h3><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>
-        ${s.snippet ? `<p>${esc(s.snippet)}</p>` : ""}${metaLine(s).replace(/<time.*<\/time>/, "")}</div>
+        ${txt(s)}${metaLine(s).replace(/<time.*<\/time>/, "")}</div>
       ${s.image ? `<div class="thumb" style="background-image:url('${esc(safeUrl(s.image))}')" role="img" aria-label=""></div>` : "<div></div>"}
     </article>`).join("");
   if (rest.length > shown) html += `<button class="more" id="more">Show more</button>`;
@@ -162,7 +191,7 @@ $("#q").oninput = $("#cat").onchange = () => { shown = PAGE; render(); };
 fetch("news.json", {cache: "no-cache"})
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => {
-    ALL = d.stories || [];
+    ALL = d.stories || []; DIGEST = d.digest || null;
     $("#stamp").textContent = "Updated " + ago(d.updated);
     render();
   })

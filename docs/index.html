@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Narrata: Uganda, East Africa and Africa news</title>
+<link rel="icon" href="narrata-icon.png" type="image/png">
+<meta name="description" content="Headlines from Uganda, East Africa, Africa and the world, updated every 30 minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f6f1; --ink:#15231f; --muted:#5d6b66; --line:#d9ddd3; --card:#ffffff;
+  --brand:#ff0000; --lake:#0e5a57; --sun:#f0b400; --clay:#d9661f; --sky:#2c6fb0;
+  --head:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#0f1916; --ink:#e9eee9; --muted:#97a5a0; --line:#25342f; --card:#15231f;
+        --brand:#ff4a3d; --lake:#4fb7b0; --sun:#f5c431; --clay:#f08a4a; --sky:#7db4e6;}
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:120px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.55}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+
+header{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:4px solid var(--brand)}
+.bar{max-width:1080px;margin:0 auto;padding:14px 20px 0;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 24px}
+.brand{margin:0;line-height:0}
+.brand img{height:40px;width:auto;display:block;background:#fff;padding:4px 8px;border-radius:4px}
+.stamp{font-family:var(--head);font-size:.85rem;color:var(--muted);margin-left:auto}
+.tools{max-width:1080px;margin:0 auto;padding:10px 20px 0;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tab{font-family:var(--head);font-weight:700;font-size:.95rem;background:none;border:0;color:var(--muted);
+  padding:10px 14px 12px;cursor:pointer;border-bottom:5px solid transparent;white-space:nowrap}
+.tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--c,var(--ink))}
+.tab[data-region=Uganda]{--c:var(--sun)} .tab[data-region="East Africa"]{--c:var(--lake)}
+.tab[data-region=Africa]{--c:var(--clay)} .tab[data-region=World]{--c:var(--sky)}
+.filters{display:flex;gap:10px;margin-left:auto;flex-wrap:wrap}
+input,select{font:500 .9rem var(--head);padding:8px 10px;border:1.5px solid var(--ink);background:var(--card);color:var(--ink);border-radius:6px}
+input{width:200px}
+
+main{max-width:1080px;margin:0 auto;padding:24px 20px 60px}
+.lead{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.lead .pic{aspect-ratio:16/10;background:var(--line) center/cover no-repeat;border-radius:4px}
+.lead h2{font-family:var(--head);font-weight:800;font-size:clamp(1.6rem,3.4vw,2.5rem);line-height:1.08;letter-spacing:-.02em;margin:6px 0 12px}
+.lead h2 a{text-decoration:none}
+.lead h2 a:hover{text-decoration:underline;text-decoration-thickness:3px;text-decoration-color:var(--brand)}
+.lead p{color:var(--muted);margin:0 0 12px}
+.meta{font-family:var(--head);font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;background:var(--c)}
+[data-r=Uganda]{--c:var(--sun)} [data-r="East Africa"]{--c:var(--lake)} [data-r=Africa]{--c:var(--clay)} [data-r=World]{--c:var(--sky)}
+
+.story{display:grid;grid-template-columns:96px 1fr 120px;gap:8px 20px;padding:18px 0;border-bottom:1px solid var(--line)}
+.story .when{font-family:var(--head);font-weight:700;font-size:.85rem;color:var(--muted);padding-top:5px}
+.story h3{font-family:var(--head);font-weight:700;font-size:1.2rem;line-height:1.22;margin:0 0 6px;letter-spacing:-.01em}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.story p{margin:0 0 8px;color:var(--muted);font-size:.98rem}
+.story .thumb{width:120px;height:80px;border-radius:4px;background:var(--line) center/cover no-repeat}
+.empty{padding:60px 0;text-align:center;color:var(--muted);font-family:var(--head)}
+button.more{display:block;margin:28px auto 0;font:700 .95rem var(--head);padding:12px 26px;border:2px solid var(--ink);background:none;color:var(--ink);border-radius:6px;cursor:pointer}
+button.more:hover{background:var(--brand);border-color:var(--brand);color:#fff}
+footer{max-width:1080px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-family:var(--head);font-size:.85rem}
+
+@media (max-width:760px){
+  .lead{grid-template-columns:1fr}
+  .story{grid-template-columns:1fr 84px}
+  .story .when{grid-column:1/-1;padding:0}
+  .story .thumb{width:84px;height:64px;grid-row:2;grid-column:2}
+  .story .text{grid-row:2;grid-column:1}
+  .filters{margin-left:0;width:100%} input{flex:1;width:auto}
+  .stamp{margin-left:0}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <h1 class="brand"><img src="narrata-wordmark.png" alt="The Narrata" width="174" height="40"></h1>
+    <div class="stamp" id="stamp">Loading…</div>
+  </div>
+  <div class="tools">
+    <div class="tabs" role="tablist" aria-label="Region">
+      <button class="tab" role="tab" data-region="All" aria-selected="true">All</button>
+      <button class="tab" role="tab" data-region="Uganda" aria-selected="false">Uganda</button>
+      <button class="tab" role="tab" data-region="East Africa" aria-selected="false">East Africa</button>
+      <button class="tab" role="tab" data-region="Africa" aria-selected="false">Africa</button>
+      <button class="tab" role="tab" data-region="World" aria-selected="false">World</button>
+    </div>
+    <div class="filters">
+      <select id="cat" aria-label="Topic">
+        <option value="">All topics</option>
+        <option>Politics</option><option>Business</option><option>Sports</option>
+        <option>Tourism</option><option>Health</option><option>Tech</option><option>General</option>
+      </select>
+      <input id="q" type="search" placeholder="Search headlines" aria-label="Search headlines">
+    </div>
+  </div>
+</header>
+
+<main id="main"></main>
+<footer>Headlines and short snippets link to the original publishers. All rights belong to them.</footer>
+
+<script>
+const PAGE = 30;
+let ALL = [], region = "All", shown = PAGE;
+const $ = s => document.querySelector(s);
+
+function ago(iso){
+  const m = Math.max(1, Math.round((Date.now() - new Date(iso)) / 60000));
+  if (m < 60) return m + " min ago";
+  const h = Math.round(m / 60);
+  if (h < 24) return h + (h === 1 ? " hour ago" : " hours ago");
+  const d = Math.round(h / 24);
+  return d + (d === 1 ? " day ago" : " days ago");
+}
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function safeUrl(u){ try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; } }
+function metaLine(s){
+  return `<span class="meta" data-r="${esc(s.region)}"><span class="dot" aria-hidden="true"></span>${esc(s.region)}<span>${esc(s.source)}</span><span>${esc(s.category)}</span><time datetime="${esc(s.published)}">${ago(s.published)}</time></span>`;
+}
+function filtered(){
+  const q = $("#q").value.trim().toLowerCase(), c = $("#cat").value;
+  return ALL.filter(s =>
+    (region === "All" || s.region === region) &&
+    (!c || s.category === c) &&
+    (!q || (s.title + " " + s.snippet + " " + s.source).toLowerCase().includes(q)));
+}
+function render(){
+  const list = filtered(), main = $("#main");
+  if (!list.length){ main.innerHTML = `<div class="empty">No stories match. Try another region or clear the search.</div>`; return; }
+  const withImg = list.findIndex(s => s.image);
+  const leadIdx = withImg >= 0 && withImg < 6 ? withImg : 0;
+  const lead = list[leadIdx];
+  const rest = list.filter((_, i) => i !== leadIdx);
+  let html = `<article class="lead">
+    <div class="pic" ${lead.image ? `style="background-image:url('${esc(safeUrl(lead.image))}')"` : ""} role="img" aria-label=""></div>
+    <div><div class="meta" style="margin-bottom:4px">${metaLine(lead)}</div>
+      <h2><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
+      ${lead.snippet ? `<p>${esc(lead.snippet)}</p>` : ""}</div></article>`;
+  html += rest.slice(0, shown).map(s => `
+    <article class="story">
+      <div class="when">${ago(s.published)}</div>
+      <div class="text"><h3><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>
+        ${s.snippet ? `<p>${esc(s.snippet)}</p>` : ""}${metaLine(s).replace(/<time.*<\/time>/, "")}</div>
+      ${s.image ? `<div class="thumb" style="background-image:url('${esc(safeUrl(s.image))}')" role="img" aria-label=""></div>` : "<div></div>"}
+    </article>`).join("");
+  if (rest.length > shown) html += `<button class="more" id="more">Show more</button>`;
+  main.innerHTML = html;
+  const more = $("#more"); if (more) more.onclick = () => { shown += PAGE; render(); };
+}
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  region = t.dataset.region; shown = PAGE;
+  document.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-selected", x === t));
+  render();
+});
+$("#q").oninput = $("#cat").onchange = () => { shown = PAGE; render(); };
+
+fetch("news.json", {cache: "no-cache"})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    ALL = d.stories || [];
+    $("#stamp").textContent = "Updated " + ago(d.updated);
+    render();
+  })
+  .catch(() => {
+    $("#stamp").textContent = "";
+    $("#main").innerHTML = `<div class="empty">The news feed could not load. Refresh the page in a minute.</div>`;
+  });
+</script>
+</body>
+</html>

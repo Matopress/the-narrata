@@ -145,6 +145,27 @@ footer{border-top:1px solid var(--ink);padding-top:14px}
 .stamp{margin-left:0}
 footer a{color:var(--brand);font-weight:700}
 .ad.poster{max-width:420px;margin-left:auto;margin-right:auto}
+.rail{display:none;position:fixed;top:150px;width:190px;z-index:2;transition:opacity .45s}
+.rail-l{left:calc(50% - 746px)} .rail-r{right:calc(50% - 746px)}
+.rail.fade{opacity:0}
+.rail small{display:block;text-align:right;font:500 .68rem var(--head);color:var(--muted);margin-bottom:4px}
+.rail img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+@media (min-width:1520px){.rail{display:block}.ad.poster{display:none}}
+footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink);color:var(--paper);border-top:6px solid var(--brand);font-family:var(--head)}
+.foot-in{max-width:1080px;margin:0 auto;padding:38px 20px 30px;display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:36px}
+.foot-in h4{margin:0 0 14px;font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.foot-in ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.foot-in a,.foot-bar a{color:var(--paper);font-weight:400;font-size:.95rem;text-decoration:none}
+.foot-in a:hover,.foot-bar a:hover{color:var(--brand);text-decoration:underline}
+.foot-brand img{height:34px;width:auto;background:#fff;padding:3px 6px;display:block}
+.foot-brand p{margin:14px 0 16px;opacity:.82;max-width:34ch;font-size:.92rem;line-height:1.55}
+.foot-soc{display:flex;gap:8px}
+.foot-soc a{display:grid;place-items:center;width:36px;height:36px;border:1px solid color-mix(in srgb,var(--paper) 40%,transparent)}
+.foot-soc a:hover{background:var(--brand);border-color:var(--brand);color:#fff;text-decoration:none}
+.foot-bar{border-top:1px solid color-mix(in srgb,var(--paper) 22%,transparent)}
+.foot-bar>div{max-width:1080px;margin:0 auto;padding:16px 20px 22px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:.8rem;opacity:.85}
+.foot-bar a{font-size:.8rem}
+@media (max-width:760px){.foot-in{grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}}
 </style>
 </head>
 <body>
@@ -174,7 +195,40 @@ footer a{color:var(--brand);font-weight:700}
 </header>
 
 <main id="main"></main>
-<footer><p style="margin:0 0 10px">Follow The Narrata: <a href="https://x.com/TheNarrataWorld" target="_blank" rel="noopener noreferrer">X</a> and <a href="https://linkedin.com/company/the-narrata" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>Headlines and short snippets link to the original publishers. All rights belong to them.</footer>
+<footer class="site-footer">
+  <div class="foot-in">
+    <div class="foot-brand">
+      <img src="narrata-wordmark.png" alt="The Narrata" width="148" height="34">
+      <p>News from Uganda, East Africa, Africa and the world, gathered from trusted outlets and refreshed every 30 minutes.</p>
+      <div id="foot-soc"></div>
+    </div>
+    <nav aria-label="Regions">
+      <h4>Regions</h4>
+      <ul>
+        <li><a href="#" data-go-region="All">All stories</a></li>
+        <li><a href="#" data-go-region="Uganda">Uganda</a></li>
+        <li><a href="#" data-go-region="East Africa">East Africa</a></li>
+        <li><a href="#" data-go-region="Africa">Africa</a></li>
+        <li><a href="#" data-go-region="World">World</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Topics">
+      <h4>Topics</h4>
+      <ul>
+        <li><a href="#" data-go-cat="Politics">Politics</a></li>
+        <li><a href="#" data-go-cat="Business">Business</a></li>
+        <li><a href="#" data-go-cat="Sports">Sports</a></li>
+        <li><a href="#" data-go-cat="Tourism">Tourism</a></li>
+        <li><a href="#" data-go-cat="Health">Health</a></li>
+        <li><a href="#" data-go-cat="Tech">Tech</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="foot-bar"><div>
+    <span>&copy; <span id="yr"></span> The Narrata. Headlines and short snippets link to the original publishers, who own all rights to their work.</span>
+    <a href="#" id="to-top">Back to top</a>
+  </div></div>
+</footer>
 
 <script>
 const PAGE = 30;
@@ -216,6 +270,40 @@ const FEED_ADS = (() => {
   const b = BANNERS.slice(1), out = [];
   for (let i = 0; i < Math.max(b.length, POSTERS.length); i++) { if (b[i]) out.push(b[i]); if (POSTERS[i]) out.push(POSTERS[i]); }
   return out;
+})();
+// Side rails: on wide screens the two Breeze posters sit left and right of the news column.
+// Sides are random on each visit, then swap every 14 seconds with a fade.
+(function sideRails(){
+  const mq = matchMedia("(min-width:1520px)");
+  let built = false;
+  function build(){
+    if (built || !mq.matches) return;
+    built = true;
+    const order = POSTERS.slice();
+    const mk = side => {
+      const el = document.createElement("aside");
+      el.className = "rail rail-" + side;
+      el.setAttribute("aria-label", "Advertisement");
+      el.innerHTML = '<small>Advertisement</small><a target="_blank" rel="sponsored noopener noreferrer"><img alt=""></a>';
+      document.body.appendChild(el);
+      return el;
+    };
+    const L = mk("l"), R = mk("r");
+    const paint = (el, ad) => {
+      el.querySelector("a").href = ad.href;
+      const im = el.querySelector("img"); im.src = ad.img; im.alt = ad.alt;
+    };
+    const show = () => { paint(L, order[0]); paint(R, order[1]); };
+    show();
+    if (!matchMedia("(prefers-reduced-motion:reduce)").matches) {
+      setInterval(() => {
+        L.classList.add("fade"); R.classList.add("fade");
+        setTimeout(() => { order.reverse(); show(); L.classList.remove("fade"); R.classList.remove("fade"); }, 450);
+      }, 14000);
+    }
+  }
+  mq.addEventListener("change", build);
+  build();
 })();
 function adHtml(n){
   const a = n === 0 ? BANNERS[0] : FEED_ADS[(n - 1) % FEED_ADS.length];
@@ -291,6 +379,21 @@ document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
 });
 $("#q").oninput = $("#cat").onchange = () => { shown = PAGE; render(); };
 
+(function footer(){
+  const soc = document.querySelector(".socials");
+  if (soc) { const c = soc.cloneNode(true); c.className = "foot-soc"; $("#foot-soc").replaceWith(c); }
+  $("#yr").textContent = new Date().getFullYear();
+  $("#to-top").onclick = e => { e.preventDefault(); window.scrollTo({top: 0, behavior: "smooth"}); };
+  document.querySelectorAll("[data-go-region],[data-go-cat]").forEach(a => a.onclick = e => {
+    e.preventDefault();
+    const r = a.dataset.goRegion, c = a.dataset.goCat;
+    region = r !== undefined ? r : "All";
+    $("#cat").value = c !== undefined ? c : "";
+    $("#q").value = ""; shown = PAGE;
+    document.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-selected", x.dataset.region === region));
+    render(); window.scrollTo({top: 0, behavior: "smooth"});
+  });
+})();
 fetch("news.json", {cache: "no-cache"})
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => {

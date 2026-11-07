@@ -95,6 +95,9 @@ body{background:radial-gradient(1200px 400px at 50% -200px,color-mix(in srgb,var
 .tab:hover{color:var(--ink)}
 @media (max-width:760px){.story .thumb{width:84px;height:64px}.brief{padding:18px}}
 @media (prefers-reduced-motion:reduce){.story{transition:none}.story:hover{transform:none}}
+.ad{display:block;margin:12px 0 26px;text-decoration:none}
+.ad small{display:block;text-align:right;font:500 .68rem var(--head);color:var(--muted);margin-bottom:4px}
+.ad img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
 </style>
 </head>
 <body>
@@ -147,6 +150,20 @@ function digestHtml(){
     .map(([n,k]) => `<div data-r="${n}"><h3><span class="dot" aria-hidden="true"></span>${n}</h3><p>${esc(DIGEST[k])}</p></div>`).join("");
   return cols ? `<section class="brief"><h2>Today's briefing</h2><p class="sub">Written by AI from the latest headlines. Always check the original reports.</p><div class="cols">${cols}</div></section>` : "";
 }
+const ADS = [
+  {img:"ad-illuszionz.webp", alt:"Illuszionz: photography and videography, Sanyu Complex, Ntinda"},
+  {img:"ad-nash-concepts.webp", alt:"Nash Concepts: event planning and management"},
+  {img:"ad-next-rides.webp", alt:"Next Rides: automobile dealership in Uganda", href:"https://www.nextridesug.com"},
+  {img:"ad-ndege.webp", alt:"Ndege Safaris: accommodation, wildlife expeditions, flights and visa support", href:"https://www.ndegesafari.ug"}
+];
+const AD_START = Math.floor(Math.random() * ADS.length);
+function adHtml(n){
+  const a = ADS[(AD_START + n) % ADS.length];
+  const img = `<img src="${a.img}" alt="${esc(a.alt)}" loading="lazy">`;
+  return `<aside class="ad" aria-label="Advertisement"><small>Advertisement</small>${
+    a.href ? `<a href="${a.href}" target="_blank" rel="sponsored noopener noreferrer" style="display:block">${img}</a>` : img}</aside>`;
+}
+function adIf(i){ return i > 0 && i % 6 === 0 ? adHtml(i / 6) : ""; }
 function safeUrl(u){ try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; } }
 function metaLine(s){
   return `<span class="meta" data-r="${esc(s.region)}"><span class="chip"><span class="dot" aria-hidden="true"></span>${esc(s.region)}</span><span>${esc(s.source)}</span><span>${esc(s.category)}</span><time datetime="${esc(s.published)}">${ago(s.published)}</time></span>`;
@@ -165,12 +182,12 @@ function render(){
   const leadIdx = withImg >= 0 && withImg < 6 ? withImg : 0;
   const lead = list[leadIdx];
   const rest = list.filter((_, i) => i !== leadIdx);
-  let html = digestHtml() + `<article class="lead">
+  let html = adHtml(0) + digestHtml() + `<article class="lead">
     <div class="pic" ${lead.image ? `style="background-image:url('${esc(safeUrl(lead.image))}')"` : ""} role="img" aria-label=""></div>
     <div><div class="meta" style="margin-bottom:4px">${metaLine(lead)}</div>
       <h2><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
       ${txt(lead)}</div></article>`;
-  html += rest.slice(0, shown).map(s => `
+  html += rest.slice(0, shown).map((s, i) => adIf(i) + `
     <article class="story" data-r="${esc(s.region)}">
       <div class="when">${ago(s.published)}</div>
       <div class="text"><h3><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>

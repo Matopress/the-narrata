@@ -136,6 +136,9 @@ footer{border-top:1px solid var(--ink);padding-top:14px}
 .lead .pic{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:var(--line)}
 .story .thumb{object-fit:cover;display:block;background:var(--line)}
 .lead:not(:has(.pic)){grid-template-columns:1fr}
+.posters{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;max-width:900px;margin:18px auto 26px}
+.posters .ad{margin:0}
+.posters-wrap small{display:block;text-align:right;font:500 .68rem var(--head);color:var(--muted);max-width:900px;margin:0 auto 4px}
 </style>
 </head>
 <body>
@@ -201,7 +204,16 @@ function adHtml(n){
   return `<aside class="ad" aria-label="Advertisement"><small>Advertisement</small>${
     a.href ? `<a href="${a.href}" target="_blank" rel="sponsored noopener noreferrer" style="display:block">${img}</a>` : img}</aside>`;
 }
-function adIf(i){ return i > 0 && i % 6 === 0 ? adHtml(i / 6) : ""; }
+const POSTERS = [
+  {img:"ad-breeze-singapore.webp", alt:"Breeze Travel and Safaris: Singapore package, 22 to 28 December 2026"},
+  {img:"ad-breeze-malaysia.webp", alt:"Breeze Travel and Safaris: Malaysia package, 22 to 28 December 2026"}
+];
+function posterHtml(){
+  const link = "https://www.breezetravel-safaris.ug";
+  return `<aside class="posters-wrap" aria-label="Advertisement"><small>Advertisement</small><div class="posters">${
+    POSTERS.map(a => `<a class="ad" href="${link}" target="_blank" rel="sponsored noopener noreferrer"><img src="${a.img}" alt="${esc(a.alt)}" loading="lazy"></a>`).join("")}</div></aside>`;
+}
+function adIf(i){ return i === 9 ? posterHtml() : (i > 0 && i % 6 === 0 ? adHtml(i / 6) : ""); }
 function imgTag(u, cls){
   return u ? `<img class="${cls}" src="${esc(safeUrl(u))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" onload="if(this.naturalWidth<80)this.remove()">` : "";
 }

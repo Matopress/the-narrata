@@ -133,6 +133,9 @@ main{padding-top:22px}
 .ad img{border-radius:0}
 button.more{border-radius:0}
 footer{border-top:1px solid var(--ink);padding-top:14px}
+.lead .pic{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:var(--line)}
+.story .thumb{object-fit:cover;display:block;background:var(--line)}
+.lead:not(:has(.pic)){grid-template-columns:1fr}
 </style>
 </head>
 <body>
@@ -199,6 +202,9 @@ function adHtml(n){
     a.href ? `<a href="${a.href}" target="_blank" rel="sponsored noopener noreferrer" style="display:block">${img}</a>` : img}</aside>`;
 }
 function adIf(i){ return i > 0 && i % 6 === 0 ? adHtml(i / 6) : ""; }
+function imgTag(u, cls){
+  return u ? `<img class="${cls}" src="${esc(safeUrl(u))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" onload="if(this.naturalWidth<80)this.remove()">` : "";
+}
 function safeUrl(u){ try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; } }
 function metaLine(s){
   return `<span class="meta" data-r="${esc(s.region)}"><span class="chip"><span class="dot" aria-hidden="true"></span>${esc(s.region)}</span><span>${esc(s.source)}</span><span>${esc(s.category)}</span><time datetime="${esc(s.published)}">${ago(s.published)}</time></span>`;
@@ -218,7 +224,7 @@ function render(){
   const lead = list[leadIdx];
   const rest = list.filter((_, i) => i !== leadIdx);
   let html = adHtml(0) + digestHtml() + `<article class="lead">
-    <div class="pic" ${lead.image ? `style="background-image:url('${esc(safeUrl(lead.image))}')"` : ""} role="img" aria-label=""></div>
+    ${imgTag(lead.image, 'pic')}
     <div><div class="meta" style="margin-bottom:4px">${metaLine(lead)}</div>
       <h2><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
       ${txt(lead)}</div></article>`;
@@ -227,7 +233,7 @@ function render(){
       <div class="when">${ago(s.published)}</div>
       <div class="text"><h3><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>
         ${txt(s)}${metaLine(s).replace(/<time.*<\/time>/, "")}</div>
-      ${s.image ? `<div class="thumb" style="background-image:url('${esc(safeUrl(s.image))}')" role="img" aria-label=""></div>` : "<div></div>"}
+      ${imgTag(s.image, 'thumb') || "<div></div>"}
     </article>`).join("");
   if (rest.length > shown) html += `<button class="more" id="more">Show more</button>`;
   main.innerHTML = html;

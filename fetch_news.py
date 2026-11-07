@@ -106,6 +106,16 @@ def tag_category(title: str, summary: str) -> str:
     return "General"
 
 
+def tidy_snippet(summary: str, title: str, source: str) -> str:
+    """Google News snippets often just repeat the headline plus the outlet name; drop that."""
+    t = summary.strip()
+    if t.lower().startswith(title.lower()):
+        t = t[len(title):].strip(" -–|:")
+    if t.lower().endswith(source.lower()):
+        t = t[: -len(source)].strip(" -–|:")
+    return t if len(t) >= 25 else ""
+
+
 def normalize_title(title: str) -> str:
     # Google News appends " - Outlet"; strip it so the same story dedupes across feeds.
     title = re.sub(r"\s[-–|]\s[^-–|]{2,40}$", "", title)
@@ -145,7 +155,7 @@ def fetch_all() -> list[dict]:
                 "source": source,
                 "url": link,
                 "published": when.isoformat(),
-                "snippet": summary if normalize_title(summary) != normalize_title(title) else "",
+                "snippet": tidy_snippet(summary, title, source),
                 "image": image(e),
                 "region": tag_region(title, summary, feed["region"]),
                 "category": tag_category(title, summary),
@@ -155,10 +165,11 @@ def fetch_all() -> list[dict]:
 
 def main() -> None:
     OUT.parent.mkdir(exist_ok=True)
-    existing = []
+    existing, digest = [], None
     if OUT.exists():
         try:
-            existing = json.loads(OUT.read_text(encoding="utf-8")).get("stories", [])
+            old = json.loads(OUT.read_text(encoding="utf-8"))
+            existing, digest = old.get("stories", []), old.get("digest")
         except json.JSONDecodeError:
             pass
 
@@ -171,12 +182,15 @@ def main() -> None:
         prev = merged.get(story["id"])
         if prev and not story.get("image"):
             story["image"] = prev.get("image")
+        if prev and prev.get("ai"):
+            story["ai"] = prev["ai"]
         merged[story["id"]] = story
 
     stories = sorted(merged.values(), key=lambda s: s["published"], reverse=True)[:MAX_ITEMS]
     OUT.write_text(json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(),
         "stories": stories,
+        **({"digest": digest} if digest else {}),
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Wrote {len(stories)} stories to {OUT}")
 

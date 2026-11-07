@@ -144,6 +144,7 @@ footer{border-top:1px solid var(--ink);padding-top:14px}
 .socials a:hover{color:#fff;background:var(--brand);border-color:var(--brand)}
 .stamp{margin-left:0}
 footer a{color:var(--brand);font-weight:700}
+.ad.poster{max-width:420px;margin-left:auto;margin-right:auto}
 </style>
 </head>
 <body>
@@ -197,29 +198,55 @@ function digestHtml(){
     .map(([n,k]) => `<div data-r="${n}"><h3><span class="dot" aria-hidden="true"></span>${n}</h3><p>${esc(DIGEST[k])}</p></div>`).join("");
   return cols ? `<section class="brief"><h2>Today's briefing</h2><p class="sub">Written by AI from the latest headlines. Always check the original reports.</p><div class="cols">${cols}</div></section>` : "";
 }
-const ADS = [
+const shuffle = arr => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const BREEZE = "https://www.breezetravel-safaris.ug";
+// Wide banners and tall posters are shuffled on every page load.
+const BANNERS = shuffle([
   {img:"ad-illuszionz.webp", alt:"Illuszionz: photography and videography, Sanyu Complex, Ntinda"},
   {img:"ad-nash-concepts.webp", alt:"Nash Concepts: event planning and management"},
   {img:"ad-next-rides.webp", alt:"Next Rides: automobile dealership in Uganda", href:"https://www.nextridesug.com"},
   {img:"ad-ndege.webp", alt:"Ndege Safaris: accommodation, wildlife expeditions, flights and visa support", href:"https://www.ndegesafari.ug"}
-];
-const AD_START = Math.floor(Math.random() * ADS.length);
+]);
+const POSTERS = shuffle([
+  {img:"ad-breeze-singapore.webp", alt:"Breeze Travel and Safaris: Singapore package, 22 to 28 December 2026", href:BREEZE, poster:true},
+  {img:"ad-breeze-malaysia.webp", alt:"Breeze Travel and Safaris: Malaysia package, 22 to 28 December 2026", href:BREEZE, poster:true}
+]);
+// The top slot always gets a wide banner. The feed alternates banner, poster, banner, poster...
+const FEED_ADS = (() => {
+  const b = BANNERS.slice(1), out = [];
+  for (let i = 0; i < Math.max(b.length, POSTERS.length); i++) { if (b[i]) out.push(b[i]); if (POSTERS[i]) out.push(POSTERS[i]); }
+  return out;
+})();
 function adHtml(n){
-  const a = ADS[(AD_START + n) % ADS.length];
+  const a = n === 0 ? BANNERS[0] : FEED_ADS[(n - 1) % FEED_ADS.length];
   const img = `<img src="${a.img}" alt="${esc(a.alt)}" loading="lazy">`;
-  return `<aside class="ad" aria-label="Advertisement"><small>Advertisement</small>${
+  return `<aside class="ad${a.poster ? " poster" : ""}" aria-label="Advertisement"><small>Advertisement</small>${
     a.href ? `<a href="${a.href}" target="_blank" rel="sponsored noopener noreferrer" style="display:block">${img}</a>` : img}</aside>`;
 }
-const POSTERS = [
-  {img:"ad-breeze-singapore.webp", alt:"Breeze Travel and Safaris: Singapore package, 22 to 28 December 2026"},
-  {img:"ad-breeze-malaysia.webp", alt:"Breeze Travel and Safaris: Malaysia package, 22 to 28 December 2026"}
-];
-function posterHtml(){
-  const link = "https://www.breezetravel-safaris.ug";
-  return `<aside class="posters-wrap" aria-label="Advertisement"><small>Advertisement</small><div class="posters">${
-    POSTERS.map(a => `<a class="ad" href="${link}" target="_blank" rel="sponsored noopener noreferrer"><img src="${a.img}" alt="${esc(a.alt)}" loading="lazy"></a>`).join("")}</div></aside>`;
+// Google AdSense: paste your IDs here once Google approves your site. While client is empty, nothing loads.
+const ADSENSE = {client: "", slot: ""};   // e.g. client: "ca-pub-1234567890123456", slot: "1234567890"
+const GOOGLE_ON = !!(ADSENSE.client && ADSENSE.slot);
+function googleHtml(){
+  return `<aside class="ad gad" aria-label="Advertisement"><small>Advertisement</small><ins class="adsbygoogle" style="display:block" data-ad-client="${ADSENSE.client}" data-ad-slot="${ADSENSE.slot}" data-ad-format="auto" data-full-width-responsive="true"></ins></aside>`;
 }
-function adIf(i){ return i === 9 ? posterHtml() : (i > 0 && i % 6 === 0 ? adHtml(i / 6) : ""); }
+function loadGoogleAds(){
+  if (!GOOGLE_ON) return;
+  if (!document.getElementById("adsense-js")) {
+    const sc = document.createElement("script");
+    sc.id = "adsense-js"; sc.async = true; sc.crossOrigin = "anonymous";
+    sc.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + encodeURIComponent(ADSENSE.client);
+    document.head.appendChild(sc);
+  }
+  document.querySelectorAll("ins.adsbygoogle:not([data-adsbygoogle-status])").forEach(() => {
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+  });
+}
+// Direct adverts every 6th story, Google ads in between (every 6th, offset by 3).
+function adIf(i){
+  if (i > 0 && i % 6 === 0) return adHtml(i / 6);
+  if (GOOGLE_ON && i > 0 && i % 6 === 3) return googleHtml();
+  return "";
+}
 function imgTag(u, cls){
   return u ? `<img class="${cls}" src="${esc(safeUrl(u))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" onload="if(this.naturalWidth<80)this.remove()">` : "";
 }
@@ -254,7 +281,7 @@ function render(){
       ${imgTag(s.image, 'thumb') || "<div></div>"}
     </article>`).join("");
   if (rest.length > shown) html += `<button class="more" id="more">Show more</button>`;
-  main.innerHTML = html;
+  main.innerHTML = html; loadGoogleAds();
   const more = $("#more"); if (more) more.onclick = () => { shown += PAGE; render(); };
 }
 document.querySelectorAll(".tab").forEach(t => t.onclick = () => {

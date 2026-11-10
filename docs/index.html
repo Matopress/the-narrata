@@ -172,6 +172,23 @@ footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink
 .mkt b::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--brand);margin-right:8px;vertical-align:1px}
 .mkt-w{flex:1;min-width:0;height:48px;overflow:hidden}
 @media (max-width:600px){.mkt b{display:none}}
+.bil{max-width:1080px;margin:0 auto;padding:22px 20px 0}
+.bil-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px;border-top:4px solid var(--ink);padding-top:10px}
+.bil-head h2{margin:0;font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.bil-head span{font:500 .78rem var(--head);color:var(--muted)}
+.bil-list{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));border-bottom:1px solid var(--line)}
+.bil-list li{display:grid;grid-template-columns:28px 1fr;gap:0 8px;padding:10px 12px 12px 0;border-top:1px solid var(--line)}
+.bil-n{font:800 1.4rem var(--serif);color:var(--muted);grid-row:span 3}
+.bil-name{font:700 1rem var(--serif)}
+.bil-sub{font:400 .78rem var(--head);color:var(--muted)}
+.bil-w{font:700 1.05rem var(--head)}
+.bil-w i{font:600 .78rem var(--head);font-style:normal;margin-left:8px}
+.bil-w .up{color:var(--lake)} .bil-w .dn{color:var(--brand)}
+.bil-src{display:block;text-align:right;font:500 .75rem var(--head);color:var(--muted);margin-top:6px}
+.bil-tabs{display:flex;gap:4px}
+.bil-tabs button{font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.08em;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:2px 0 5px;margin-right:16px;cursor:pointer}
+.bil-tabs button[aria-selected=true]{color:var(--brand);border-bottom-color:var(--brand)}
+p.bil-src{margin:6px 0 0}
 </style>
 </head>
 <body>
@@ -206,6 +223,7 @@ footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink
   </div>
 </header>
 
+<section id="bil" class="bil" hidden aria-label="Africa's richest people"></section>
 <main id="main"></main>
 <footer class="site-footer">
   <div class="foot-in">
@@ -391,6 +409,30 @@ document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
 });
 $("#q").oninput = $("#cat").onchange = () => { shown = PAGE; render(); };
 
+fetch("billionaires.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).then(d => {
+  // A list stays hidden until it has an "asOf" date and at least one person with a "worth" figure.
+  const lists = ((d && d.lists) || [])
+    .map(l => ({...l, rows: (l.people || []).filter(p => typeof p.worth === "number").sort((x, y) => y.worth - x.worth).slice(0, 10)}))
+    .filter(l => l.asOf && l.rows.length);
+  if (!lists.length) return;
+  const el = $("#bil");
+  const chg = p => typeof p.change === "number"
+    ? `<i class="${p.change >= 0 ? "up" : "dn"}">${p.change >= 0 ? "▲" : "▼"} $${Math.abs(p.change).toFixed(2)}B</i>` : "";
+  const draw = k => {
+    const l = lists[k];
+    el.innerHTML = `<div class="bil-head"><div class="bil-tabs" role="tablist">${lists.map((x, i) =>
+        `<button role="tab" aria-selected="${i === k}" data-k="${i}">${esc(x.title)}</button>`).join("")}</div>
+      <span>${esc(l.source)} · as of ${esc(l.asOf)}</span></div>
+      <ol class="bil-list">${l.rows.map((p, i) => `<li><span class="bil-n">${i + 1}</span><span class="bil-name">${esc(p.name)}</span>
+        <span class="bil-sub">${esc(p.country)}${p.company ? " · " + esc(p.company) : ""}</span>
+        <span class="bil-w">$${p.worth.toFixed(p.worth >= 10 ? 1 : 2)}B${chg(p)}</span></li>`).join("")}</ol>
+      ${l.note ? `<p class="bil-src">${esc(l.note)}</p>` : ""}
+      ${l.url ? `<a class="bil-src" href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener noreferrer">Full ranking at ${esc(l.source)}</a>` : ""}`;
+    el.querySelectorAll("[data-k]").forEach(btn => btn.onclick = () => draw(+btn.dataset.k));
+  };
+  el.hidden = false;
+  draw(0);
+}).catch(() => {});
 (function marketTicker(){
   const host = $("#mkt-w");
   const sc = document.createElement("script");

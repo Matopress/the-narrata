@@ -166,9 +166,21 @@ footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink
 .foot-bar>div{max-width:1080px;margin:0 auto;padding:16px 20px 22px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:.8rem;opacity:.85}
 .foot-bar a{font-size:.8rem}
 @media (max-width:760px){.foot-in{grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}}
+.mkt{background:var(--paper);border-bottom:1px solid var(--line)}
+.mkt-in{max-width:1080px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px}
+.mkt b{font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.07em;white-space:nowrap}
+.mkt b::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--brand);margin-right:8px;vertical-align:1px}
+.mkt-w{flex:1;min-width:0;height:48px;overflow:hidden}
+@media (max-width:600px){.mkt b{display:none}}
 </style>
 </head>
 <body>
+<section class="mkt" aria-label="Top securities: live market data">
+  <div class="mkt-in">
+    <b>Top Securities</b>
+    <div class="mkt-w tradingview-widget-container" id="mkt-w"><div class="tradingview-widget-container__widget"></div></div>
+  </div>
+</section>
 <header>
   <div class="bar">
     <h1 class="brand"><img src="narrata-wordmark.png" alt="The Narrata" width="174" height="40"></h1>
@@ -225,7 +237,7 @@ footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink
     </nav>
   </div>
   <div class="foot-bar"><div>
-    <span>&copy; <span id="yr"></span> The Narrata. Headlines and short snippets link to the original publishers, who own all rights to their work.</span>
+    <span>&copy; <span id="yr"></span> The Narrata. Headlines and short snippets link to the original publishers, who own all rights to their work. Market data by <a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">TradingView</a>.</span>
     <a href="#" id="to-top">Back to top</a>
   </div></div>
 </footer>
@@ -379,6 +391,27 @@ document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
 });
 $("#q").oninput = $("#cat").onchange = () => { shown = PAGE; render(); };
 
+(function marketTicker(){
+  const host = $("#mkt-w");
+  const sc = document.createElement("script");
+  sc.src = "https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";
+  sc.async = true;
+  sc.text = JSON.stringify({
+    symbols: [
+      {proName: "FOREXCOM:SPXUSD", title: "S&P 500"},
+      {proName: "FOREXCOM:NSXUSD", title: "Nasdaq 100"},
+      {proName: "FOREXCOM:DJI", title: "Dow 30"},
+      {proName: "TVC:UKOIL", title: "Brent Crude"},
+      {proName: "TVC:GOLD", title: "Gold"},
+      {proName: "FX_IDC:USDUGX", title: "USD/UGX"},
+      {proName: "FOREXCOM:EURUSD", title: "EUR/USD"},
+      {proName: "BITSTAMP:BTCUSD", title: "Bitcoin"}
+    ],
+    showSymbolLogo: false, isTransparent: true, displayMode: "adaptive", locale: "en",
+    colorTheme: matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light"
+  });
+  host.appendChild(sc);
+})();
 (function footer(){
   const soc = document.querySelector(".socials");
   if (soc) { const c = soc.cloneNode(true); c.className = "foot-soc"; $("#foot-soc").replaceWith(c); }

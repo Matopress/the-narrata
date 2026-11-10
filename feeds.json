@@ -1,22 +1,92 @@
 [
-  {"name": "Google News: Uganda", "url": "https://news.google.com/rss/search?q=Uganda&hl=en-UG&gl=UG&ceid=UG:en", "region": "Uganda"},
-  {"name": "Google News: Kampala", "url": "https://news.google.com/rss/search?q=Kampala&hl=en-UG&gl=UG&ceid=UG:en", "region": "Uganda"},
-  {"name": "Google News: East Africa", "url": "https://news.google.com/rss/search?q=%22East+Africa%22&hl=en-UG&gl=UG&ceid=UG:en", "region": "East Africa"},
-  {"name": "Google News: Africa", "url": "https://news.google.com/rss/search?q=Africa&hl=en-UG&gl=UG&ceid=UG:en", "region": "Africa"},
-
-  {"name": "Daily Monitor", "url": "https://www.monitor.co.ug/uganda/rss.xml", "region": "Uganda"},
-  {"name": "New Vision", "url": "https://www.newvision.co.ug/rss/news", "region": "Uganda"},
-  {"name": "Nile Post", "url": "https://nilepost.co.ug/feed", "region": "Uganda"},
-  {"name": "ChimpReports", "url": "https://chimpreports.com/feed/", "region": "Uganda"},
-  {"name": "The Independent Uganda", "url": "https://www.independent.co.ug/feed/", "region": "Uganda"},
-
-  {"name": "The EastAfrican", "url": "https://www.theeastafrican.co.ke/tea/rss.xml", "region": "East Africa"},
-  {"name": "The Citizen (Tanzania)", "url": "https://www.thecitizen.co.tz/tanzania/rss.xml", "region": "East Africa"},
-  {"name": "The New Times (Rwanda)", "url": "https://www.newtimes.co.rw/rss", "region": "East Africa"},
-
-  {"name": "BBC Africa", "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml", "region": "Africa"},
-  {"name": "Africanews", "url": "https://www.africanews.com/feed/rss", "region": "Africa"},
-  {"name": "AllAfrica", "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf", "region": "Africa"},
-  {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "region": "World"},
-  {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "region": "World"}
+ {
+  "name": "Google News: Uganda",
+  "url": "https://news.google.com/rss/search?q=Uganda&hl=en-UG&gl=UG&ceid=UG:en",
+  "region": "Uganda"
+ },
+ {
+  "name": "Google News: Kampala",
+  "url": "https://news.google.com/rss/search?q=Kampala&hl=en-UG&gl=UG&ceid=UG:en",
+  "region": "Uganda"
+ },
+ {
+  "name": "Google News: East Africa",
+  "url": "https://news.google.com/rss/search?q=%22East+Africa%22&hl=en-UG&gl=UG&ceid=UG:en",
+  "region": "East Africa"
+ },
+ {
+  "name": "Google News: Africa",
+  "url": "https://news.google.com/rss/search?q=Africa&hl=en-UG&gl=UG&ceid=UG:en",
+  "region": "Africa"
+ },
+ {
+  "name": "Google News: Africa billionaires",
+  "url": "https://news.google.com/rss/search?q=Africa+richest+billionaires&hl=en-UG&gl=UG&ceid=UG:en",
+  "region": "Africa"
+ },
+ {
+  "name": "Daily Monitor",
+  "url": "https://www.monitor.co.ug/uganda/rss.xml",
+  "region": "Uganda"
+ },
+ {
+  "name": "New Vision",
+  "url": "https://www.newvision.co.ug/rss/news",
+  "region": "Uganda"
+ },
+ {
+  "name": "Nile Post",
+  "url": "https://nilepost.co.ug/feed",
+  "region": "Uganda"
+ },
+ {
+  "name": "ChimpReports",
+  "url": "https://chimpreports.com/feed/",
+  "region": "Uganda"
+ },
+ {
+  "name": "The Independent Uganda",
+  "url": "https://www.independent.co.ug/feed/",
+  "region": "Uganda"
+ },
+ {
+  "name": "The EastAfrican",
+  "url": "https://www.theeastafrican.co.ke/tea/rss.xml",
+  "region": "East Africa"
+ },
+ {
+  "name": "The Citizen (Tanzania)",
+  "url": "https://www.thecitizen.co.tz/tanzania/rss.xml",
+  "region": "East Africa"
+ },
+ {
+  "name": "The New Times (Rwanda)",
+  "url": "https://www.newtimes.co.rw/rss",
+  "region": "East Africa"
+ },
+ {
+  "name": "BBC Africa",
+  "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
+  "region": "Africa"
+ },
+ {
+  "name": "Africanews",
+  "url": "https://www.africanews.com/feed/rss",
+  "region": "Africa"
+ },
+ {
+  "name": "AllAfrica",
+  "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+  "region": "Africa"
+ },
+ {
+  "name": "Al Jazeera",
+  "url": "https://www.aljazeera.com/xml/rss/all.xml",
+  "region": "World"
+ },
+ {
+  "name": "BBC World",
+  "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+  "region": "World"
+ }
 ]

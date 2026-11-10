@@ -192,6 +192,34 @@ footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink
 p.bil-src{margin:6px 0 0}
 .share{display:inline-block;margin-top:10px;font:700 .72rem var(--head);text-transform:uppercase;letter-spacing:.06em;background:none;border:1px solid var(--line);color:var(--ink);padding:5px 11px;cursor:pointer}
 .share:hover{background:var(--brand);border-color:var(--brand);color:#fff}
+/* v4: right sidebar */
+.bar,.tools,.mkt-in,.foot-in,.foot-bar>div{max-width:1320px}
+.layout{max-width:1320px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;align-items:start}
+.col{min-width:0}
+.layout main,.layout .bil{max-width:none;margin:0;padding-left:0;padding-right:0}
+.side{padding-top:24px;min-width:0}
+.sb-card{margin:0 0 30px;border-top:4px solid var(--ink);padding-top:10px}
+.sb-card h2{margin:0 0 8px;font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.cm-w{min-height:440px}
+.sb-ad{display:block;margin:0 0 22px;text-decoration:none}
+.sb-ad small{display:block;text-align:right;font:500 .68rem var(--head);color:var(--muted);margin-bottom:4px}
+.sb-ad img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.wx-now{display:grid;grid-template-columns:auto 1fr;gap:0 14px;align-items:center;margin-bottom:10px}
+.wx-ico{font-size:2.6rem;line-height:1;grid-row:span 2}
+.wx-temp{font:800 2.2rem/1.1 var(--head)}
+.wx-city{font:700 .95rem var(--head)} .wx-desc{font:400 .8rem var(--head);color:var(--muted)}
+.wx-days{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center;font:400 .72rem var(--head)}
+.wx-days div{padding:8px 2px;font-size:.72rem} .wx-days b{display:block;font-weight:700;margin-bottom:2px}
+.wx-tabs{display:flex;gap:14px;margin:14px 0 4px}
+.wx-tabs button{font:700 .74rem var(--head);text-transform:uppercase;letter-spacing:.06em;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:2px 0 5px;cursor:pointer}
+.wx-tabs button[aria-selected=true]{color:var(--brand);border-bottom-color:var(--brand)}
+.wx-list{list-style:none;margin:0;padding:0}
+.wx-list li{display:grid;grid-template-columns:1fr auto 78px;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid var(--line);font:400 .9rem var(--head)}
+.wx-hl{color:var(--muted);font-size:.8rem;text-align:right}
+.wx-credit{font:500 .7rem var(--head);color:var(--muted);margin:8px 0 0}
+.wx-credit a{color:inherit}
+@media (min-width:1100px){.ad.poster{display:none}}
+@media (max-width:1100px){.layout{grid-template-columns:1fr;gap:0}.side{max-width:520px;margin:0 auto;width:100%}.sb-ad{display:none}}
 </style>
 </head>
 <body>
@@ -226,8 +254,23 @@ p.bil-src{margin:6px 0 0}
   </div>
 </header>
 
+<div class="layout">
+<div class="col">
 <section id="bil" class="bil" hidden aria-label="Africa's richest people"></section>
 <main id="main"></main>
+</div>
+<aside class="side" aria-label="Markets, weather and adverts">
+  <section class="sb-card">
+    <h2>Key Commodities</h2>
+    <div class="cm-w tradingview-widget-container" id="cm-w"><div class="tradingview-widget-container__widget"></div></div>
+  </section>
+  <section class="sb-card" id="wx">
+    <h2>Weather</h2>
+    <div id="wx-body">Loading…</div>
+  </section>
+  <div id="side-ads"></div>
+</aside>
+</div>
 <footer class="site-footer">
   <div class="foot-in">
     <div class="foot-brand">
@@ -258,7 +301,7 @@ p.bil-src{margin:6px 0 0}
     </nav>
   </div>
   <div class="foot-bar"><div>
-    <span>&copy; <span id="yr"></span> The Narrata. Headlines and short snippets link to the original publishers, who own all rights to their work. Market data by <a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">TradingView</a>.</span>
+    <span>&copy; <span id="yr"></span> The Narrata. Headlines and short snippets link to the original publishers, who own all rights to their work. Market data by <a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">TradingView</a>. Weather data from <a href="https://www.met.no/en" target="_blank" rel="noopener noreferrer">MET Norway</a>.</span>
     <a href="#" id="to-top">Back to top</a>
   </div></div>
 </footer>
@@ -303,40 +346,6 @@ const FEED_ADS = (() => {
   const b = BANNERS.slice(1), out = [];
   for (let i = 0; i < Math.max(b.length, POSTERS.length); i++) { if (b[i]) out.push(b[i]); if (POSTERS[i]) out.push(POSTERS[i]); }
   return out;
-})();
-// Side rails: on wide screens the two Breeze posters sit left and right of the news column.
-// Sides are random on each visit, then swap every 14 seconds with a fade.
-(function sideRails(){
-  const mq = matchMedia("(min-width:1520px)");
-  let built = false;
-  function build(){
-    if (built || !mq.matches) return;
-    built = true;
-    const order = POSTERS.slice();
-    const mk = side => {
-      const el = document.createElement("aside");
-      el.className = "rail rail-" + side;
-      el.setAttribute("aria-label", "Advertisement");
-      el.innerHTML = '<small>Advertisement</small><a target="_blank" rel="sponsored noopener noreferrer"><img alt=""></a>';
-      document.body.appendChild(el);
-      return el;
-    };
-    const L = mk("l"), R = mk("r");
-    const paint = (el, ad) => {
-      el.querySelector("a").href = ad.href;
-      const im = el.querySelector("img"); im.src = ad.img; im.alt = ad.alt;
-    };
-    const show = () => { paint(L, order[0]); paint(R, order[1]); };
-    show();
-    if (!matchMedia("(prefers-reduced-motion:reduce)").matches) {
-      setInterval(() => {
-        L.classList.add("fade"); R.classList.add("fade");
-        setTimeout(() => { order.reverse(); show(); L.classList.remove("fade"); R.classList.remove("fade"); }, 450);
-      }, 14000);
-    }
-  }
-  mq.addEventListener("change", build);
-  build();
 })();
 function adHtml(n){
   const a = n === 0 ? BANNERS[0] : FEED_ADS[(n - 1) % FEED_ADS.length];
@@ -450,6 +459,61 @@ fetch("billionaires.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null
   el.hidden = false;
   draw(0);
 }).catch(() => {});
+(function commodities(){
+  const sc = document.createElement("script");
+  sc.src = "https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js";
+  sc.async = true;
+  const g = (name, items) => ({name, originalName: name, symbols: items.map(([n, d]) => ({name: n, displayName: d}))});
+  sc.text = JSON.stringify({
+    width: "100%", height: 440, showSymbolLogo: false, isTransparent: true, locale: "en",
+    colorTheme: matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light",
+    symbolsGroups: [
+      g("Energy", [["TVC:UKOIL", "Brent Crude"], ["TVC:USOIL", "WTI Crude"], ["NYMEX:NG1!", "Natural Gas"]]),
+      g("Metals", [["TVC:GOLD", "Gold"], ["TVC:SILVER", "Silver"], ["COMEX:HG1!", "Copper"]]),
+      g("Agriculture", [["ICEUS:KC1!", "Coffee (Arabica)"], ["ICEEUR:RC1!", "Coffee (Robusta)"], ["ICEUS:CC1!", "Cocoa"],
+                        ["ICEUS:SB1!", "Sugar"], ["CBOT:ZW1!", "Wheat"], ["CBOT:ZC1!", "Corn"]])
+    ]
+  });
+  $("#cm-w").appendChild(sc);
+})();
+(function weather(){
+  const LABEL = {"☀️":"Clear","🌤️":"Mostly clear","⛅":"Partly cloudy","☁️":"Cloudy","🌫️":"Fog","🌦️":"Showers","🌧️":"Rain","⛈️":"Thunderstorms","❄️":"Snow","🌨️":"Sleet","🌡️":""};
+  const sym = c => {
+    c = String(c || "");
+    if (c.includes("thunder")) return "⛈️"; if (c.includes("snow")) return "❄️"; if (c.includes("sleet")) return "🌨️";
+    if (c.includes("shower")) return "🌦️"; if (c.includes("rain")) return "🌧️"; if (c === "fog") return "🌫️";
+    if (c === "clearsky") return "☀️"; if (c === "fair") return "🌤️"; if (c === "partlycloudy") return "⛅"; if (c === "cloudy") return "☁️";
+    return "🌡️";
+  };
+  const deg = n => Math.round(n) + "°";
+  const dayName = d => new Date(d + "T12:00:00").toLocaleDateString("en", {weekday: "short"});
+  const TABS = ["East Africa", "Africa", "World"];
+  let data = null, tab = TABS[0];
+  function draw(){
+    const cities = (data.cities || []).filter(c => c.now && c.days && c.days.length);
+    const kam = cities.find(c => c.name === "Kampala");
+    let h = "";
+    if (kam) {
+      const i = sym(kam.now.symbol);
+      h += `<div class="wx-now"><span class="wx-ico" aria-hidden="true">${i}</span><span class="wx-temp">${Math.round(kam.now.temp)}°C</span>
+        <span class="wx-city">Kampala <span class="wx-desc">${LABEL[i] ? "· " + LABEL[i] : ""}</span></span></div>
+        <div class="wx-days">${kam.days.slice(0, 5).map((x, k) => `<div><b>${k ? dayName(x.date) : "Today"}</b>${sym(x.symbol)}<br>${deg(x.max)} / ${deg(x.min)}</div>`).join("")}</div>`;
+    }
+    h += `<div class="wx-tabs" role="tablist">${TABS.map(t => `<button role="tab" aria-selected="${t === tab}" data-t="${t}">${t}</button>`).join("")}</div>
+      <ul class="wx-list">${cities.filter(c => c.group === tab && c.name !== "Kampala").map(c =>
+        `<li><span>${esc(c.name)}</span><span>${sym(c.now.symbol)} ${deg(c.now.temp)}</span><span class="wx-hl">${deg(c.days[0].max)} / ${deg(c.days[0].min)}</span></li>`).join("")}</ul>
+      <p class="wx-credit">Updated ${new Date(data.updated).toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"})}. Weather data from <a href="https://www.met.no/en" target="_blank" rel="noopener noreferrer">MET Norway</a>. Highs and lows are for today.</p>`;
+    $("#wx-body").innerHTML = h;
+    $("#wx-body").querySelectorAll("[data-t]").forEach(b => b.onclick = () => { tab = b.dataset.t; draw(); });
+  }
+  function load(){
+    fetch("weather.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : Promise.reject()).then(d => { data = d; draw(); })
+      .catch(() => { if (!data) $("#wx-body").textContent = "Weather is unavailable right now."; });
+  }
+  load(); setInterval(load, 30 * 60 * 1000);
+})();
+$("#side-ads").innerHTML = POSTERS.map(a =>
+  `<a class="sb-ad" href="${a.href}" target="_blank" rel="sponsored noopener noreferrer"><small>Advertisement</small><img src="${a.img}" alt="${esc(a.alt)}" loading="lazy"></a>`).join("");
 (function marketTicker(){
   const host = $("#mkt-w");
   const sc = document.createElement("script");

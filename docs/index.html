@@ -190,6 +190,8 @@ footer.site-footer{max-width:none;margin:48px 0 0;padding:0;background:var(--ink
 .bil-tabs button{font:700 .78rem var(--head);text-transform:uppercase;letter-spacing:.08em;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:2px 0 5px;margin-right:16px;cursor:pointer}
 .bil-tabs button[aria-selected=true]{color:var(--brand);border-bottom-color:var(--brand)}
 p.bil-src{margin:6px 0 0}
+.share{display:inline-block;margin-top:10px;font:700 .72rem var(--head);text-transform:uppercase;letter-spacing:.06em;background:none;border:1px solid var(--line);color:var(--ink);padding:5px 11px;cursor:pointer}
+.share:hover{background:var(--brand);border-color:var(--brand);color:#fff}
 </style>
 </head>
 <body>
@@ -369,6 +371,20 @@ function adIf(i){
 function imgTag(u, cls){
   return u ? `<img class="${cls}" src="${esc(safeUrl(u))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" onload="if(this.naturalWidth<80)this.remove()">` : "";
 }
+function shareBtn(s){
+  const label = matchMedia("(pointer:coarse)").matches ? "Share" : "Copy link";
+  return `<button class="share" data-id="${esc(s.id)}" data-title="${esc(s.title)}">${label}</button>`;
+}
+document.addEventListener("click", async e => {
+  const b = e.target.closest(".share");
+  if (!b) return;
+  const url = new URL("s/" + b.dataset.id + ".html", location.href.split("#")[0]).href;
+  try {
+    if (navigator.share && matchMedia("(pointer:coarse)").matches) { await navigator.share({title: b.dataset.title, url}); return; }
+  } catch (err) { if (err.name === "AbortError") return; }
+  try { await navigator.clipboard.writeText(url); } catch { prompt("Copy this link:", url); return; }
+  const old = b.textContent; b.textContent = "Link copied"; setTimeout(() => b.textContent = old, 1600);
+});
 function safeUrl(u){ try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; } }
 function metaLine(s){
   return `<span class="meta" data-r="${esc(s.region)}"><span class="chip"><span class="dot" aria-hidden="true"></span>${esc(s.region)}</span><span>${esc(s.source)}</span><span>${esc(s.category)}</span><time datetime="${esc(s.published)}">${ago(s.published)}</time></span>`;
@@ -391,12 +407,12 @@ function render(){
     ${imgTag(lead.image, 'pic')}
     <div><div class="meta" style="margin-bottom:4px">${metaLine(lead)}</div>
       <h2><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
-      ${txt(lead)}</div></article>`;
+      ${txt(lead)}${shareBtn(lead)}</div></article>`;
   html += rest.slice(0, shown).map((s, i) => adIf(i) + `
     <article class="story" data-r="${esc(s.region)}">
       <div class="when">${ago(s.published)}</div>
       <div class="text"><h3><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></h3>
-        ${txt(s)}${metaLine(s).replace(/<time.*<\/time>/, "")}</div>
+        ${txt(s)}${metaLine(s).replace(/<time.*<\/time>/, "")}${shareBtn(s)}</div>
       ${imgTag(s.image, 'thumb') || "<div></div>"}
     </article>`).join("");
   if (rest.length > shown) html += `<button class="more" id="more">Show more</button>`;

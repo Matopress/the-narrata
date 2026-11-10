@@ -1,0 +1,157 @@
+{
+ "lists": [
+  {
+   "id": "africa",
+   "title": "Africa's richest",
+   "source": "Bloomberg Billionaires Index",
+   "url": "https://www.bloomberg.com/billionaires/",
+   "asOf": "",
+   "note": "",
+   "people": [
+    {
+     "name": "Aliko Dangote",
+     "country": "Nigeria",
+     "company": "Dangote Group",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Johann Rupert",
+     "country": "South Africa",
+     "company": "Richemont",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Nicky Oppenheimer",
+     "country": "South Africa",
+     "company": "De Beers heritage",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Naguib Sawiris",
+     "country": "Egypt",
+     "company": "Telecoms and mining",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Nassef Sawiris",
+     "country": "Egypt",
+     "company": "OCI, Adidas stake",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Abdul Samad Rabiu",
+     "country": "Nigeria",
+     "company": "BUA Group",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Natie Kirsh",
+     "country": "South Africa",
+     "company": "Jetro",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Patrice Motsepe",
+     "country": "South Africa",
+     "company": "African Rainbow Minerals",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Mike Adenuga",
+     "country": "Nigeria",
+     "company": "Globacom",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Mohamed Mansour",
+     "country": "Egypt",
+     "company": "Mansour Group",
+     "worth": null,
+     "change": null
+    }
+   ]
+  },
+  {
+   "id": "uganda",
+   "title": "Uganda's richest",
+   "source": "Forbes Africa",
+   "url": "https://www.forbesafrica.com/",
+   "asOf": "",
+   "note": "Estimates from published rankings. Only a few Ugandans are above $1 billion.",
+   "people": [
+    {
+     "name": "Sudhir Ruparelia",
+     "country": "Uganda",
+     "company": "Ruparelia Group",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Hamis Kiggundu",
+     "country": "Uganda",
+     "company": "Real estate",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Drake Lubega",
+     "country": "Uganda",
+     "company": "",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Mansoor Matovu Yanga",
+     "country": "Uganda",
+     "company": "Real estate",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "John Bosco Muwonge",
+     "country": "Uganda",
+     "company": "Real estate",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Karim Hirji",
+     "country": "Uganda",
+     "company": "",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Charles Mbire",
+     "country": "Uganda",
+     "company": "MTN Uganda chairman",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Amos Nzeyi",
+     "country": "Uganda",
+     "company": "",
+     "worth": null,
+     "change": null
+    },
+    {
+     "name": "Mohammed Hamid",
+     "country": "Uganda",
+     "company": "Aya Group",
+     "worth": null,
+     "change": null
+    }
+   ]
+  }
+ ]
+}

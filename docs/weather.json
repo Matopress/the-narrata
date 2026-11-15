@@ -1,42 +1,42 @@
 {
- "updated": "2026-11-14T22:56:07.817254+00:00",
+ "updated": "2026-11-15T02:26:42.054018+00:00",
  "cities": [
   {
    "name": "Kampala",
    "group": "East Africa",
    "now": {
-    "temp": 19.6,
+    "temp": 18.2,
     "symbol": "fair"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 25.0,
+     "max": 25.5,
      "min": 17.8,
-     "symbol": "rainshowers"
+     "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-16",
-     "max": 24.5,
-     "min": 19.3,
+     "max": 25.3,
+     "min": 18.4,
      "symbol": "rain"
     },
     {
      "date": "2026-11-17",
-     "max": 25.7,
-     "min": 18.3,
-     "symbol": "lightrainshowers"
+     "max": 26.0,
+     "min": 18.8,
+     "symbol": "lightrain"
     },
     {
      "date": "2026-11-18",
-     "max": 25.3,
-     "min": 19.7,
+     "max": 24.2,
+     "min": 18.9,
      "symbol": "lightrain"
     },
     {
      "date": "2026-11-19",
-     "max": 24.8,
-     "min": 19.6,
+     "max": 25.6,
+     "min": 19.4,
      "symbol": "rain"
     }
    ]
@@ -45,39 +45,39 @@
    "name": "Entebbe",
    "group": "East Africa",
    "now": {
-    "temp": 20.7,
+    "temp": 19.4,
     "symbol": "fair"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 24.4,
+     "max": 24.6,
      "min": 19.2,
-     "symbol": "lightrainshowers"
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-16",
-     "max": 24.2,
-     "min": 20.9,
+     "max": 24.5,
+     "min": 20.0,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 25.3,
-     "min": 19.6,
-     "symbol": "lightrainshowers"
+     "max": 25.1,
+     "min": 20.0,
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-18",
-     "max": 24.4,
-     "min": 21.3,
+     "max": 23.8,
+     "min": 20.3,
      "symbol": "lightrain"
     },
     {
      "date": "2026-11-19",
-     "max": 24.6,
-     "min": 21.7,
-     "symbol": "rain"
+     "max": 24.7,
+     "min": 21.2,
+     "symbol": "lightrain"
     }
    ]
   },
@@ -85,39 +85,39 @@
    "name": "Jinja",
    "group": "East Africa",
    "now": {
-    "temp": 19.7,
-    "symbol": "clearsky"
+    "temp": 18.9,
+    "symbol": "fog"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 25.1,
+     "max": 25.3,
      "min": 18.7,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-16",
-     "max": 24.2,
-     "min": 19.8,
-     "symbol": "lightrain"
+     "max": 24.6,
+     "min": 19.0,
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
      "max": 25.7,
-     "min": 19.2,
+     "min": 19.4,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-18",
-     "max": 25.2,
-     "min": 20.8,
+     "max": 24.7,
+     "min": 19.9,
      "symbol": "lightrain"
     },
     {
      "date": "2026-11-19",
-     "max": 24.9,
-     "min": 21.2,
-     "symbol": "lightrainshowers"
+     "max": 25.6,
+     "min": 20.8,
+     "symbol": "partlycloudy"
     }
    ]
   },
@@ -125,39 +125,39 @@
    "name": "Nairobi",
    "group": "East Africa",
    "now": {
-    "temp": 16.3,
-    "symbol": "partlycloudy"
+    "temp": 15.6,
+    "symbol": "fair"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 24.6,
-     "min": 15.5,
+     "max": 25.6,
+     "min": 15.2,
      "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-16",
-     "max": 23.5,
-     "min": 16.0,
-     "symbol": "lightrain"
-    },
-    {
-     "date": "2026-11-17",
-     "max": 22.4,
-     "min": 16.1,
+     "max": 23.6,
+     "min": 16.2,
      "symbol": "rain"
     },
     {
+     "date": "2026-11-17",
+     "max": 24.1,
+     "min": 15.9,
+     "symbol": "lightrainshowers"
+    },
+    {
      "date": "2026-11-18",
-     "max": 22.1,
-     "min": 16.4,
-     "symbol": "lightrain"
+     "max": 23.4,
+     "min": 16.3,
+     "symbol": "rain"
     },
     {
      "date": "2026-11-19",
-     "max": 23.6,
-     "min": 16.1,
-     "symbol": "lightrain"
+     "max": 24.1,
+     "min": 16.3,
+     "symbol": "lightrainshowers"
     }
    ]
   },
@@ -165,38 +165,38 @@
    "name": "Mombasa",
    "group": "East Africa",
    "now": {
-    "temp": 25.5,
+    "temp": 23.5,
     "symbol": "rain"
    },
    "days": [
     {
      "date": "2026-11-15",
      "max": 29.8,
-     "min": 24.1,
-     "symbol": "lightrainshowers"
+     "min": 23.5,
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-16",
-     "max": 30.0,
-     "min": 23.4,
-     "symbol": "partlycloudy"
+     "max": 30.3,
+     "min": 24.7,
+     "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-17",
      "max": 29.8,
-     "min": 23.4,
+     "min": 23.9,
      "symbol": "fair"
     },
     {
      "date": "2026-11-18",
-     "max": 29.4,
-     "min": 25.3,
+     "max": 29.5,
+     "min": 24.9,
      "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-19",
-     "max": 29.3,
-     "min": 25.2,
+     "max": 29.2,
+     "min": 25.3,
      "symbol": "lightrainshowers"
     }
    ]
@@ -205,39 +205,39 @@
    "name": "Dar es Salaam",
    "group": "East Africa",
    "now": {
-    "temp": 25.6,
-    "symbol": "partlycloudy"
+    "temp": 23.9,
+    "symbol": "lightrainshowers"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 30.6,
-     "min": 24.5,
+     "max": 30.5,
+     "min": 23.9,
      "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-16",
-     "max": 30.9,
-     "min": 24.4,
-     "symbol": "lightrainshowers"
+     "max": 31.0,
+     "min": 24.9,
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 30.7,
-     "min": 24.3,
+     "max": 30.0,
+     "min": 24.4,
      "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 30.8,
-     "min": 24.4,
+     "max": 30.2,
+     "min": 24.3,
      "symbol": "rainshowers"
     },
     {
      "date": "2026-11-19",
-     "max": 26.9,
-     "min": 23.9,
-     "symbol": "heavyrain"
+     "max": 29.9,
+     "min": 24.8,
+     "symbol": "rain"
     }
    ]
   },
@@ -245,38 +245,38 @@
    "name": "Kigali",
    "group": "East Africa",
    "now": {
-    "temp": 16.4,
-    "symbol": "fair"
+    "temp": 15.2,
+    "symbol": "fog"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 23.7,
-     "min": 14.6,
-     "symbol": "lightrainshowers"
+     "max": 24.7,
+     "min": 15.0,
+     "symbol": "rain"
     },
     {
      "date": "2026-11-16",
-     "max": 24.9,
-     "min": 15.1,
+     "max": 25.3,
+     "min": 15.0,
      "symbol": "rainshowers"
     },
     {
      "date": "2026-11-17",
-     "max": 23.4,
-     "min": 15.0,
-     "symbol": "lightrain"
+     "max": 24.0,
+     "min": 14.9,
+     "symbol": "rainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 23.5,
-     "min": 16.2,
+     "max": 23.4,
+     "min": 16.4,
      "symbol": "cloudy"
     },
     {
      "date": "2026-11-19",
-     "max": 23.0,
-     "min": 15.9,
+     "max": 23.2,
+     "min": 16.0,
      "symbol": "lightrain"
     }
    ]
@@ -285,39 +285,39 @@
    "name": "Addis Ababa",
    "group": "East Africa",
    "now": {
-    "temp": 10.4,
+    "temp": 9.6,
     "symbol": "clearsky"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 21.3,
-     "min": 8.3,
+     "max": 21.9,
+     "min": 9.3,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-16",
-     "max": 21.8,
-     "min": 9.2,
+     "max": 22.4,
+     "min": 9.8,
      "symbol": "fair"
     },
     {
      "date": "2026-11-17",
-     "max": 22.8,
+     "max": 23.4,
      "min": 10.3,
-     "symbol": "fair"
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-18",
-     "max": 23.4,
+     "max": 22.7,
      "min": 12.6,
-     "symbol": "partlycloudy"
+     "symbol": "fair"
     },
     {
      "date": "2026-11-19",
      "max": 23.1,
-     "min": 13.2,
-     "symbol": "clearsky"
+     "min": 13.3,
+     "symbol": "fair"
     }
    ]
   },
@@ -325,38 +325,38 @@
    "name": "Juba",
    "group": "East Africa",
    "now": {
-    "temp": 25.2,
-    "symbol": "clearsky"
+    "temp": 22.6,
+    "symbol": "partlycloudy"
    },
    "days": [
     {
      "date": "2026-11-15",
      "max": 36.9,
-     "min": 22.8,
+     "min": 22.3,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-16",
-     "max": 38.0,
+     "max": 38.1,
      "min": 24.8,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 38.7,
+     "max": 38.4,
      "min": 25.1,
      "symbol": "fair"
     },
     {
      "date": "2026-11-18",
-     "max": 38.3,
-     "min": 27.7,
-     "symbol": "partlycloudy"
+     "max": 37.0,
+     "min": 28.0,
+     "symbol": "cloudy"
     },
     {
      "date": "2026-11-19",
-     "max": 38.6,
-     "min": 28.2,
+     "max": 38.5,
+     "min": 28.1,
      "symbol": "cloudy"
     }
    ]
@@ -365,39 +365,39 @@
    "name": "Lagos",
    "group": "Africa",
    "now": {
-    "temp": 27.5,
+    "temp": 26.9,
     "symbol": "clearsky"
    },
    "days": [
     {
-     "date": "2026-11-14",
-     "max": 27.5,
-     "min": 27.5,
-     "symbol": "clearsky"
-    },
-    {
      "date": "2026-11-15",
-     "max": 30.4,
-     "min": 26.5,
-     "symbol": "lightrainshowers"
-    },
-    {
-     "date": "2026-11-16",
-     "max": 31.0,
-     "min": 25.8,
+     "max": 30.6,
+     "min": 26.6,
      "symbol": "fair"
     },
     {
+     "date": "2026-11-16",
+     "max": 30.9,
+     "min": 25.9,
+     "symbol": "clearsky"
+    },
+    {
      "date": "2026-11-17",
-     "max": 30.2,
-     "min": 26.3,
+     "max": 29.7,
+     "min": 26.5,
      "symbol": "rainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 30.9,
-     "min": 26.4,
-     "symbol": "lightrain"
+     "max": 30.7,
+     "min": 26.2,
+     "symbol": "lightrainshowers"
+    },
+    {
+     "date": "2026-11-19",
+     "max": 31.0,
+     "min": 26.8,
+     "symbol": "fair"
     }
    ]
   },
@@ -405,39 +405,39 @@
    "name": "Cairo",
    "group": "Africa",
    "now": {
-    "temp": 18.9,
+    "temp": 16.7,
     "symbol": "clearsky"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 26.7,
-     "min": 16.4,
+     "max": 26.8,
+     "min": 16.1,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-16",
-     "max": 26.8,
-     "min": 17.6,
+     "max": 26.6,
+     "min": 17.8,
      "symbol": "fair"
     },
     {
      "date": "2026-11-17",
-     "max": 25.4,
-     "min": 15.6,
+     "max": 25.8,
+     "min": 15.9,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-18",
-     "max": 25.6,
-     "min": 17.1,
+     "max": 27.4,
+     "min": 16.8,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-19",
-     "max": 25.5,
-     "min": 17.3,
-     "symbol": "fair"
+     "max": 25.7,
+     "min": 16.1,
+     "symbol": "cloudy"
     }
    ]
   },
@@ -445,38 +445,38 @@
    "name": "Johannesburg",
    "group": "Africa",
    "now": {
-    "temp": 19.8,
-    "symbol": "partlycloudy"
+    "temp": 15.9,
+    "symbol": "lightrainshowers"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 25.6,
-     "min": 16.0,
-     "symbol": "lightrainshowers"
+     "max": 26.9,
+     "min": 15.5,
+     "symbol": "rainshowers"
     },
     {
      "date": "2026-11-16",
-     "max": 27.1,
-     "min": 14.9,
+     "max": 26.1,
+     "min": 15.4,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 27.4,
-     "min": 15.0,
-     "symbol": "partlycloudy"
+     "max": 26.5,
+     "min": 15.1,
+     "symbol": "heavyrainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 23.1,
-     "min": 14.9,
-     "symbol": "cloudy"
+     "max": 23.0,
+     "min": 14.3,
+     "symbol": "lightrain"
     },
     {
      "date": "2026-11-19",
-     "max": 26.5,
-     "min": 14.9,
+     "max": 28.0,
+     "min": 16.5,
      "symbol": "clearsky"
     }
    ]
@@ -485,39 +485,39 @@
    "name": "Cape Town",
    "group": "Africa",
    "now": {
-    "temp": 17.8,
-    "symbol": "partlycloudy"
+    "temp": 15.2,
+    "symbol": "clearsky"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 24.8,
-     "min": 15.0,
+     "max": 25.5,
+     "min": 14.6,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-16",
-     "max": 24.4,
-     "min": 16.1,
+     "max": 24.6,
+     "min": 16.3,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-17",
-     "max": 32.8,
-     "min": 14.8,
-     "symbol": "partlycloudy"
+     "max": 33.5,
+     "min": 15.2,
+     "symbol": "clearsky"
     },
     {
      "date": "2026-11-18",
-     "max": 35.6,
-     "min": 17.5,
+     "max": 35.3,
+     "min": 18.2,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-19",
-     "max": 27.5,
+     "max": 27.2,
      "min": 17.6,
-     "symbol": "fair"
+     "symbol": "partlycloudy"
     }
    ]
   },
@@ -525,39 +525,39 @@
    "name": "Accra",
    "group": "Africa",
    "now": {
-    "temp": 28.0,
+    "temp": 27.0,
     "symbol": "clearsky"
    },
    "days": [
     {
-     "date": "2026-11-14",
-     "max": 28.0,
-     "min": 27.8,
-     "symbol": "clearsky"
-    },
-    {
      "date": "2026-11-15",
-     "max": 31.7,
-     "min": 24.8,
-     "symbol": "clearsky"
+     "max": 31.8,
+     "min": 25.3,
+     "symbol": "fair"
     },
     {
      "date": "2026-11-16",
-     "max": 32.0,
-     "min": 25.1,
+     "max": 32.2,
+     "min": 25.2,
      "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-17",
-     "max": 31.8,
-     "min": 24.6,
+     "max": 32.1,
+     "min": 24.8,
      "symbol": "rainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 31.0,
-     "min": 24.3,
+     "max": 30.9,
+     "min": 24.4,
      "symbol": "lightrainshowers"
+    },
+    {
+     "date": "2026-11-19",
+     "max": 31.0,
+     "min": 24.7,
+     "symbol": "rainshowers"
     }
    ]
   },
@@ -565,39 +565,39 @@
    "name": "Kinshasa",
    "group": "Africa",
    "now": {
-    "temp": 24.9,
+    "temp": 24.6,
     "symbol": "partlycloudy"
    },
    "days": [
     {
-     "date": "2026-11-14",
-     "max": 24.9,
-     "min": 24.9,
+     "date": "2026-11-15",
+     "max": 31.0,
+     "min": 22.8,
      "symbol": "partlycloudy"
     },
     {
-     "date": "2026-11-15",
-     "max": 31.3,
-     "min": 22.8,
-     "symbol": "lightrainshowers"
-    },
-    {
      "date": "2026-11-16",
-     "max": 31.3,
-     "min": 23.5,
-     "symbol": "lightrainshowers"
+     "max": 31.5,
+     "min": 23.7,
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 30.6,
-     "min": 22.8,
-     "symbol": "lightrain"
+     "max": 30.2,
+     "min": 22.9,
+     "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 30.2,
-     "min": 23.2,
-     "symbol": "rainshowers"
+     "max": 29.4,
+     "min": 22.9,
+     "symbol": "lightrainshowers"
+    },
+    {
+     "date": "2026-11-19",
+     "max": 29.4,
+     "min": 22.9,
+     "symbol": "partlycloudy"
     }
    ]
   },
@@ -605,39 +605,39 @@
    "name": "London",
    "group": "World",
    "now": {
-    "temp": 3.2,
+    "temp": 2.9,
     "symbol": "partlycloudy"
    },
    "days": [
     {
-     "date": "2026-11-14",
-     "max": 3.2,
-     "min": 3.1,
-     "symbol": "partlycloudy"
-    },
-    {
      "date": "2026-11-15",
-     "max": 11.0,
-     "min": 2.6,
+     "max": 10.9,
+     "min": 2.9,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-16",
-     "max": 7.0,
-     "min": 4.0,
-     "symbol": "partlycloudy"
+     "max": 6.9,
+     "min": 3.9,
+     "symbol": "cloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 11.5,
-     "min": 4.3,
-     "symbol": "lightrain"
+     "max": 11.8,
+     "min": 3.3,
+     "symbol": "lightrainshowers"
     },
     {
      "date": "2026-11-18",
-     "max": 12.9,
-     "min": 9.2,
-     "symbol": "fair"
+     "max": 12.1,
+     "min": 8.5,
+     "symbol": "partlycloudy"
+    },
+    {
+     "date": "2026-11-19",
+     "max": 9.0,
+     "min": 6.6,
+     "symbol": "lightrain"
     }
    ]
   },
@@ -645,38 +645,38 @@
    "name": "New York",
    "group": "World",
    "now": {
-    "temp": 6.7,
-    "symbol": "fair"
+    "temp": 5.0,
+    "symbol": "partlycloudy"
    },
    "days": [
     {
      "date": "2026-11-14",
-     "max": 6.7,
-     "min": 4.3,
+     "max": 5.0,
+     "min": 4.6,
      "symbol": "fair"
     },
     {
      "date": "2026-11-15",
-     "max": 9.4,
-     "min": 3.8,
+     "max": 9.6,
+     "min": 3.9,
      "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-16",
-     "max": 10.1,
-     "min": 2.4,
-     "symbol": "clearsky"
+     "max": 9.9,
+     "min": 2.7,
+     "symbol": "partlycloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 11.2,
+     "max": 10.7,
      "min": 2.0,
      "symbol": "fair"
     },
     {
      "date": "2026-11-18",
-     "max": 14.4,
-     "min": 3.8,
+     "max": 14.5,
+     "min": 4.3,
      "symbol": "clearsky"
     }
    ]
@@ -685,38 +685,38 @@
    "name": "Dubai",
    "group": "World",
    "now": {
-    "temp": 22.5,
+    "temp": 20.4,
     "symbol": "clearsky"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 29.3,
+     "max": 29.0,
      "min": 20.2,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-16",
      "max": 29.2,
-     "min": 22.6,
+     "min": 22.0,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-17",
-     "max": 28.6,
-     "min": 21.8,
+     "max": 28.8,
+     "min": 21.6,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-18",
      "max": 27.7,
-     "min": 21.4,
+     "min": 21.6,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-19",
-     "max": 27.5,
-     "min": 22.1,
+     "max": 27.7,
+     "min": 23.0,
      "symbol": "clearsky"
     }
    ]
@@ -725,38 +725,38 @@
    "name": "Mumbai",
    "group": "World",
    "now": {
-    "temp": 24.0,
-    "symbol": "fair"
+    "temp": 22.8,
+    "symbol": "clearsky"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 34.2,
-     "min": 22.5,
+     "max": 34.1,
+     "min": 22.8,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-16",
-     "max": 34.0,
+     "max": 34.2,
      "min": 21.9,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-17",
-     "max": 34.8,
-     "min": 21.6,
-     "symbol": "fair"
+     "max": 34.5,
+     "min": 21.7,
+     "symbol": "clearsky"
     },
     {
      "date": "2026-11-18",
-     "max": 33.5,
-     "min": 22.6,
+     "max": 33.4,
+     "min": 22.7,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-19",
      "max": 32.7,
-     "min": 24.2,
+     "min": 24.8,
      "symbol": "clearsky"
     }
    ]
@@ -765,38 +765,38 @@
    "name": "Beijing",
    "group": "World",
    "now": {
-    "temp": 3.8,
+    "temp": 8.2,
     "symbol": "partlycloudy"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 11.0,
-     "min": 3.8,
+     "max": 10.7,
+     "min": 6.5,
      "symbol": "cloudy"
     },
     {
      "date": "2026-11-16",
-     "max": 6.9,
+     "max": 6.4,
      "min": 4.2,
      "symbol": "cloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 7.1,
-     "min": 3.1,
-     "symbol": "partlycloudy"
+     "max": 7.6,
+     "min": 2.4,
+     "symbol": "cloudy"
     },
     {
      "date": "2026-11-18",
-     "max": 4.8,
-     "min": 0.1,
+     "max": 5.2,
+     "min": 0.4,
      "symbol": "clearsky"
     },
     {
      "date": "2026-11-19",
-     "max": 6.4,
-     "min": -0.6,
+     "max": 5.0,
+     "min": -0.9,
      "symbol": "fair"
     }
    ]
@@ -805,38 +805,38 @@
    "name": "Tokyo",
    "group": "World",
    "now": {
-    "temp": 11.5,
+    "temp": 14.2,
     "symbol": "cloudy"
    },
    "days": [
     {
      "date": "2026-11-15",
-     "max": 14.8,
-     "min": 11.5,
-     "symbol": "rain"
+     "max": 14.6,
+     "min": 12.2,
+     "symbol": "heavyrain"
     },
     {
      "date": "2026-11-16",
      "max": 17.7,
-     "min": 11.8,
-     "symbol": "partlycloudy"
+     "min": 11.9,
+     "symbol": "cloudy"
     },
     {
      "date": "2026-11-17",
-     "max": 12.7,
-     "min": 10.3,
+     "max": 12.2,
+     "min": 9.1,
      "symbol": "cloudy"
     },
     {
      "date": "2026-11-18",
-     "max": 15.9,
-     "min": 9.3,
-     "symbol": "cloudy"
+     "max": 14.3,
+     "min": 8.6,
+     "symbol": "rain"
     },
     {
      "date": "2026-11-19",
-     "max": 17.9,
-     "min": 10.9,
+     "max": 16.6,
+     "min": 9.9,
      "symbol": "clearsky"
     }
    ]

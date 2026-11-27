@@ -1,6 +1,589 @@
 {
- "updated": "2026-11-26T22:49:31.600480+00:00",
+ "updated": "2026-11-27T04:48:54.600330+00:00",
  "stories": [
+  {
+   "id": "8dc93a82454f1289",
+   "title": "South Africa: Business Students Need Mentors and Practical Experience As Part of Their Training - South African Study",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611270027.html",
+   "published": "2026-11-27T04:47:30+00:00",
+   "snippet": "[The Conversation Africa] South Africa has, over the years, remained among the nations with the highest youth unemployment globally. Between 2013 and 2026, the average youth unemployment rate among those aged 15 to 35 was 56.78%.",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "451830e0d43b5686",
+   "title": "Africa: African Sheep Farmers Could Improve Their Flocks By Changing How They Choose Breeding Animals",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611270028.html",
+   "published": "2026-11-27T04:47:30+00:00",
+   "snippet": "[The Conversation Africa] Sheep are more than livestock for many African households. They provide meat, generate income and can serve as savings or financial security. Compared with larger livestock, sheep have more young, at shorter…",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "19d358699cdba70a",
+   "title": "South Africa: A New Fossil From South Africa Offers Clues to How Giant Plant-Eating Dinosaurs Evolved",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611270029.html",
+   "published": "2026-11-27T04:47:30+00:00",
+   "snippet": "[The Conversation Africa] When we think of dinosaurs, some of the first animals that come to mind are sauropods: long-necked giants such as Brachiosaurus and Diplodocus. These huge four-legged herbivores from 150 million years ago were…",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "82cb8ac7f4d0109f",
+   "title": "Africa: Maritime Trade Stagnates Amid Geopolitical Uncertainty",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611270026.html",
+   "published": "2026-11-27T04:44:54+00:00",
+   "snippet": "[UN News] Seaborne trade that underpins the global economy continues to slow, while disruption from conflict and climate-related factors is hitting least-developed economies and small island nations hardest, UN economists said on Thursday.",
+   "image": null,
+   "region": "Africa",
+   "category": "Business"
+  },
+  {
+   "id": "ee63a1d903a19e27",
+   "title": "Congo-Kinshasa: Peacekepers Step Up Civilian Protection Amid Fighting in Ituri",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611270025.html",
+   "published": "2026-11-27T04:44:53+00:00",
+   "snippet": "[UN News] United Nations peacekeepers in the Democratic Republic of the Congo (DRC) have stepped up efforts to protect civilians in Ebola-hit Ituri province following renewed armed clashes in Djugu territory.",
+   "image": null,
+   "region": "East Africa",
+   "category": "Health"
+  },
+  {
+   "id": "df7f944e6d830e22",
+   "title": "Africa: Africa Educates Its People. but Where Are the Economic Returns?",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611270024.html",
+   "published": "2026-11-27T04:44:04+00:00",
+   "snippet": "[African Arguments] What does an African country get back when it spends US$30,000 training a nurse, only for that professional to build a career elsewhere?",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "a3a0a5488fa7bb16",
+   "title": "Thanksgiving storms leave nearly a million without power across the US",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
+   "published": "2026-11-27T04:34:43+00:00",
+   "snippet": "Severe weather across the US causes outages and flight delays as families and friends gather for the annual holiday.",
+   "image": null,
+   "region": "World",
+   "category": "Tourism"
+  },
+  {
+   "id": "d728d99a4856806d",
+   "title": "DeAfrica Awards 342 Scholarships as New Cohorts Draw Students from 30 African Countries",
+   "source": "pan african visions",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSW5sdWRvV3hfS2dVMzdlT2JRdDlocUhnalc2RFFRRjVTekZMeGNrcWRLMDk2UUdSckprWk5rLUpSMks1R2N1ekYzT3Y2QWdER25nckgxTjBQNHVEMXZYR3l0djRvN2w4TzE2U3JTYS1qOC1WTnFQYjYxeEVJOHZERG1lem5RQVFYU2hxaXZVQlh0clZ0d2I2SGJNQzNyRVFmSXhsTjFPR0xHVUtPX1lRWjB6QmR5WDRaWXg0TkFiU25WeThM?oc=5",
+   "published": "2026-11-27T04:20:52+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "801bb0ecb56e7a79",
+   "title": "Winnie Byanyima talks risks of returning home as UNAIDS contract ends",
+   "source": "Pulse Uganda",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd0JEMlVjTGxiWVM4QVRTaEtOUHMtd1hVUnJsc0Vya2RsMWtMTXJNTWVaUDNQc0VpWFZFUkx3YW51TlVSeWNERURXZzFDbnU1Mi1wTklnMmxIN05qdFV6SlFYTkhjcnQtT1Q3TzlzZXdrd0FDNzRHSHMxNWNDVHdjVDUzbDd5V1BzbVRoaU5aaWJVdw?oc=5",
+   "published": "2026-11-27T04:17:23+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "4097d71be82941cf",
+   "title": "How price swings complicate the push for maize-backed loans",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOWxScTgtNzBOZ3F2T2VpOVh4VGE0QkJqZFZRM1VQb21LWTFjNXpub1FwTmpDUXhhcVRhRnUzS25kNS1oU3duOXg0MXFMNzA5UENkdnVvamxyNHcxU3lzdHE0T0VVc3RWaGFSWmZ2cmZKVEp1NF82cDBNV2JXQUxlal9wSUphU19IVFV5cnphdURSOTVnbmZIZEFNQ2JyVUxuRUgxZDBhZDNGUFJEc3NXc25PNjU4YUhG?oc=5",
+   "published": "2026-11-27T04:15:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Business"
+  },
+  {
+   "id": "5fb6c90195a9c2d6",
+   "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+   "published": "2026-11-27T04:06:52+00:00",
+   "snippet": "It remains unclear who carried out the attack on Niger's National Guard in Tillaberi, near the Mali border.",
+   "image": null,
+   "region": "Africa",
+   "category": "Health"
+  },
+  {
+   "id": "3d45c702f5499a72",
+   "title": "Can KPC fund its expansion and keep paying dividends?",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbWkxTWd4ZWJ6UU0tWHdZQndOa29Ra0pocXRPTEIxbzNFeWhwOURxYVNGRi1zSC1aNmZ1d1VEY1FEQ3R3M1VuVkZkRkRKOWlmLXVWalF5UlkzU1ZoZlJ1WV9qRk5aRV9NTUxybnlOcnNJZ1g1ZDhXV24tWlU0RkRSSlZJTDJtdEZ5QnU0bjZhazU1amd6dHdrUVI2amcwR19taTE5Z2UxbjRfVHBWOC1TTQ?oc=5",
+   "published": "2026-11-27T04:00:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "4ae8e095a3c302e1",
+   "title": "Trump downplays Russia, China support for Iran during talks with US troops",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+   "published": "2026-11-27T03:49:08+00:00",
+   "snippet": "Trump praises US troops for their role in the war on Iran and says he has spoken to Netanyahu in recent days.",
+   "image": null,
+   "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "c58290a9004ad0a7",
+   "title": "Govt clears tax-free imports for strategic projects",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUE5M25nZVNVLWdST3RNSVVkTHhMd1JTZEZhck1jYW16aGt3MVdPeUN0UU9UdEtVOHJOc0FPbGp4OXBsak1STmVEdHBRbWFpNFRjLVpQeUlqSDVfc0I1dlpPYWJLSnFNc2VQRXRueDU4d2NCNEZ5Tkgta3NmaXNEclk2MUpVZ0lac3ZGb2dWblg3Y0YyeTNvUFBhMy03bWdkdDlDZmZnTzk5aHYwa3c?oc=5",
+   "published": "2026-11-27T03:45:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Business"
+  },
+  {
+   "id": "a3b2dc119afebc71",
+   "title": "5 Donors to Research for Community Land Mapping and Land Rights Work in Africa",
+   "source": "fundsforNGOs",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQME53Uk9MSllkTlBkMWhQOGFnZGY0bUhNcXdqRXBqSVJKZ1BxU3QySm8tTzRqUEtmT1FQZjBSMkZlY2lPa1djUmlNVGtjakhnTVJRWVBMOHFxSUc1LW1sa2JxSFdLVm1KLVVYX25iT0NQU3o2OGpGYW0ybVpLSTdhVEhfOTFONmZKbE1Dak5LRjEyUDRxR1dudEJwNGpaSlVPTzVxZElSck9Xc2pFYk9ubXlydF81eVozc2NTdVJnWUg0d2tmYjFPRWdRbUprZVZIX190RGJGeGlSTjd4V25Z0gHkAUFVX3lxTE03dDJfdHgtNm9oVmZEaWpUZlhHQ3RabER4SVp1U2FlSFFVaDdkRzdFazRVTlVLLXlFX0d3RkVUMy1fTFBOa1ZYMDNleHRDZ1ZIb2pfbTNGanY3Q19pZWhrMTZmQ1pFcE04ZkNpWHhyMFJEeHBEVjlCbXFqVVJJOU9mOUY3RTRkSVlaMzRKcXlrUHZ1TjhoblozUWo3V1pxZjg5MnZiV3lVeVFQNEZXRkFnd0VTWXdOek14UmdnRlZteHZaMXhQX0l3UDV3NnQ3bTdSSmRudmUyTGhES0tfQmg2R0xkWA?oc=5",
+   "published": "2026-11-27T03:44:04+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "ede475f907d2df65",
+   "title": "Asian stock markets rise after earlier tech rout",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+   "published": "2026-11-27T03:42:16+00:00",
+   "snippet": "Indices in Japan, South Korea, Australia and Hong Kong rise as New Zealand stocks dip on election uncertainty.",
+   "image": null,
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "0afd8c1ccad9da1e",
+   "title": "URA creates complaints desk amid rising taxpayer complaints",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHd3U3JUZUJqbFJ0aVNSVmZHNzctX3ZydjdvSGlXa1EteHRfVW85WHFjcFdwWG1PbmFRTkZjY0hVZkhqOTJJZW9wTEEwX1Z4OFgwbDgyM2pIdWN1YjdnU3RlaFZCcC05UzVTbmpjX1VXbVZwVUM2RzBxSm5LYmhpQ2Jzc2FzTnphN1puNmhGZi1XUWJ4emlXTWR2QXF2VzR4ODJKc2c1MG9EdkI3MDA3X1lTRlJ4bkJo?oc=5",
+   "published": "2026-11-27T03:30:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Business"
+  },
+  {
+   "id": "645954c92ff52fce",
+   "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-27T03:28:15+00:00",
+   "snippet": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "472fefeed1a01985",
+   "title": "Uganda and Ethiopia deepen cooperation on strategic diaspora mobilisation, investment, and knowledge transfer",
+   "source": "The Independent Uganda",
+   "url": "https://www.independent.co.ug/uganda-and-ethiopia-deepen-cooperation-on-strategic-diaspora-mobilisation-investment-and-knowledge-transfer/",
+   "published": "2026-11-27T03:00:47+00:00",
+   "snippet": "ADDIS ABABA, UAE | THE INDEPENDENT | Ahead of the 3 rd Annual Uganda Diaspora Convention 2026, a high- level Ugandan Inter-Ministerial Presidential Benchmarking Delegation, led by the Minister of State for Finance, Planning and Economic…",
+   "image": null,
+   "region": "Uganda",
+   "category": "Politics"
+  },
+  {
+   "id": "39c2ba279cb16161",
+   "title": "One Ankole cattle sold for record Shs1.7b –Museveni",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWkxCRWdjeTd0d1ZYOTI1NDhKVnBEdEFOekswMWFZZkVMTmtlRVRvUk9ONFlRNDJBS2kzWlBTNzZDNUZhdFN1b0x0bjJjUEtRU2NPaXpMWmNfMElBeWd6M1JuS2xEN0RnQXRmYzRsZ3JtVVpXcklQbEZwbDVFQ0gzajJnQVFHRHdWMDZaQzJYaDNtMTh5TU13QUhkLUtxbDE1YXVfR3V1Wkk?oc=5",
+   "published": "2026-11-27T03:00:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "7ca57ea3d1aa2eac",
+   "title": "Kenyan shilling fall against US dollar puts East African currencies on high alert",
+   "source": "The EastAfrican",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLUFqMTc1dnM0S2E4SldjZTY5dVZFZmRPb1ZDMktHUmhTRDJPcnhjS2RmbTZSX2dZMFAzTkNDWUtFWFJrbTV4QTN2dUJaX01ocFdJRjFXWXUyckIyUkswcHJaSGVvczQ5Uk5HSGl1RFhTRl9CU2I0SUlFWmRlRnlTNS1WTVZCVk9ILU15LXcyTW84WGFrQjhGSG1VWkN6ZDZYaTFubEQwQ0s3YXRfLUxNVnlqUDRFRWtNMFRmckVHNjVZdnBiODVQODlQaWtTUGpuVkE4VlJHZw?oc=5",
+   "published": "2026-11-27T03:00:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "East Africa",
+   "category": "Business"
+  },
+  {
+   "id": "6fda7d4daba06282",
+   "title": "African leaders seek local stewardship of health data",
+   "source": "The EastAfrican",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTHU0eVFxd29lOWN4VzlQUjlMV2Ixd2JCR0pnaDRwYldGS3h1ZEtLcGlMLXhrZS10WVJtMV96c29ia3NTR1hoanN6YXBNekRUdXdlZGFlWXhlN0lKWjFqVnhxVWxzNjB3LVhWdVRMa09rZVdYX3p3cUQ2X2cyLVhDdWtTcXZqbFB1ck9EcWRTYnJBRkhNc3hFUTBqUndsdTdBazNVelhoaGNwR3o2ZnMxNERFVUdWUGlGZEQ0ZQ?oc=5",
+   "published": "2026-11-27T03:00:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Health"
+  },
+  {
+   "id": "1033eb0ee4353c26",
+   "title": "Spain and Morocco under-17 stars target World Cup 2030",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spain-and-morocco-under-17-stars-target-world-cup-2030?traffic_source=rss",
+   "published": "2026-11-27T02:58:48+00:00",
+   "snippet": "Spain and Morocco are two of the co-hosts of the next 2030 World Cup, and they faced off at the under-17 World Cup.",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "158b19c6fcae9e6c",
+   "title": "East Africa risks hosting AFCON without cashing in, businesses warn",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWW1XMFJMcU9BRFhRaTY5bWcxT2FSeUJTMGVDalo0OHRYb2otdUliZ3VZVkJQMVpHZm8xRDA3MGgtRHdzUHVWZDVSVnBBQXp6R2pPYkhKRGdxOU9veFBTY0VHS3hGcmVnQ3R6NHlvazdZajRzY1pRS0FLd1ZFOTRTSkZnTy1EVXJkZ1pYUDNZRmNZeWFoc1VPX0JGVGFiSF9vb2xETUtTVVQzQ25lM01leVZheGo5bDlNblN5ZzB3?oc=5",
+   "published": "2026-11-27T02:44:48+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "East Africa",
+   "category": "Sports"
+  },
+  {
+   "id": "a132167dcae06ec4",
+   "title": "20 Ugandans repatriated from Myanmar",
+   "source": "Daily Monitor",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYkJ1cHBjSW04dFBVdHVNRnpQOVFaSkUyTjcxRXF4QlVYTVBDVl83RnIzWHY1V3g5dlRMLTR3QzRGeHdDT3RQUkZZSGlvdWVxQm9zYVR0OGY5TmktVXZhOU8zY2xDbTFoQ05OQUIxVFdlbjZjWGFiLUZBTGRJLUZEV0EzT3FXMWRvQTk4Q1A4ZnRPOHN5clE?oc=5",
+   "published": "2026-11-27T02:30:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "e4d35cc8c0a0c9c9",
+   "title": "Who Pays After Planting Day? 5 Ways African NGOs Can Fund Tree Survival Monitoring",
+   "source": "fundsforNGOs",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOF9lOUdRSXN6WXF2LVptU2RoMnNKVWFqTEZEaERldHNkS2JlVjRrTnFoN0F2WGMwVEZzVm9OVEVkdVBzUmw5dV9kX1RpYWw0SlNvWllEZFdXUF9mR2VKUF95VjhQT0lMU1cxcXRRNVh0Vm5fNGxqazQtcnVEc2szNkU1Xy1sRmJpWjJtZFJmdjNzSzVpUGxhbDlsczMxbTRVOHgwbGZFeUxuaklIREZCcWJsc1BPYldtczZHTXNvdEthYUgwV09nTjFjVkN3YWJaS3MtUGtwZGdudE9Bcm5aVDJDVQ?oc=5",
+   "published": "2026-11-27T02:23:51+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Health"
+  },
+  {
+   "id": "f977252e04004c73",
+   "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+   "published": "2026-11-27T02:14:25+00:00",
+   "snippet": "Trump says he urged Putin to 'pull back' military aggression in Europe amid escalating Russian and Ukrainian attacks.",
+   "image": null,
+   "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "03c7b75682f5c165",
+   "title": "Too Muck Fun on the Nile: Inside Captain Morgan Muckpit’s Amapiano takeover at Nyege Nyege 2026",
+   "source": "The Independent Uganda",
+   "url": "https://www.independent.co.ug/too-muck-fun-on-the-nile-inside-captain-morgan-muckpits-amapiano-takeover-at-nyege-nyege-2026/",
+   "published": "2026-11-27T01:54:33+00:00",
+   "snippet": "Jinja, Uganda | THE INDEPENDENT | Across four days of mud, music, and magic at Adrift Overland Camp, Captain Morgan Muck Pit turned the 11th Nyege Nyege Festival into a playground for bold self-expression and the unstoppable rise of…",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "2ad29af48f7593a0",
+   "title": "Trump says the US has ‘close to 50%’ of world’s oil",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/trump-says-the-us-has-close-to-50-of-worlds-oil?traffic_source=rss",
+   "published": "2026-11-27T01:44:02+00:00",
+   "snippet": "On a call to soldiers deployed to the Gulf, Donald Trump claimed that the US does not ‘need Middle East oil'.",
+   "image": null,
+   "region": "World",
+   "category": "Business"
+  },
+  {
+   "id": "0e50e36e33d9436c",
+   "title": "Clashes halt match as Turkiye football fans raise Palestinian flags",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/clashes-halt-match-as-turkiye-football-fans-raise-palestinian-flags?traffic_source=rss",
+   "published": "2026-11-27T01:36:23+00:00",
+   "snippet": "Clashes broke out between Georgian police and Turkish club Besiktas supporters during a UEFA match.",
+   "image": null,
+   "region": "World",
+   "category": "Sports"
+  },
+  {
+   "id": "feabb970c17b6337",
+   "title": "African Union Commission, China sign agreement to deepen development cooperation",
+   "source": "Anadolu Ajansı",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeVRRU0FPS0ZhVXdRYjlxbnc3TThzWThoZ3plRVVJdnF1LWNWNE9ZclQ5V2pVUEp1MEpUY2k3Y2xxTnJrUV9CTXJGcC1lVG93Z1B1RVB1X1pFT3hYZ1RCOXltY3hpTm96R3hqYXpkYlE1NWM5Z1FYckNDXzd6dkVXTnItbVpuRklkRHRqOU11ZnluaktacWJ1UGF3TnRtd0tiaERkRVNpUWVaS3JsSm45UUFUSF84N3NlTS1KLUpGUmw3ZVE?oc=5",
+   "published": "2026-11-27T01:29:28+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "0c4e661cc31a9498",
+   "title": "Global news agency AFP reports cyberattack, shuts down content platform",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform?traffic_source=rss",
+   "published": "2026-11-27T01:07:44+00:00",
+   "snippet": "France's cybersecurity chief urges collective action to combat unprecedented threat levels in the nation.",
+   "image": null,
+   "region": "World",
+   "category": "Tech"
+  },
+  {
+   "id": "f6f26bcc1b00a816",
+   "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-27T00:52:11+00:00",
+   "snippet": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af5b/live/7a140030-e9f0-11f1-99b6-a35a62fa4264.jpg",
+   "region": "World",
+   "category": "Tourism"
+  },
+  {
+   "id": "d5792bad9f53a778",
+   "title": "Met Police ruined my life, says Kenyan man wrongly sentenced over attack on UK couple",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-27T00:48:11+00:00",
+   "snippet": "Evidence from a British police officer helped convict Ali Kololo over a 2011 attack in the Kenyan resort of Lamu.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cfa/live/2eeecd70-e99f-11f1-b880-15b494ba858d.jpg",
+   "region": "East Africa",
+   "category": "General"
+  },
+  {
+   "id": "3556851fbc289976",
+   "title": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-27T00:47:43+00:00",
+   "snippet": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe82/live/56152150-e9af-11f1-a094-5fdc692f3e33.jpg",
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "3932cfe0a8cad35b",
+   "title": "Inside Ukraine’s power crisis amid its war with Russia",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/inside-ukraines-power-crisis-amid-its-war-with-russia?traffic_source=rss",
+   "published": "2026-11-27T00:46:19+00:00",
+   "snippet": "Electricity and water shortages have become part of daily life in Ukraine’s capital.",
+   "image": null,
+   "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "da39ff3768e99bf1",
+   "title": "America’s Thanksgiving holiday seen through different eyes",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/americas-thanksgiving-holiday-seen-through-different-eyes?traffic_source=rss",
+   "published": "2026-11-27T00:41:28+00:00",
+   "snippet": "As millions of Americans celebrate Thanksgiving, Indigenous people gather in Plymouth for the National Day of Mourning.",
+   "image": null,
+   "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "647cec215abd6060",
+   "title": "6 Funding Sources for African NGOs Tackling Food Loss Between Harvest and Market",
+   "source": "fundsforNGOs",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeXJFYXJIRjg3UmZPYzVCM3p0YjB3aVVITG1zejRBQTlRRENfNzRtNDdpUG0wTi1RbU03N1dvLTZVNGVkbV9qaVlkLVNvYWtHcG5KeWJZdVh5aXZ3U29JdVc1RkdIc0xDVHJUeEVoRjAxUXdNTGJyZkIyZHgwQ2FuT0tUZzNOVnljSWRxT1k5ejdoVlRNYnZGbURVeFdzd0lmV3pZOGhBdmR0OEFVc1g4Q0ZTbl9va2ZhNWRweUYxaWlZeDMyX0J4S3psaXpPOHZDX0ZCUWdBenpRRThCQ1pnakZ30gHnAUFVX3lxTE4tR1BNVlJZTlRJY2NjbU80TlM0dG1UdjlTem5rMXB0dHhrN2RMMUVoUlZGZlpwV0dSd0lYZ1ZySkJ3ZEhxRGVzbGY2NWRUNGRKNGtVdXVxYUZwRE5YUkNwUjRjQzVBMDFSVlBSNXZyV2dwME04ZS1zNHdSTnZIVkJ5V3h2bU80ZWNCbGRCbTNyUkp0QTRuRXBaYzJ2UlJuNjYxTDRvMm94dlE3Zjd3SHhyUGxxT3RmQWVjdjNnWUs4MlpTTXNDaVk0ZXk1M0J3ejNGSFh4dGhJMk9YYVN0ZlZ2OENuOXhCaw?oc=5",
+   "published": "2026-11-27T00:33:27+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Business"
+  },
+  {
+   "id": "b52a8f195ea36710",
+   "title": "Argentina bars Central Bank from printing money to fund government spending",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/argentina-bars-central-bank-from-printing-money-to-fund-government-spending?traffic_source=rss",
+   "published": "2026-11-27T00:11:16+00:00",
+   "snippet": "The South American country's Senate also advances proposal to suspend primary elections ahead of 2027 presidential race.",
+   "image": null,
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "fc8624288f26301e",
+   "title": "Iran war live: Iran’s Araghchi calls deadly Kuwait attack ‘suspicious’",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious?traffic_source=rss",
+   "published": "2026-11-27T00:00:00+00:00",
+   "snippet": "Iran's FM Abbas Araghchi says the deadly Kuwait incident is \"suspicious\" and looks like a \"pre-cooked recipe\" for war.",
+   "image": null,
+   "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "ea6676c975b92ee3",
+   "title": "Georgian police clash with Turkiye’s Besiktas fans over Palestinian flag",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/sports/2026/11/26/georgian-police-clash-with-turkiyes-besiktas-fans-over-palestinian-flag?traffic_source=rss",
+   "published": "2026-11-26T23:37:17+00:00",
+   "snippet": "Match between Besiktas and Hapoel Beer-Sheva suspended for 30 minutes after confrontation between fans and police.",
+   "image": null,
+   "region": "World",
+   "category": "Sports"
+  },
+  {
+   "id": "9ea76c3b3d00ecf2",
+   "title": "Israeli settlers damage Palestinian family’s homes in West Bank attack",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/26/israeli-settlers-damage-palestinian-familys-homes-in-west-bank-attack?traffic_source=rss",
+   "published": "2026-11-26T23:07:36+00:00",
+   "snippet": "The Tubasi family was forced out months ago and has been denied a return by settlers despite an Israeli court order.",
+   "image": null,
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "e52ef650b4605cd1",
+   "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-26T23:03:16+00:00",
+   "snippet": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c9/live/268edc00-e978-11f1-99b6-a35a62fa4264.jpg",
+   "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "bfd1ef0d84a70cba",
+   "title": "In Canada, Quebec’s religious symbols ban faces a Supreme Court test",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/features/2026/11/26/in-canada-quebecs-religious-symbols-ban-faces-a-supreme-court-test?traffic_source=rss",
+   "published": "2026-11-26T22:51:55+00:00",
+   "snippet": "Canada’s top court weighs Bill 21, the Quebec law that shapes where Muslim women can work and where they feel welcome.",
+   "image": null,
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "bff813f7b1532b3d",
+   "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-26T22:49:27+00:00",
+   "snippet": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg",
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "a78ac92597a84880",
+   "title": "African cotton’s resilience against erratic weather",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVldmWW84bnVlUnZ2RTRVMVJudV93ODVOcEZTQ0NpZTdmYWZUaDhESWxBQmZQNXpQTTYycmEzRVFVTGNyUlNKcTBtUUtzZlFXM1BCcHhVTXg5SnBYeFpwWlkyLU1aQzNSakZOX0xkTnJ6SUhqajFxSkVkZ3lmRGswcUw5Z085eVhLTlk5NmU1TnduLW4wSDNTdHJiRXkwcnlnMWh5MFJkWS1wcTA?oc=5",
+   "published": "2026-11-26T22:49:21+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "760fba2b2a2da8b4",
+   "title": "Africa’s destiny is shaped every day by the actions of Africans – Tidjane Thiam",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ3VnLXJnRHYtcDlqVVFDZ3Vfby13TEd0R3dmcVZmZDZWODVQYVRPbWUyUG9wcUNGM0xnZ0M2UmcyU21NenAwN2xpb0pLSkdmVUNXT1ByQmloVExWZUwwbFdDQXZPTW9DNE92aFhEa1JlMklXMWZObU9sdXg5N0d1bXZiTHM3NXZsNThRdmpxWVNGVXFVZ1NuQl9MQUwzaUJ3VElkVU80cXVlbEhCdmNsM0NkdUE0UnowN1oyeDk0emc4eWoycEMtamFGeWVQMVVCbDViY2dQeFlrcTc4bGkzbGdDTVZMdDZaOW1tNWVnYw?oc=5",
+   "published": "2026-11-26T22:49:12+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "7a3ee383b7818ec3",
+   "title": "Why Africa’s stolen treasures must be returned",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeEUzRWhCWkg5dnRoVHZ2djBfZDZKdENjZUdwYWJSc3J5MjRFbWs5SXI4MENMc0g4c1dZRHEtcmFLOUhZd2pIa0VLVmhrZWlaWXlKSzJlVTgwRXZMZVZKN3NqQnE5a1FQYlgwdTJrUnUyU3oxMWZMa2l2YTVtSWwyelp4TjhYdw?oc=5",
+   "published": "2026-11-26T22:49:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "ffd812ee8d0537b3",
+   "title": "The shift from aid to impact",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CQkx5OGFiMkxpT2F4dldsTV9fV3oyYUpoWEQ4S3A4T0oyQ0ViRlU1amM1aXJsQzB6Tml5UEROcVdEZmV5YVlNblliLXZFU2hqLUJHM0RJeXM4Vlc4MEwtaUZDSWtaSUYtekdST2ZWYVFWcDk1Vmc?oc=5",
+   "published": "2026-11-26T22:48:44+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "88f52a1da4d4ac19",
+   "title": "The IC Story – How we helped shape journalism in Africa Part 1",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSy1LTnRwMWJnd1JtZkROSWxrTkh1cFYtRGtMeUl5Zlg1RDhNZVRXRC1rUy0yaW9LU2xnV1NraTh4by0zRWsyMXhkOEN6cGhpMDJmTjdabWhoYTRNZ05FQzdRSnIwbEhwcXVYcTdfMVJsaEVCMDNvbFNlQkpybW1oSnNOVTFQazdsM2pBaUxLbHFYRy1kUmJ2ZWcwWkdCX3ItRDVlZEN3?oc=5",
+   "published": "2026-11-26T22:46:10+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "3c9561000eb1efa6",
+   "title": "The IC Story – How we helped shape journalism in Africa Part 2",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3hIUFVmX1dhSUJyYUlybS16ZFBsQjlqOVBKTExvSy1aeWVyMGY1Q2xqdWpxWnlFWktIZUgxNjczay1WN28tWGk0LVlodXpqV3IyV3F4Nm5pQXNBSzJmY1lDaXo5bFhMWUhNNUFJSDJ4MkFYMFhlQzhpSVI0RVpJYXZKNzJlVmN2SzJEWlZjRzlXRERpbFBKcGw4UUtXS2NQOEVtTFpR?oc=5",
+   "published": "2026-11-26T22:46:10+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "e7c7a9fdbb4f2edc",
+   "title": "AGOA: Africa’s exporters gain breathing space but face an uncertain future",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSzdyczZCZG9xUktBQzNCRmdybVVHYkhxaFFaRmRlSDdrdWN1allvNmp5OEFYcmxEa1ZfVm5tblhfZGJzcmRLVHdrTXJtSnB0aTlhUk5GNFN4Z0V1bnlpdGFMT2cxRWo2STA4OERoQkxBLTdGbEk2OUJiSW5JWm5nbFZuLWdoRUxrUkpRWnJZdG54TGYyMmJMdWU5SnZ1MmpidnVzd2FVMzRxLWZhdVduSw?oc=5",
+   "published": "2026-11-26T22:46:10+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "878eb54fdfbe25dd",
+   "title": "World Cup 2026: African fans’ memorable adventures",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnBHeWxUdkQxZWRXNlVWOEpxRHdFYTl4Z0RPSFhTNnY4YmZmUXNkaGJ0ckFmWnRuQkZkS3VsV0hFc2VnYTVGeUg2Sm5rVmpoUGhsUFgya1p5cDV3anBIZDBUb2RVTGVZNlVERHNOeDRsOTR3ZUhkeGUwbmllYmxRMFh5b0ZmU0wwOVl6c3BVZC1RWGkxWkNwYVVOVQ?oc=5",
+   "published": "2026-11-26T22:46:10+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
   {
    "id": "7fd81187f0431e6a",
    "title": "Atlantic Council Issue Brief: Central African Republic: Ground zero for Russian influence in Central Africa",
@@ -28,7 +611,7 @@
    "title": "Is the future of football Black? (Part 3)",
    "source": "New African Magazine",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWhxZXhvR3QydHBiQ0czT21wTi1pV255LWZLSHJaVWZIU3Q2ZkFkbG1ESWt5bTdiZ2hEa1VsRTZ4S3V6cjZRRk5BY3hROFZqZm1odE9ZNkFtRUxuLTAzbVZmZGkxQ1lhcktleTJqdGtPWmVmX2FUYjVHRVV4aWotQ3F3T0xNTmRiWlJ1Q08tUVNHMlZ4MTY0?oc=5",
-   "published": "2026-11-26T22:18:45+00:00",
+   "published": "2026-11-26T22:20:02+00:00",
    "snippet": "",
    "image": null,
    "region": "Africa",
@@ -46,6 +629,39 @@
    "category": "General"
   },
   {
+   "id": "1234165bc6c9e768",
+   "title": "Intra-African trade at $213.8bn: payment gaps slow growth",
+   "source": "DNE Africa",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10NGd6eTBrM25mTkFCTk4wQ2UxT0hiN2lJTUQ0V3E5YkJfOU5UUUZJQXJzRW9vdzVuTnNtYXNkbFRFUm1DQTBjY2gtZ0xsMnIxdUZtdUZGd0V6QjVsVXppODhJWmVRV0w5MXg1YXF1MUFsVDBpcDBiTjZn?oc=5",
+   "published": "2026-11-26T22:16:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Business"
+  },
+  {
+   "id": "ecc2815ca13b4894",
+   "title": "Uganda food reserves bill cleared for tabling as 3.6mn face hunger",
+   "source": "DNE Africa",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qRG03LWlJVjJ4N3Z3TzUtejQ3T1pZQzRDZ2R6T3VEdEpaSHRrWTNXVkVXTVRJcXFEVHJ4QUNmLTRVUW9CMHZxUUN4Mnp2b1hTUjdzQy00cG1YQUJIem5HaURnMzNyalYyTm1JNQ?oc=5",
+   "published": "2026-11-26T22:16:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "06f06866cc7ae2d0",
+   "title": "Africa ransomware cost averages $368,000 per company, Kaspersky says",
+   "source": "DNE Africa",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWjdkOW9SbXNsUkhTVHNlVnpnNldSM29pMkVpX0lIYkFUejhYNjBrODgxQmIyS0NaNG9lbTBPSnRjUV9TX1U5Rml0aENnalh3bTBjM0F1d0cwNktfNlYzalE1aW1aQ2Q3?oc=5",
+   "published": "2026-11-26T22:16:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Business"
+  },
+  {
    "id": "7d73aa74f317104f",
    "title": "Report: CIA tortured more people with waterboarding than US agency admitted",
    "source": "Al Jazeera",
@@ -55,6 +671,28 @@
    "image": null,
    "region": "World",
    "category": "General"
+  },
+  {
+   "id": "6e22e0518b493f6f",
+   "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-26T22:06:20+00:00",
+   "snippet": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5957/live/94851140-e9e4-11f1-ab41-f1f84c0c758a.jpg",
+   "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "bade1cb741f96e17",
+   "title": "Germany: Christmas markets open across the country amid tight security",
+   "source": "Africanews",
+   "url": "http://www.africanews.com/2026/11/26/germany-christmas-markets-open-across-the-country-amid-tight-security/",
+   "published": "2026-11-26T22:05:28+00:00",
+   "snippet": "Christmas markets across Germany are welcoming visitors with dazzling lights, traditional treats and festive attractions. Security remains a priority following deadly attacks in recent years.",
+   "image": "http://images.euronews.com/articles/stories/10/01/02/78/640x360_cmsv2_8e031cfe-481f-5a25-9ca1-bef200aa15c0-10010278.jpg?1795728036",
+   "region": "Africa",
+   "category": "Business"
   },
   {
    "id": "c1902e5d6e7479d5",
@@ -76,6 +714,17 @@
    "snippet": "",
    "image": null,
    "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "5a279ab484637dfc",
+   "title": "Barrasso Spends Thanksgiving with WY Troops in East Africa and Germany",
+   "source": "U.S. Senate (.gov)",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM0EyaEFsRFYweGFLMFlyNXBKa195czNqeDExOWQ0ZFhBYV83UUlMUUl5eWd0Y1l0U0VOd1k4VEFZSWg0MnYzSkd4ZGtKMGFqakNMMEVEbXVlTUxxWHNvS1M4OHNiY0F6VjJZaDh5Q1BuX0tHbGxJcldKbUo1TDBpSjNZaXpJUl9fOC1acTJ2cXJwNC0zTGYwTTRFZk82QkY2RTBkSl93?oc=5",
+   "published": "2026-11-26T21:44:03+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "East Africa",
    "category": "General"
   },
   {
@@ -112,6 +761,17 @@
    "category": "Sports"
   },
   {
+   "id": "979a790102da65b5",
+   "title": "Who Pays for the Feasibility Study? 5 Climate Project Preparation Funds to Explore in Africa",
+   "source": "fundsforNGOs",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQlNGRFR6dk1LV2hMUkxzZEVjTG01bnBnYkZiRXo4YmRtTF9aUXpDMmJTdzBlR2tkNDdNMjNpUDlEMGJqUGhWU0s3SkhKUkZQanlpbkFRYjh1V1k0TGZTVkVrTGlKQ0c2S2habkJwZVhyQnhEQlpOQXpOVUtlSDNfS1dYTFg1Q0M3VzVYdlFnMlZDWXBJTlJFdk9YVGtoMmJ6ekdKdmczN2tydXlGdXdrc2QyM1dkR2lOZWdVNVNNYTNQczZvRlY5N3FvdUNWM0g1Y2l5cloxTDVGai0xaVBNa3ZGR3RZZWlTSi1LN2RRVG_SAfYBQVVfeXFMTWtEUmNEek5yajBfdHdrdk5TYXN3dTRtd01LUG4zeGk2SW1KWDFFQjJwd2VJY04zX2oxYUFoNFdHY3hZNGNzdjExVVhtM3BxRmJDMlhSTEJUcy1SczdEZmZrRkl5UFJJT1JzSzJLMFozd3R4X1NqYnZCakdodmdCWW5JNDg4N2lvelNTeHRJWmZjZHd2WmhBQVJOQ2poYTVYalZxNXowa2VYR0dST1VPYjlpeEhELXRGM3Zta0FjSjVnVUY2VTRqYXg5dTN0V0JrbTU4dkpPN2dsOHBqa0VLbzZReGRTbUtrbjFDb0lvelptTUJlS0Nn?oc=5",
+   "published": "2026-11-26T21:26:25+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Health"
+  },
+  {
    "id": "25cb7b97534a264c",
    "title": "Ivan Bayige Kintu: Uganda’s FIFA Beach Soccer Referee set to officiate at 6th AFCON finals",
    "source": "Kawowo Sports",
@@ -121,17 +781,6 @@
    "image": null,
    "region": "Uganda",
    "category": "Sports"
-  },
-  {
-   "id": "979a790102da65b5",
-   "title": "Who Pays for the Feasibility Study? 5 Climate Project Preparation Funds to Explore in Africa",
-   "source": "fundsforNGOs",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQlNGRFR6dk1LV2hMUkxzZEVjTG01bnBnYkZiRXo4YmRtTF9aUXpDMmJTdzBlR2tkNDdNMjNpUDlEMGJqUGhWU0s3SkhKUkZQanlpbkFRYjh1V1k0TGZTVkVrTGlKQ0c2S2habkJwZVhyQnhEQlpOQXpOVUtlSDNfS1dYTFg1Q0M3VzVYdlFnMlZDWXBJTlJFdk9YVGtoMmJ6ekdKdmczN2tydXlGdXdrc2QyM1dkR2lOZWdVNVNNYTNQczZvRlY5N3FvdUNWM0g1Y2l5cloxTDVGai0xaVBNa3ZGR3RZZWlTSi1LN2RRVG_SAfYBQVVfeXFMTWtEUmNEek5yajBfdHdrdk5TYXN3dTRtd01LUG4zeGk2SW1KWDFFQjJwd2VJY04zX2oxYUFoNFdHY3hZNGNzdjExVVhtM3BxRmJDMlhSTEJUcy1SczdEZmZrRkl5UFJJT1JzSzJLMFozd3R4X1NqYnZCakdodmdCWW5JNDg4N2lvelNTeHRJWmZjZHd2WmhBQVJOQ2poYTVYalZxNXowa2VYR0dST1VPYjlpeEhELXRGM3Zta0FjSjVnVUY2VTRqYXg5dTN0V0JrbTU4dkpPN2dsOHBqa0VLbzZReGRTbUtrbjFDb0lvelptTUJlS0Nn?oc=5",
-   "published": "2026-11-26T21:23:06+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Health"
   },
   {
    "id": "254355ce3ed98d75",
@@ -151,9 +800,20 @@
    "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-26T21:17:53+00:00",
    "snippet": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cbd/live/babaff60-e9ac-11f1-a094-5fdc692f3e33.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png",
    "region": "World",
    "category": "Business"
+  },
+  {
+   "id": "765523c8ec69b3a9",
+   "title": "Guterres and Africa: an unfinished legacy?",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLS1YOFhPTWFjOEdzeW80NS1OczlVZUlZSFEyY1pTb1ZNM3BLaDRmSHN1UEZRUnk5OUFmVkJGdHctdUpUTXFBZGJpeG5MRjJvYkUzTlZHWFJDTjJndjlHbG1LUGdBNHoyMFA1ai16YTI5NjV6TG9FZndsaGpHZmFtZHNTdS16ZUVFOE1MR1c1SElUemVJTGZIdUpB?oc=5",
+   "published": "2026-11-26T21:09:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
   },
   {
    "id": "a447d915c0786ba2",
@@ -183,6 +843,17 @@
    "source": "FTL Somalia",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONUhPRHE1bkNFRlA4bGp5aVZucXU2MndsdEFnRzlTZV9ZVHFQYWNZSTRiRGR0OG1DaWhEbnN2eFRmS0RXRHBha0dwNGVSMjJMUl9PTExBcHlNMjZZX3JfXzk4dTRENENiZWlXclVGRHdwVXZUNnNqeXZuQ012NURkWjJPMzlBY3k5VE1sOVh1S29ObkFIS1E2bV9VdWhPeDhi?oc=5",
    "published": "2026-11-26T21:02:22+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "ac7c5f117477d66f",
+   "title": "Mimi Kampala – Malidadi ft Pallaso",
+   "source": "TrendyHipHop",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YMy1oRkt3UVZlQlp6RHc3dG91T0RDSUl2eFBjeGZfTXZneW5hUzJTdlFRMUFoWHBaMFFrSHJGZWxkNUxNVzkxT0ptOU9kNk5zSk9oTXUzbmg2QmV2TU1XV3lzOTZuR3hrYmxON1hBb0ZsaXE4QnJKUw?oc=5",
+   "published": "2026-11-26T21:00:00+00:00",
    "snippet": "",
    "image": null,
    "region": "Uganda",
@@ -275,17 +946,6 @@
    "image": null,
    "region": "World",
    "category": "General"
-  },
-  {
-   "id": "1234165bc6c9e768",
-   "title": "Intra-African trade at $213.8bn: payment gaps slow growth",
-   "source": "DNE Africa",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10NGd6eTBrM25mTkFCTk4wQ2UxT0hiN2lJTUQ0V3E5YkJfOU5UUUZJQXJzRW9vdzVuTnNtYXNkbFRFUm1DQTBjY2gtZ0xsMnIxdUZtdUZGd0V6QjVsVXppODhJWmVRV0w5MXg1YXF1MUFsVDBpcDBiTjZn?oc=5",
-   "published": "2026-11-26T20:31:00+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Business"
   },
   {
    "id": "76b3d81d7d06903b",
@@ -398,17 +1058,6 @@
    "category": "General"
   },
   {
-   "id": "ecc2815ca13b4894",
-   "title": "Uganda food reserves bill cleared for tabling as 3.6mn face hunger",
-   "source": "DNE Africa",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qRG03LWlJVjJ4N3Z3TzUtejQ3T1pZQzRDZ2R6T3VEdEpaSHRrWTNXVkVXTVRJcXFEVHJ4QUNmLTRVUW9CMHZxUUN4Mnp2b1hTUjdzQy00cG1YQUJIem5HaURnMzNyalYyTm1JNQ?oc=5",
-   "published": "2026-11-26T19:50:00+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
    "id": "c9734b740fd08cd1",
    "title": "Central bank’s move to cashless economy questioned",
    "source": "NTV Uganda",
@@ -465,11 +1114,11 @@
   },
   {
    "id": "c63acaa6e44224c5",
-   "title": "6 Places to Find Arabic-Language Grant Calls for North African Civil Society - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
+   "title": "6 Places to Find Arabic-Language Grant Calls for North African Civil Society",
+   "source": "fundsforNGOs",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOGVBaFdTWUdjd3JFQXZLVmw5MGxDalpjcFFRVVNsZ3g3RTFhS2pIanVNcGRnLTBQRE13U2ZfQ3AyREtJVkpCNDdXLTlOWnd3NVlRdks5RmRBSl9FNzJMOHBfRndtNFEydDgyUXdXM2h4WEJUWGxqU3BSdWN4UjVwd25WMDRsVnN6Z2Y4ajJDVXBTUjJEd3REVkJDaXdHM1FqSVNtMG15NEp1Tk5TM1pLNXBzMWw4U2hyZ3hHYWNFX1d3eGpjaDVqTWt1M3VLZ3RraGNac1Z1dXctSlFD0gHiAUFVX3lxTFByR0tYZ0FFeDQ2ZzVzY2NhY25hdU5EMU1LOWxleTg5S3NuWVN6RzVEa1czZ2lveklqdjhOUmxtYlZxVWNCdGlZR3ItSlNmeExzNTZBai1iTmRQYUJiU0R0NU9oNVQtYV9FbmxBQ0RQNDI5NHU1cnhIR1pCaEtKckVmekFZd01fQm11aFBpd0dnMVdkSmxwS3BGTWNJZEMtbFJ3eVdvZGhYeVhRM1FvSDV1b1g1eUZGQVpHekJCYWZFUmtPYjE0WFlMZ0p5anN3dXViY2QzZzQxYU42czRUTGxpWmc?oc=5",
-   "published": "2026-11-26T19:22:53+00:00",
-   "snippet": "6 Places to Find Arabic-Language Grant Calls for North African Civil Society fundsforNGOs",
+   "published": "2026-11-26T19:24:04+00:00",
+   "snippet": "",
    "image": null,
    "region": "Africa",
    "category": "General"
@@ -550,17 +1199,6 @@
    "image": null,
    "region": "Africa",
    "category": "Health"
-  },
-  {
-   "id": "e849ec25c2839f20",
-   "title": "On his last Africa trip, Steinmeier urges German firms to invest and take risks as China pushes ahead",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWN3cVhEUE5SREhQRTBLUGtKYzg2QlQxOW1SclBPbHh0WGJMTlJXbWRJOVJ1MVkteXo3NDU1bTczUmVzSUltME90T3Z2MGgxX0lkOGJlaGYzSjI0bWxNbnVnOVk1ZVk1SDlZT3h3aDNaZGc2clVqalhPa3ljQlE3TkdGRENJM0FHRklLNFFLcEtqa21GMDRYZm0wblHSAZwBQVVfeXFMTUVJX0h5X1RCUGxXbkpTT2kyUkZaVXN4WXE3di1Yb2pHLWlhNDFsSGRSSllrUUJsNEJvN2luSEhvaXc2blZ5aEFfemxpSkVycHU2SGpnUnBiaFN4a25Gcld0Z0dLRklJdjFiRE9jTEJCaUFfdlJzczU3OG5oZ2R3aldwNHEyMnY5VjhOTDY5WHpkQ01PaXgtazEtakJn?oc=5",
-   "published": "2026-11-26T19:04:06+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
   },
   {
    "id": "cbddd5cacdecb49d",
@@ -656,6 +1294,17 @@
    "source": "World Triathlon",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KQkVlUlFfVDVwb0hHNlo2azRXQ0QweEdtbDgzYWQyd1B0UEFXWm5wakFlQW5JeW1TS2xUNXEtVXBjWU1XZmJGRk5zN3ZjYmlHQk9mcUthVEVYZU1PaXJUQmlkaEVDalJpZnQ4ZHprbE4?oc=5",
    "published": "2026-11-26T18:32:01+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "0916faca4ff16e0d",
+   "title": "2027 Africa Triathlon Aquathlon Cup Hurghada",
+   "source": "World Triathlon",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85M2JPc1ZBdXFNUGFwaVhUOG82Sm03UXp6WFRmUXhLM0ZwLUNaRDljVEstYllDRGxlQ1FlVjl2NVBKUHBpcnlKbldfeWtXWnFFa1RqeVUxSWJhM1F6VVBvUjlrQ2YyVzBiUDdvSmtSOWR2WFBaV2hpeVhyWUtfQQ?oc=5",
+   "published": "2026-11-26T18:31:50+00:00",
    "snippet": "",
    "image": null,
    "region": "Africa",
@@ -816,6 +1465,17 @@
    "category": "Business"
   },
   {
+   "id": "2052315f0f85f9be",
+   "title": "Support New African",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZQzFSWlhjUVh2cUVJVmJWUndISGRFRDA4eEozb2lwcmN0SmR5TnN5S2RPeVZidDBZMC1XVjJubXNvTXRuZl9DQmFhb0ZhNnZ2M1RJ?oc=5",
+   "published": "2026-11-26T18:09:23+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
    "id": "1e3ee07550b0c1b6",
    "title": "Guinea-Bissau military leaders delay presidential election until 2028",
    "source": "Al Jazeera",
@@ -825,6 +1485,28 @@
    "image": null,
    "region": "World",
    "category": "Politics"
+  },
+  {
+   "id": "d7cfd7635d1191ff",
+   "title": "Africa Private Sector Forum on Forced Displacement",
+   "source": "New African Magazine",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX3dIaWxPeTdualNEbE9GQUdKREkxV0ZMV1puRVN4dmJnWGJHMk1IUW92NDR3VThCdHNwalA3eFR6NHRZS2NMam5Lb1Z1RFFDVG5KTy1pSXZfc1pYNFFPSnFFU2l2VnNzSmFrX2MwUDZ3dGlhX0xqVC1VaHJpS0VGRDVDTjZxQXYtLUtQQ3ZVVk0?oc=5",
+   "published": "2026-11-26T18:05:39+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "e849ec25c2839f20",
+   "title": "On his last Africa trip, Steinmeier urges German firms to invest and take risks as China pushes ahead",
+   "source": "DW.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWN3cVhEUE5SREhQRTBLUGtKYzg2QlQxOW1SclBPbHh0WGJMTlJXbWRJOVJ1MVkteXo3NDU1bTczUmVzSUltME90T3Z2MGgxX0lkOGJlaGYzSjI0bWxNbnVnOVk1ZVk1SDlZT3h3aDNaZGc2clVqalhPa3ljQlE3TkdGRENJM0FHRklLNFFLcEtqa21GMDRYZm0wblHSAZwBQVVfeXFMTUVJX0h5X1RCUGxXbkpTT2kyUkZaVXN4WXE3di1Yb2pHLWlhNDFsSGRSSllrUUJsNEJvN2luSEhvaXc2blZ5aEFfemxpSkVycHU2SGpnUnBiaFN4a25Gcld0Z0dLRklJdjFiRE9jTEJCaUFfdlJzczU3OG5oZ2R3aldwNHEyMnY5VjhOTDY5WHpkQ01PaXgtazEtakJn?oc=5",
+   "published": "2026-11-26T18:03:43+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
   },
   {
    "id": "9c7f3a16105efd55",
@@ -1036,6 +1718,17 @@
    "category": "General"
   },
   {
+   "id": "0d39ba9ff6cced46",
+   "title": "Two screenings of Pakistani TV show cancelled in India after backlash",
+   "source": "Nile Post",
+   "url": "https://nilepost.co.ug/news/390930/two-screenings-of-pakistani-tv-show-cancelled-in-india-after-backlash",
+   "published": "2026-11-26T17:10:37+00:00",
+   "snippet": "",
+   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/48278a90-e95c-11f1-b8ee-3d27ee38d605.jpg.webp",
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
    "id": "1c45459c0511674d",
    "title": "HIV funding cuts hit Africa’s prevention services, UNAIDS says",
    "source": "DNE Africa",
@@ -1058,6 +1751,94 @@
    "category": "General"
   },
   {
+   "id": "9635825ea848dea6",
+   "title": "Science & Tech: Uganda climbs in global innovation rankings",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdHMwRzNhQUh4a2xpLWVKZ0JQU2JoQXVRY0ZGVk5QTFQ4UFVoY0tBcjJXdUpyLW9aTzlzXzVlOVE2Q0lRcjZoSFVXdEJlQWs3VDVMbzdpTDVyZ0FnaWJzS1JDS0pjOGVLZTNmMEIwTmpiSzVuZnFmd3NmTDltNkV3YzRNdjFpZ1MtT013M2lQcHItTG10eV9pbjctN3ZYWGdSRnhJN0xhUnU?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Tech"
+  },
+  {
+   "id": "5949e60b4a4b32e7",
+   "title": "Business: Uganda’s economic growth failing to close unemploy",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGxJMkd6ZkVHaG85UTNrYW80Y2E0aFprQVVVWUlUWDNCdjFiamx5blpYem5SdXRRbkFMUTRYNGdwNUZ6OTVHaVRoSjdNNHZRNlJnZklBVzRSZ2RmRE9LdzlMOTlqZ3JEX0QtRldpX3NHMlNPSzRvTDFUVjhvUlhQSENONi1zWXVBSzkzY3ptbUE2Ni1vZXc1MXBXLTZ5NHNtN1hLak1IaW1zazJR?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "a881a251686a511b",
+   "title": "Business: Uganda’s private sector sustains appetite for cred",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZXUwNm1PUm55azlxZUt4emgyNG1sTDhGUWs5OEZ6a0NFNjg2dG1xZWZ6dHN1VkRIRHBqZUx5MWQ3RXlaMEYtckxjRlJWV0N4bi1YSDdPaVdkd2FYc3lhOWgzS0MwcFdJNlFRNEdWS2dXdUk1SVd5YjZycVJpRDBWU3FWWkVVakJNUjRvbC12T0lEVExiZGlkQ0tFRjRtN2NMRnRJRHZwdGlaMDg?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "5aaa3587fbd907cb",
+   "title": "Ent. & Lifestyle: Daka takes Uganda’s beauty to Miss Univers",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ2xLcGh2NUUyX0NOcXhoRW56X1BaYXBDM090ZEh5eFB3aEE1RUZCUkxrdVp6TDRvM09zbkpuS19iMk1TTWx4YndiMzhiVFBFRFhwZUpmMGQ4M29Bb0U4S1A5cDVfVEtLT1AzWWg1V3BGWGN5dFBwT0lpNloyYWRINzhseGdqdFd5WWxKTDJlb3k2OHFSQVYxd3hzNk9JUVlkWFUzYTRqT01uOVAyQ3EwRUw3RQ?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "dd517cdabb24e912",
+   "title": "Business: Ugandan SMEs to benefit from Afreximbank sh124b cr",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS09fOXdSbGhpTnYwbXpmVWVlMmpTaWxFc3kzUHlJLUo3aHNQTzNLcjFrdW5hOTMwd2R5cjNDYmlNSVgyU0szSktaSlV1YlJ4Y0EwRmVpbnpHSEh5NXlWdU5qYk9DeUFVWjAzZUNlQV9JQWtxX3NCTFJFMGNGSjJjLUNseUVLRG5fY01DN1lXTVpZbm1KeVRHcDJKaW1JTk9XSV9US2UzemV4bkdq?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Business"
+  },
+  {
+   "id": "50bf6992cdda0c78",
+   "title": "World: African youth urged to shape continent's future at Ki",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGpQMUNmS2piTnNMdWdCeVJNXzl0Sm14Y21zSjI3UGVURTdvY0g5YzlyWlZMRWNVTUZRQkRldW9WUTY4VHpxa1hmZC1pVWd2Q3RrdXRwNV9aZWh6b19fbFNiUHU1b0tEVXl2UGN5LTNsRXQ0NVZ4eWZEVGdUZmlRazRYNTdOMXViNHRISm9paGlRQ2dhY052VFhVUmk4bE9Cdjl4TmR1V0s?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "76a8d589d499be1a",
+   "title": "Sports: Nanziri vows to floor Vunjabei in WBA Africa Super B",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeVJIWXUySzZueTJVV0F2cnRldTM0R241cjBOSGgyUXQyaGY5Zk0zTTdqUEpmakl5cThLY0ZPWEF5dzVqem0ycmRybU9GNnRfTlJzbHdmb1k2eVFiOHBtamZwNlFEQ0cwd1RoUjNDQjRkQWtldTVETVVmQWxKcEczV0NUV0p0ZGcyY2dDZk1tZkd3RXJkT2d3ckhkaDhkQzJFcjhmdzZoZWM?oc=5",
+   "published": "2026-11-26T17:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "f1158a2496f375cf",
+   "title": "Greenpeace marks 20 years of frontline activism and climate justice leadership in Africa",
+   "source": "Greenpeace",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOHczbnRWQ2ROWm96YnkxQUZndm40dk1YU2lfVGlzQjBJR3dTZkZvM0F3ZDRtLXA5X0xuM0NPWXRRWFpKQzJ2VTVlS2JUemY0Z2U0aG1Yc2FMVGxNYmJaRklyelB2UEJtZEF0QUVXdzNpVHB5WWdtemVKM1M5bDJvNlNfV1AwTzlIcnVKZlRBRGtRNU8wVUd2Y2NxR3RWVF9hTDMyUUdrV1hITkZVUThMbGl0WEhvTFZsY2xHU1h5aWVLcjdacXdSUFNmRmM3amRwZFVYWQ?oc=5",
+   "published": "2026-11-26T16:55:06+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "East Africa",
+   "category": "General"
+  },
+  {
    "id": "64b6304cfd8dffb0",
    "title": "Lenacapavir: Uganda na Zambia biyoboye urutonde mu kwakira uru rukingo ruhendutse rwa HIV",
    "source": "BBC",
@@ -1077,6 +1858,17 @@
    "snippet": "President Abelardo de la Espriella's campaign against armed groups has resulted in accusations of extrajudicial killing.",
    "image": null,
    "region": "World",
+   "category": "Politics"
+  },
+  {
+   "id": "b5fb07ed6920a116",
+   "title": "Africa: Opposition voices face growing pressure",
+   "source": "DW.com",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWXI0VTJoSVRQSldCY2F1M2NDSmI3dUJzSFZjYmZaVkpubUpjTXdvS2xlZ2N2U012eEhocUFtZHJfcXpYVHhweXJWU0JoLTZqcnNuTUR1REhQMjdkQjFrc210MFBMa1RuRkc4VzRmZlRhTmRlR1pNUjh5V2FhSmJHTFZiMERPREXSAYcBQVVfeXFMUDJfZXAzZEVublJwX2tTMzl3VURnV2JYNDljcWc4MnUxT2pidERjZEhmU2puME90WjFKLV91ekpaYmVOc1Y4VE5MejAtMWtoRzBqcUhhUlBiaW1NbEZodk8wLVVNUHRUcGZGTkpBZ01Uck43VkFqaVhjbGdiU3FkZ2RfcUVoZXBJ?oc=5",
+   "published": "2026-11-26T16:40:47+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
    "category": "Politics"
   },
   {
@@ -1111,6 +1903,17 @@
    "image": null,
    "region": "Uganda",
    "category": "General"
+  },
+  {
+   "id": "bf14bdc1f8f6528f",
+   "title": "Who Funds Cold Storage for Women Fish Traders? 4 Options for West African NGOs",
+   "source": "fundsforNGOs",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM2c5SEN3bWhoLW1nSG9vaXhwLXNOTFFicHo4X0NCMDZnbzc2aEtrM3NCbjE2aUtjbTlDR3lhLWE2cGItSE9mQ05zMC1wcG9ESUV1VDFVOGxuQW1CRUkzeVpLWkxBOGN2Yk9rcXNjbmxPTm1jeFNVVFNjSUtsQXM0QlZYUkRVNFlWbDQzMWdxQU1QRG94ZUlrcjlDZHdGZ3JmR2tzelFyWWRDQkNaenU2MVN5T0FzQ2VycjRmT3ZmSFpyUk5xUmVwWkFpUklDckNGbnYwYzNwakswdk5TRWfSAeMBQVVfeXFMUEZwTGphaHY5eG92RmxkVG1yd3M0TERYNXlQOHlHd1BIeDhtdFNwUmx6QlJfQS1zbTN3d0xiT1NYeWxFdE5uQmRGWVNXNXBaMnZOMnVyd2ZhTmVnNElIa0RoZS1VRGRzcWJtYVFzekFOWmtRRnpkZXNiSTk3c0hhdUNob1RsZHhJUTE4SFhZcFVzcDlXY2hNUFZmVUJtbDZHQkpGcm9veVBTa1BRRlN3dWZrdHpHRlNLTzRXa1VHWEd4anpldklJX2Q4RUJLMG1nSnZkNFpja3VBRDRPZHNnOWNUNzQ?oc=5",
+   "published": "2026-11-26T16:22:58+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "Business"
   },
   {
    "id": "b91497c6ffaea99d",
@@ -1242,6 +2045,50 @@
    "snippet": "[Nile Post] The Ministry of Gender, Labour and Social Development is moving to tighten regulation of external labour recruitment companies through a screening exercise aimed at streamlining the industry, protecting Ugandans seeking…",
    "image": null,
    "region": "Uganda",
+   "category": "Politics"
+  },
+  {
+   "id": "9221728e6c2912f5",
+   "title": "Business: Uganda shilling continues to weaken on Thursday",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOalJPZmVsVndXUWRwNllRQXhwLWhfN1RITDVOTGFacC12bE8ya2YwZ0dRSmJad1V6X2t0bGRMTDU5UlFwUDBFZXpOS2ZsQW90WEFtSzl3YkdUeFZOc3FVYmJxcm4tbkNwcGtwRWI2dTAtX1c2ZHpqV1JGdkFuRllvVS1pSE1vVjlRWHlTTXRYZVFBWU5NZGhfX0tGdDZxd2IxX0ZYVTB5YWlOaGRh?oc=5",
+   "published": "2026-11-26T16:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Business"
+  },
+  {
+   "id": "1d7e2e13196309eb",
+   "title": "Business: Why education is key for Uganda’s industrial ambit",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOUQyREd0eEx1UGQ1cGFQWXl1Q09rQU11czlDWk0tLXVDWmdVTU1vdk5acEhORHZJaE5jeW94dk81WUstZ1BzbzFsV3pjdmp0YU1XdzNKeENpWDJGOWFUbkFPTEZ1c3ByYmJydWJEeDVTVVlIUzlBZ1U0RGtlQ3pKVmN1dGtEWTA0Z3hYdUhJZHhkYmY0TlludDdobUd1LVZVUHU0RWpDNVpDdzNf?oc=5",
+   "published": "2026-11-26T16:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "134f94e08eacdc7a",
+   "title": "World: US targets Africa's critical minerals to counter riva",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSS1ZRVpFMzB4WXhrbmZEYXhYRzA3Z01IZS1GSm9pVVY0ZldUOGFpWklraEJFMGdLd09HQkNKWEU0ZGZfTG04OHdvV3VYaXExbnotLVNBNDJCS0RBeUU3U2hpN1dHM2s3ZFNIMkhKbG9fNXFBNzIwNkVjbFk3M0pHWWxScmE3bTBDVHVVbFdZaXBWN0xNNUpIejgyNFJvaURRbHE3ZlBhUGo?oc=5",
+   "published": "2026-11-26T16:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
+   "id": "a7824d55fcfc514c",
+   "title": "World: South African high court rules Ramaphosa impeachment",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSThHTmFPeFdQUTJVZUZWSGM5cU5BY29GcHQ1YlhoSEFvVHNfM2lqdERJTFFmeFBmaG4xOTRud1hBRGh3dDQyN3hjeTNWRTJnb2hfWHpVbUwtbmlHRG5xT0NzTHpEdG15blhIdEpPMFBLU2pDNE14M0dyR3hWeklJX1lmQWRSb1FTMTc4M2VnZU1BSTMzck53bHk1SmdNNFJQWmZIYy1Xa0Q?oc=5",
+   "published": "2026-11-26T16:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "East Africa",
    "category": "Politics"
   },
   {
@@ -1421,6 +2268,17 @@
    "category": "Politics"
   },
   {
+   "id": "82f5b71ad95e3f46",
+   "title": "Boda boda riders urged to lead fight against GBV as diplomats take campaign to Kampala streets",
+   "source": "PML Daily",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEU2Y3BmclotNEpTNDhoek9CREwwSWVSc2hTa3FqX0N4YjlFVW9YWkNCRGE0TFNzNVhrTE9aTjJ6Q2xLSGloWjJTeUV2UTRpbjZHdy1KZy0zYnlTZEN0TGZZcGhteWszcGE1aFBvWkpZNGVFVzY1ZFVZV295dDl0WGxnZVRHZjFjMEhyQkRGUm5PRWlYNDVGQUpnOEFCZkg4UTRwM2hLUmZ1b3RWVExvWi05dk4zV0VYVEZOTFFrd2c3Q1dEbXNNbkFvTDBpZw?oc=5",
+   "published": "2026-11-26T15:41:15+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Politics"
+  },
+  {
    "id": "9702b3dfdf54349c",
    "title": "Ugandan female creatives called to embrace criticism, build networks to succeed",
    "source": "Pulse Uganda",
@@ -1487,17 +2345,6 @@
    "category": "General"
   },
   {
-   "id": "b5fb07ed6920a116",
-   "title": "Africa: Opposition voices face growing pressure",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWXI0VTJoSVRQSldCY2F1M2NDSmI3dUJzSFZjYmZaVkpubUpjTXdvS2xlZ2N2U012eEhocUFtZHJfcXpYVHhweXJWU0JoLTZqcnNuTUR1REhQMjdkQjFrc210MFBMa1RuRkc4VzRmZlRhTmRlR1pNUjh5V2FhSmJHTFZiMERPREXSAYcBQVVfeXFMUDJfZXAzZEVublJwX2tTMzl3VURnV2JYNDljcWc4MnUxT2pidERjZEhmU2puME90WjFKLV91ekpaYmVOc1Y4VE5MejAtMWtoRzBqcUhhUlBiaW1NbEZodk8wLVVNUHRUcGZGTkpBZ01Uck43VkFqaVhjbGdiU3FkZ2RfcUVoZXBJ?oc=5",
-   "published": "2026-11-26T15:22:48+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
    "id": "fe90b0302de4f973",
    "title": "Tayebwa Backs Comprehensive Law to Strengthen Social Protection",
    "source": "Nile Post",
@@ -1562,6 +2409,28 @@
    "image": "http://images.euronews.com/articles/stories/10/00/94/92/640x360_cmsv2_f642ace3-dbc8-548f-9510-bed86517ae22-10009492.jpg?1795691500",
    "region": "Africa",
    "category": "Business"
+  },
+  {
+   "id": "d29ec7670042c789",
+   "title": "Museveni lauds Dr Musoba for strengthening Uganda's he",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3haTFYyd1JEQ283LVdqUnN3a0o3T3N1enY3NE96eDJZdVVoYndDdl9mMHhMTkZaenZDWVVkVm1tdUFHcHh4c2hRY01QWkdZd3RLTmZmZ1lfSUdUVE1pLTFud3VQWnVtNmZ1WGprMGFKZU9qamwtTXdWX0w5bUU0NTRKZDJKbFVQOVJBYlVUMkhwaXY2YkFNRVE3SXJRdThvYTduT195VQ?oc=5",
+   "published": "2026-11-26T15:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "ebf1804b54d8bf45",
+   "title": "Witonze challenges Africa to invest in crime preventio",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRnVMamxDakFFRmw2U040SWRZajZZWFdCSk5NT0lUb1lEMHRsNExHNlBWeko1VHFEUTB4TG9mcmU4THlLNnhMUGdaaG5EblgwMHI2NVhGd0xfeTdad2owd2xFYmhmTm8zOWZrQktfY3hJM0Z3OXNQWGtQQmY0Ny1zZlp4VGtpbHkyRTY1VzRfMm5fTlloNTgyem4xamZsQWlFN0s5MmRB?oc=5",
+   "published": "2026-11-26T15:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
   },
   {
    "id": "f434905815dbbfbc",
@@ -1693,6 +2562,17 @@
    "snippet": "Rebecca Taylor had been imprisoned in New Mexico for multiple theft and burglary charges.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b19/live/49e2b830-e995-11f1-9d1c-4dcc8fcde666.jpg",
    "region": "World",
+   "category": "General"
+  },
+  {
+   "id": "e2456a8f31efef8d",
+   "title": "Devex CheckUp: Africa CDC board bides its time on Kaseya",
+   "source": "Devex",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWjRzQnl1UHZzS3g4dWJZa3pna1NjZ0U4Sl9KUm50Wi12TmkyaDh6QnZCZDBtSlVVMVZTOHhaYmxOQ3R6WElhd3owV1dnWHdWUUllNkNYNWxfckZyU1BfRTNIRk5GUXY0UDcyMUx1RS1VQUFNQlJFY2JyVDVPWGxoVzdfc2dQckFaazEyLVNEaEJTNGs?oc=5",
+   "published": "2026-11-26T14:33:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
    "category": "General"
   },
   {
@@ -2158,6 +3038,17 @@
    "category": "General"
   },
   {
+   "id": "e20433dce77c336a",
+   "title": "Sports Tourism: 2027 Pearl of Africa Tourism Expo, EAC regional tourism Expo are key gate openers to historic PAMOJA AFCON in Uganda",
+   "source": "Kawowo Sports",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOajZNdTVOUW9HUURzN1JsdU96YTB0UTNrSGlSX0NqM1pwTTI1cm5odjlFcDItaFg5R0hRelk3X0g2Yk1XMWR1UlViblBsd3Uza0JqN1JiT3FjT2dsNVJQdEJWWXR4ek91ZDJEd2ZuVEF5eTNoaHVQRHhWX0VvdmdvX1B4RWhvaXVMMVNyQjNQMVE5SjRYRWhlTGlUbmFBaDYwNmszUVdZc080VFY0bFVvNGp0UHlPem5TcVp1TEpnN0ZaQUIzclk3OHIzTGJJaTBXdEw2dkNTQ2dBSFM5TlUwZ29PelBqZ3FNN3RhcU11UHUxbFE?oc=5",
+   "published": "2026-11-26T13:06:00+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Sports"
+  },
+  {
    "id": "c90196174285a057",
    "title": "Jason Arday research cleared following Queen's University investigation",
    "source": "Nile Post",
@@ -2199,6 +3090,61 @@
    "snippet": "",
    "image": null,
    "region": "East Africa",
+   "category": "General"
+  },
+  {
+   "id": "605655036e32c989",
+   "title": "Health: Uganda records drop in snakebite cases but anti-veno",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGw0NmxfWTJWVmZteHJRNE51TjZZZ1hZUnhEc2VQN1lpdUZseThudHZKR29nSGZRanFqSUpwVGRqZHRBNWRSYjJQU1I1N0VyTEpOQVpYQWV1QkwtOUx1RGt4bGlSdWFVNzZVTGVwUDltZkZjTzd1NUFvVGVjQWJvSklSUUFGQ2EtRklneERYemk2T1k2Y0k2LXg2NVRGNjNMVWJWLUU0dUdwQQ?oc=5",
+   "published": "2026-11-26T13:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Health"
+  },
+  {
+   "id": "db8b8164db9489e5",
+   "title": "Business: Middle East still Uganda’s leading export destinat",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS20tTDg4ZUhDZ0hPS05MckFtMF9CVDg5WG81UXYxaGt2c3JwSXNZUHhXZWhDOFQyRjlULXZnTXlUUEM0RS0yVXBxU2N1aEowRkhUR3lmT2RmdmJ4RlFJT0JLTjF0QlVYYXNiQmVqMm95RVh5dnNzWjZYWDJfYS1SdVFoeVYwSXhLamM1c0ZvM1l4Qk5XVHE5M0F4TkEtV2FDMGRDNURuYUV5SlFM?oc=5",
+   "published": "2026-11-26T13:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "212ea85ecdc7bd05",
+   "title": "Sports: Who rewards the coaches behind Uganda's champions?",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0h2cXpnQTNVbGtsM3VDSVNjQWhjelVoSTVsR1A0N2ZOMTdOa3VmUEV4MGlRbkxMaVNaOFN1dnZLUXRBZG9CU1FmSVNJVGJiOHhTVDRoV1NxWFNlOG93MWR0T1FBQndvb3lsRGVHNFA4Y0FoWFhoQXp5SGp6eW4zRWhsZmZtMFduSUtXLWY5LU1NQXloN3Vpc0xkbUE4QWlYWDZqSm4tMWE2QQ?oc=5",
+   "published": "2026-11-26T13:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "Health"
+  },
+  {
+   "id": "a89a6b52d16c89b8",
+   "title": "Ent. & Lifestyle: Ugandan film directors target Ethiopian ma",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkpJYTBCQVlxMDRaREFWUG9BMzRWOGtFeGNfV1BIS1cwNFM1MC1xM2VoTWtCcEpmX3pEOVp2cHJackpQSHdjbGNwUm9UZ015TUcxVHdIVDFsRXc5ZU1hdmo1UWx4b2dVXzM2NUtKaHVQbjN5TjI2Y05IdWtWN1dfaWttR0U4MklmTjRIUkRRYjc1MGtJbzZoelJ6YmhHd3dzTGtvSU9KVTEyb25vdlFXQlN2WQ?oc=5",
+   "published": "2026-11-26T13:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
+   "category": "General"
+  },
+  {
+   "id": "3c3bb49daf5e65a4",
+   "title": "Sports: Uganda chase 12th straight FIM CAC title as Kenya vo",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOU1QM09SdWZvVFloZmdzdG14ZDAwbENZUUlQdzVEMkM5QmFKcTBVSHBjVzlSb0JLY3FHN1JvQUZ4YV9WMzJlSjI0cWtKZ1Zma2RfUUFZeTBWMFd5dVptaF9QZG9TU3NOUUZrSkw4ZFZueUFXdl84T3ZzbmhZVE5MMThYcDJRNTJHREg5MGszc29Nd0JfNHBjb3BGTFE0U1EzWllsT09XTVZNZw?oc=5",
+   "published": "2026-11-26T13:00:05+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Uganda",
    "category": "General"
   },
   {
@@ -2281,8 +3227,8 @@
   {
    "id": "e3196a98da8bc893",
    "title": "WildMango, ISA join forces to drive AI adoption in East Africa",
-   "source": "www.standardmedia.co.ke",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ1BOTUczRlFSR24yemFMQU1HakNzdFd1bUtVZFlGQU1zdmZ0Zk5XOEhEcVotc3kxeUJQbm5rYWNJNEJmSWgtZW92cFFrVl9XNFhxS1FtaGxsOVR2dk1BSlcyY0NJQzNHaHBHN3BtRGZKak1LdHRLWXFRWkNIMEtidHpaR1Jfb1l1YXZZMHBJOGhUWGNialRPNlUxNlo4eWlHcXZlSnQwRnhQSXc5TE5abXRnbEx1MFJLWGE0YUJn?oc=5",
+   "source": "The Standard",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWTVJM2h4RkJGek0xZ2tuLVUwVkl6RjJzb2ppeEFoQVJmd2w5NHZFdmUxWlJRYjF2OWk2SER2M0drZmhnVU1zYXZJbUIwSHgtT1p0RFFELVZINnNkamtTLVNNcWNQNW1Ld0lhVU9HeXpRMEJ6OTNBWUs2emZBbGNXSTdzWm5DOWE4ZGNweXJXZERVYk1VZmhQRGo4WUJuNkJtanVxdFBTUmh5YXRmYzJoZzdvWE1QSDZ6Ni1qWUZxMVpaSm0yTmFSd3pR?oc=5",
    "published": "2026-11-26T12:35:29+00:00",
    "snippet": "",
    "image": null,
@@ -2343,6 +3289,17 @@
    "image": null,
    "region": "World",
    "category": "Sports"
+  },
+  {
+   "id": "031cd672c600283d",
+   "title": "Joshua Baraka Becomes First African Artist to Feature on Johnnie Walker Bottle",
+   "source": "SoftPower News",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONThVSHpIWXA3M2tfdUZqd24yWG5EZE5ab2E4by10eVRrY0V0U0NCZU0zc3NpNlJWRUZWLXZzamlySjJBZnBrS01aYXkyTTZFX3FnZ1lfUHZJQ2dMWnFBZHJRMFNhM19ia0pLWFlDTDJDT3hQalo4LXZoVzNTMm15MnJJNVNIX1NQYWg0NHA3YXpMSDRZV29rMjU1bi1uVVZkRVE?oc=5",
+   "published": "2026-11-26T12:30:35+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
   },
   {
    "id": "afda3c0368480337",
@@ -3049,116 +4006,6 @@
    "category": "Politics"
   },
   {
-   "id": "605655036e32c989",
-   "title": "Health: Uganda records drop in snakebite cases but anti-veno",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOGw0NmxfWTJWVmZteHJRNE51TjZZZ1hZUnhEc2VQN1lpdUZseThudHZKR29nSGZRanFqSUpwVGRqZHRBNWRSYjJQU1I1N0VyTEpOQVpYQWV1QkwtOUx1RGt4bGlSdWFVNzZVTGVwUDltZkZjTzd1NUFvVGVjQWJvSklSUUFGQ2EtRklneERYemk2T1k2Y0k2LXg2NVRGNjNMVWJWLUU0dUdwQQ?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Health"
-  },
-  {
-   "id": "9635825ea848dea6",
-   "title": "Science & Tech: Uganda climbs in global innovation rankings",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdHMwRzNhQUh4a2xpLWVKZ0JQU2JoQXVRY0ZGVk5QTFQ4UFVoY0tBcjJXdUpyLW9aTzlzXzVlOVE2Q0lRcjZoSFVXdEJlQWs3VDVMbzdpTDVyZ0FnaWJzS1JDS0pjOGVLZTNmMEIwTmpiSzVuZnFmd3NmTDltNkV3YzRNdjFpZ1MtT013M2lQcHItTG10eV9pbjctN3ZYWGdSRnhJN0xhUnU?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Tech"
-  },
-  {
-   "id": "5949e60b4a4b32e7",
-   "title": "Business: Uganda’s economic growth failing to close unemploy",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGxJMkd6ZkVHaG85UTNrYW80Y2E0aFprQVVVWUlUWDNCdjFiamx5blpYem5SdXRRbkFMUTRYNGdwNUZ6OTVHaVRoSjdNNHZRNlJnZklBVzRSZ2RmRE9LdzlMOTlqZ3JEX0QtRldpX3NHMlNPSzRvTDFUVjhvUlhQSENONi1zWXVBSzkzY3ptbUE2Ni1vZXc1MXBXLTZ5NHNtN1hLak1IaW1zazJR?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "a881a251686a511b",
-   "title": "Business: Uganda’s private sector sustains appetite for cred",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZXUwNm1PUm55azlxZUt4emgyNG1sTDhGUWs5OEZ6a0NFNjg2dG1xZWZ6dHN1VkRIRHBqZUx5MWQ3RXlaMEYtckxjRlJWV0N4bi1YSDdPaVdkd2FYc3lhOWgzS0MwcFdJNlFRNEdWS2dXdUk1SVd5YjZycVJpRDBWU3FWWkVVakJNUjRvbC12T0lEVExiZGlkQ0tFRjRtN2NMRnRJRHZwdGlaMDg?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "db8b8164db9489e5",
-   "title": "Business: Middle East still Uganda’s leading export destinat",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS20tTDg4ZUhDZ0hPS05MckFtMF9CVDg5WG81UXYxaGt2c3JwSXNZUHhXZWhDOFQyRjlULXZnTXlUUEM0RS0yVXBxU2N1aEowRkhUR3lmT2RmdmJ4RlFJT0JLTjF0QlVYYXNiQmVqMm95RVh5dnNzWjZYWDJfYS1SdVFoeVYwSXhLamM1c0ZvM1l4Qk5XVHE5M0F4TkEtV2FDMGRDNURuYUV5SlFM?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "5aaa3587fbd907cb",
-   "title": "Ent. & Lifestyle: Daka takes Uganda’s beauty to Miss Univers",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ2xLcGh2NUUyX0NOcXhoRW56X1BaYXBDM090ZEh5eFB3aEE1RUZCUkxrdVp6TDRvM09zbkpuS19iMk1TTWx4YndiMzhiVFBFRFhwZUpmMGQ4M29Bb0U4S1A5cDVfVEtLT1AzWWg1V3BGWGN5dFBwT0lpNloyYWRINzhseGdqdFd5WWxKTDJlb3k2OHFSQVYxd3hzNk9JUVlkWFUzYTRqT01uOVAyQ3EwRUw3RQ?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "212ea85ecdc7bd05",
-   "title": "Sports: Who rewards the coaches behind Uganda's champions?",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0h2cXpnQTNVbGtsM3VDSVNjQWhjelVoSTVsR1A0N2ZOMTdOa3VmUEV4MGlRbkxMaVNaOFN1dnZLUXRBZG9CU1FmSVNJVGJiOHhTVDRoV1NxWFNlOG93MWR0T1FBQndvb3lsRGVHNFA4Y0FoWFhoQXp5SGp6eW4zRWhsZmZtMFduSUtXLWY5LU1NQXloN3Vpc0xkbUE4QWlYWDZqSm4tMWE2QQ?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Health"
-  },
-  {
-   "id": "dd517cdabb24e912",
-   "title": "Business: Ugandan SMEs to benefit from Afreximbank sh124b cr",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS09fOXdSbGhpTnYwbXpmVWVlMmpTaWxFc3kzUHlJLUo3aHNQTzNLcjFrdW5hOTMwd2R5cjNDYmlNSVgyU0szSktaSlV1YlJ4Y0EwRmVpbnpHSEh5NXlWdU5qYk9DeUFVWjAzZUNlQV9JQWtxX3NCTFJFMGNGSjJjLUNseUVLRG5fY01DN1lXTVpZbm1KeVRHcDJKaW1JTk9XSV9US2UzemV4bkdq?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Business"
-  },
-  {
-   "id": "50bf6992cdda0c78",
-   "title": "World: African youth urged to shape continent's future at Ki",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGpQMUNmS2piTnNMdWdCeVJNXzl0Sm14Y21zSjI3UGVURTdvY0g5YzlyWlZMRWNVTUZRQkRldW9WUTY4VHpxa1hmZC1pVWd2Q3RrdXRwNV9aZWh6b19fbFNiUHU1b0tEVXl2UGN5LTNsRXQ0NVZ4eWZEVGdUZmlRazRYNTdOMXViNHRISm9paGlRQ2dhY052VFhVUmk4bE9Cdjl4TmR1V0s?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "76a8d589d499be1a",
-   "title": "Sports: Nanziri vows to floor Vunjabei in WBA Africa Super B",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeVJIWXUySzZueTJVV0F2cnRldTM0R241cjBOSGgyUXQyaGY5Zk0zTTdqUEpmakl5cThLY0ZPWEF5dzVqem0ycmRybU9GNnRfTlJzbHdmb1k2eVFiOHBtamZwNlFEQ0cwd1RoUjNDQjRkQWtldTVETVVmQWxKcEczV0NUV0p0ZGcyY2dDZk1tZkd3RXJkT2d3ckhkaDhkQzJFcjhmdzZoZWM?oc=5",
-   "published": "2026-11-26T11:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
    "id": "753e95ece1caac2c",
    "title": "One of Africa’s richest oil countries says that it has more than 60 billion barrels of undiscovered oil and 420 billion barrels trapped",
    "source": "Business Insider Africa",
@@ -3577,28 +4424,6 @@
    "category": "General"
   },
   {
-   "id": "d29ec7670042c789",
-   "title": "Museveni lauds Dr Musoba for strengthening Uganda's he",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3haTFYyd1JEQ283LVdqUnN3a0o3T3N1enY3NE96eDJZdVVoYndDdl9mMHhMTkZaenZDWVVkVm1tdUFHcHh4c2hRY01QWkdZd3RLTmZmZ1lfSUdUVE1pLTFud3VQWnVtNmZ1WGprMGFKZU9qamwtTXdWX0w5bUU0NTRKZDJKbFVQOVJBYlVUMkhwaXY2YkFNRVE3SXJRdThvYTduT195VQ?oc=5",
-   "published": "2026-11-26T10:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "9221728e6c2912f5",
-   "title": "Business: Uganda shilling continues to weaken on Thursday",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOalJPZmVsVndXUWRwNllRQXhwLWhfN1RITDVOTGFacC12bE8ya2YwZ0dRSmJad1V6X2t0bGRMTDU5UlFwUDBFZXpOS2ZsQW90WEFtSzl3YkdUeFZOc3FVYmJxcm4tbkNwcGtwRWI2dTAtX1c2ZHpqV1JGdkFuRllvVS1pSE1vVjlRWHlTTXRYZVFBWU5NZGhfX0tGdDZxd2IxX0ZYVTB5YWlOaGRh?oc=5",
-   "published": "2026-11-26T10:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Business"
-  },
-  {
    "id": "4df53284b6adf5a2",
    "title": "How a Screen-Free Retreat in South Africa’s Cederberg Rewired My Nervous System",
    "source": "Condé Nast Traveler",
@@ -3608,17 +4433,6 @@
    "image": null,
    "region": "Africa",
    "category": "Tourism"
-  },
-  {
-   "id": "031cd672c600283d",
-   "title": "Joshua Baraka becomes first African artist to feature on Johnnie Walker bottle",
-   "source": "Pulse Uganda",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNDhvc0l2M3ljY2p2RGVTVHRfZVFyYTNKVTVSeDMycF82VTFWZjRGQ1pOTnh3QjQtZlNnTDZ3WWpEczhlZ3YwMHdhNXFIYUFSM3czZ1UydVlxcTF0M0k4ektUVUxJbEdKdy1XRXJ3TFBzMVR0TXVPS0xRZU5LOWpXYnhzT3BpOE54ZzVJNVJXZVBWNUYxNy1VbGwzaUktbkRTd2QwV2NGVHgyc1JzNld1UE1wWVltY0lVR3Ficzhwcm42cnc?oc=5",
-   "published": "2026-11-26T09:57:29+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
   },
   {
    "id": "38a4124a6221c967",
@@ -3918,17 +4732,6 @@
    "category": "Tech"
   },
   {
-   "id": "ac7c5f117477d66f",
-   "title": "Mimi Kampala – Malidadi ft Pallaso",
-   "source": "TrendyHipHop",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YMy1oRkt3UVZlQlp6RHc3dG91T0RDSUl2eFBjeGZfTXZneW5hUzJTdlFRMUFoWHBaMFFrSHJGZWxkNUxNVzkxT0ptOU9kNk5zSk9oTXUzbmg2QmV2TU1XV3lzOTZuR3hrYmxON1hBb0ZsaXE4QnJKUw?oc=5",
-   "published": "2026-11-26T09:00:00+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
    "id": "196963501aa28021",
    "title": "Govt to compensate landowners in refugee-hosting areas",
    "source": "Daily Monitor",
@@ -4081,17 +4884,6 @@
    "image": null,
    "region": "World",
    "category": "General"
-  },
-  {
-   "id": "0d39ba9ff6cced46",
-   "title": "Two screenings of Pakistani TV show cancelled in India after backlash",
-   "source": "BBC World",
-   "url": "https://www.bbc.co.uk/news/articles/cky97x7delz9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-26T08:30:12+00:00",
-   "snippet": "The show, Dar-e-Nijaat, has become a sensation in India but is now embroiled in a political row.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5ab/live/48278a90-e95c-11f1-b8ee-3d27ee38d605.jpg",
-   "region": "World",
-   "category": "Business"
   },
   {
    "id": "ed2d99b7525c56d9",
@@ -4314,17 +5106,6 @@
    "category": "General"
   },
   {
-   "id": "2d9509abd7ee0a20",
-   "title": "Economic Commission for Africa",
-   "source": "Economic Commission for Africa (ECA)",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVdlX2RHQWVZQzdFYUhXVFQ1bVJZRmZldU1ScXJHT2ZGZ1liQ1ZmODdDTDF0SHFfcDMxVm1tTmpvMTcwU0YydFNmY0tNOGVQSHF1OERQeVlYTjdkTk54ZWdOTmRYc19XNEh3bGNaTEdyUHQydWRLSXNmb1QxVWtodXNKcm1OU0tpc3VZY3hFNGVIcThfRHcwOTdORG9GMllv?oc=5",
-   "published": "2026-11-26T07:31:08+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
    "id": "05bc771bf99364d6",
    "title": "Six key takeaways from the Africa Facts Summit 2026 | D+C - Development + Cooperation",
    "source": "dandc.eu",
@@ -4468,6 +5249,17 @@
    "category": "General"
   },
   {
+   "id": "0d99ccf2b89ae372",
+   "title": "Why East Africa must rethink food production ahead of its 2050 population boom",
+   "source": "The Standard",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRFZLVUwtdi00WTJoODluWVZqdnFVRUV4Wnp6RE1jeHE4eV9pX0tadHNkZDlHdjNNTUVYMWljVGI5UlVwRTZMVTd1V29xYloyV2VaZnV0ODZNNFRoeUJfMWtKSXVseXJhcWdvS3d0by04QTY2b3dvejhlUFVjclJqR01BUzdkOV9KVURteDR3Znc4OUdnajJOdVdDY2tUd001R1AwRGdpSXF6WnZoRFlIQVE5ejIxMmZDaS0ta2xyZGRLQQ?oc=5",
+   "published": "2026-11-26T06:45:52+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "East Africa",
+   "category": "General"
+  },
+  {
    "id": "fd5b64c6a6cce429",
    "title": "Fighting fraud requires more than acquiring stronger security systems",
    "source": "Daily Monitor",
@@ -4534,6 +5326,17 @@
    "category": "Business"
   },
   {
+   "id": "bf8270edc88ba1e5",
+   "title": "5 Grants to Research for Clean Cooking Projects in East Africa - fundsforNGOs",
+   "source": "Grants and Resources for Sustainability",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNm9lY2U2OGpvNk9SS1F0R3Z6TncxSGhIcWFyNXhwY1dQdVFwS0R6T25rTmc1QmRrM1kyM2JSbGg4SmxDTzYyNXJ4X2dya1ZEWTZ4ZVZPV1Jmc3NMMWVNdnhEZEhROGtXaFhWbFJmRTNZM09nSVdjQVdfUUtqdkhUcWdxejVzeTIwRUF0M2xsWU9UVHE4aXFxRnNzMG9kc2FPZmk4ajVaVzJoNUNBX0QzRWUxaDl4aWVfc0MtZ2JlMEZJRHloenc1SFln0gHPAUFVX3lxTE1WUnFZR3dsRDdoenNXM3ltVzBaVC1rS19oMTlHWklEZTRnR2J4c3dhb3pzS0tQWmk0V2RyTktkNjRsaGFKZW1aVldwU3E0cHpYUjFTeXg5Nmdhb2xIMHRyM1FYNElOaElLLXJLN3dDclVidHMxTGtNVUlwWkNPN1NCdERpVGE0YzZIWVFVTGhoQjdncWlNNE8wcGpPYlJnSnpzRVBhUk5RMEpLU0Y2M2tYQ0pvTTZmXzgtUVp5N3NETHI3aE8zRzBOX08zczRJSQ?oc=5",
+   "published": "2026-11-26T06:27:18+00:00",
+   "snippet": "5 Grants to Research for Clean Cooking Projects in East Africa fundsforNGOs",
+   "image": null,
+   "region": "East Africa",
+   "category": "General"
+  },
+  {
    "id": "5a24eb53f3babb40",
    "title": "Nigeria: Nigeria's Upcoming Election Marred by Rising AI Disinformation",
    "source": "AllAfrica",
@@ -4543,17 +5346,6 @@
    "image": null,
    "region": "Africa",
    "category": "Politics"
-  },
-  {
-   "id": "bf8270edc88ba1e5",
-   "title": "5 Grants to Research for Clean Cooking Projects in East Africa - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNm9lY2U2OGpvNk9SS1F0R3Z6TncxSGhIcWFyNXhwY1dQdVFwS0R6T25rTmc1QmRrM1kyM2JSbGg4SmxDTzYyNXJ4X2dya1ZEWTZ4ZVZPV1Jmc3NMMWVNdnhEZEhROGtXaFhWbFJmRTNZM09nSVdjQVdfUUtqdkhUcWdxejVzeTIwRUF0M2xsWU9UVHE4aXFxRnNzMG9kc2FPZmk4ajVaVzJoNUNBX0QzRWUxaDl4aWVfc0MtZ2JlMEZJRHloenc1SFln0gHPAUFVX3lxTE1WUnFZR3dsRDdoenNXM3ltVzBaVC1rS19oMTlHWklEZTRnR2J4c3dhb3pzS0tQWmk0V2RyTktkNjRsaGFKZW1aVldwU3E0cHpYUjFTeXg5Nmdhb2xIMHRyM1FYNElOaElLLXJLN3dDclVidHMxTGtNVUlwWkNPN1NCdERpVGE0YzZIWVFVTGhoQjdncWlNNE8wcGpPYlJnSnpzRVBhUk5RMEpLU0Y2M2tYQ0pvTTZmXzgtUVp5N3NETHI3aE8zRzBOX08zczRJSQ?oc=5",
-   "published": "2026-11-26T06:24:56+00:00",
-   "snippet": "5 Grants to Research for Clean Cooking Projects in East Africa fundsforNGOs",
-   "image": null,
-   "region": "East Africa",
-   "category": "General"
   },
   {
    "id": "a175801c7db50d8c",
@@ -5359,6 +6151,17 @@
    "category": "General"
   },
   {
+   "id": "46cb1022f3631d8d",
+   "title": "Africa: African Development Bank and EBRD Step Up Partnership to Finance African SMEs",
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/stories/202611260003.html",
+   "published": "2026-11-26T02:01:31+00:00",
+   "snippet": "[African Development Bank (AfDB)] The African Development Bank Group and the European Bank for Reconstruction and Development (EBRD) have committed to working more closely together to widen access to finance and business support for small…",
+   "image": null,
+   "region": "Africa",
+   "category": "Business"
+  },
+  {
    "id": "b36f515e06aba691",
    "title": "Africa: COP31 - New African Development Bank Report Calls for Climate Finance That Promotes Peace",
    "source": "AllAfrica",
@@ -5559,12 +6362,12 @@
   {
    "id": "91283dc1bac6cdf4",
    "title": "Has global jihadism failed, or is it simply changing shape?",
-   "source": "BBC World",
+   "source": "BBC Africa",
    "url": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-26T00:22:18+00:00",
    "snippet": "Jihadist groups appear to be focusing on local issues rather than global terror. Does it signify a real change?",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae31/live/2d66b8d0-e8d9-11f1-99a1-253766e7ad8b.jpg",
-   "region": "World",
+   "region": "Africa",
    "category": "General"
   },
   {
@@ -6537,11 +7340,11 @@
   },
   {
    "id": "be7f441ac5c98600",
-   "title": "6 African Family Foundations and What Their Past Grants Reveal - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
+   "title": "6 African Family Foundations and What Their Past Grants Reveal",
+   "source": "fundsforNGOs",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHZ2ajlWS25aQmhxVEdMYWxMMTh5eEZxaEFlWnVmTGxJLVVEemNBNGxtVlNwS2NySDgwaGMyZ3ViQmdGaUhDZjRHdjBUTmt5WDhTOWRSVGRVUWJtRUtNaUJvOUlTdktyNDdwRVJINGxaSHpQeFQxdWc2SzFFUjdjcjA1WkNVYkMwcElfaVVWZmwzZWg2ZEcybG9rYUxudzlaNGhWeFNSdmI2M3djSlZQS29JSzd6WFh2LXV0YU0wUFk3VTVNd2RsRkh30gHPAUFVX3lxTE5lMzcwdkRNc19nYnFZZ3JUbjlLQmNmM25ybjBUcDcxUWxGNFZtQTN4Q2N4ZmxsdWZlamQwcGJyU19MUVdmc0JCbU14cXJ3SWcwSkx3LVFJNmw2a1ZlejRrb1hSaUtQZktDbk5vTDhuTWRxRlFtU0s0ZlZnczNlTm92dV9ZX1lLeW1WbVNXZ3o4bjNNZXRJcElsWDhibVdwc1hMbVFVc1RkSnZ3dHJleEdDalliYWQyVThhNVhZVThTNm1XVEx3aEI0TE1nNW9SMA?oc=5",
    "published": "2026-11-25T18:10:57+00:00",
-   "snippet": "6 African Family Foundations and What Their Past Grants Reveal fundsforNGOs",
+   "snippet": "",
    "image": null,
    "region": "Africa",
    "category": "General"
@@ -7141,6 +7944,17 @@
    "category": "Business"
   },
   {
+   "id": "9762e279099540e0",
+   "title": "Bpifrance invests in First Circle Africa Fund I",
+   "source": "Africa Private Equity News",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTXQ4dXYtdzZhRVNIVmpPRzBxTWdiRjZneGRqazlJR3VUdkdVRGRBNExfTG5wdFVKWnU5amk4LUZSV1NRUjlmMVZfazA5dTdqQTNwZU5INHlJcVNyY0U1MGhTTXVhMTlETFRqUUZLaU5JQ3p2c09YTXpwU1hwYUQtTQ?oc=5",
+   "published": "2026-11-25T16:23:49+00:00",
+   "snippet": "",
+   "image": null,
+   "region": "Africa",
+   "category": "General"
+  },
+  {
    "id": "569d2c872b4a9755",
    "title": "Greatest catch ever? Man on motorbike takes incredible grab",
    "source": "BBC World",
@@ -7277,28 +8091,6 @@
    "title": "Uganda Govt reports shortage of anti-snake venom suppl",
    "source": "NewVision.co.ug",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFpIZGVxaXRuLXdDdlcxa2p4MHRDOVlSdm5CM1RWY3NBOGQ3RnBQRHpZM2hBRkk1T0lOS2Z4MEJtdG04Q1BjQlMzZHJLNC1ITXJJMDVGRXNOZWxQV3FrRy1PdlZ5UGdLU3ViM2pZZmpVLU9VekIyUHVOUVFPeFVpVThWSW5wcUpBbks1V0FncG91NDZ6aERFTW8xUk5zNlVrRkE2cWJRUQ?oc=5",
-   "published": "2026-11-25T16:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "1d7e2e13196309eb",
-   "title": "Business: Why education is key for Uganda’s industrial ambit",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOUQyREd0eEx1UGQ1cGFQWXl1Q09rQU11czlDWk0tLXVDWmdVTU1vdk5acEhORHZJaE5jeW94dk81WUstZ1BzbzFsV3pjdmp0YU1XdzNKeENpWDJGOWFUbkFPTEZ1c3ByYmJydWJEeDVTVVlIUzlBZ1U0RGtlQ3pKVmN1dGtEWTA0Z3hYdUhJZHhkYmY0TlludDdobUd1LVZVUHU0RWpDNVpDdzNf?oc=5",
-   "published": "2026-11-25T16:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "a89a6b52d16c89b8",
-   "title": "Ent. & Lifestyle: Ugandan film directors target Ethiopian ma",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkpJYTBCQVlxMDRaREFWUG9BMzRWOGtFeGNfV1BIS1cwNFM1MC1xM2VoTWtCcEpmX3pEOVp2cHJackpQSHdjbGNwUm9UZ015TUcxVHdIVDFsRXc5ZU1hdmo1UWx4b2dVXzM2NUtKaHVQbjN5TjI2Y05IdWtWN1dfaWttR0U4MklmTjRIUkRRYjc1MGtJbzZoelJ6YmhHd3dzTGtvSU9KVTEyb25vdlFXQlN2WQ?oc=5",
    "published": "2026-11-25T16:00:05+00:00",
    "snippet": "",
    "image": null,
@@ -7623,17 +8415,6 @@
    "image": null,
    "region": "Uganda",
    "category": "Politics"
-  },
-  {
-   "id": "713012e31be8283e",
-   "title": "Health: Uganda joins EAC states in fight against maternal, c",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZk92TmhucU5yV2ZOTllnMEFheGlGYzczb292UFdqdEFkSDU0WUEyeGd3YV9wQmg5Z3h6N0ZfclpFZ2lZQ0NFM3MtU0FJazhQcGoxckdIekQ2WHgyRHlndFA5eElmZGk2MlJNYldzYXlHTWhPbDAyNjR1d0hiUUlvTTRVUlBYWEFnSmtwVFYtYnQwYzNybnZDX0VFMllfNDhSRzRLQUEwY1d6dw?oc=5",
-   "published": "2026-11-25T15:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Health"
   },
   {
    "id": "5bb25e828d891360",
@@ -8019,787 +8800,6 @@
    "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/01698130-e808-11f1-95bb-3f37d3e026b0.jpg.webp",
    "region": "East Africa",
    "category": "Politics"
-  },
-  {
-   "id": "08736373a1c561ed",
-   "title": "Africa: Push for Safer Surgery to Reduce Maternal Deaths",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250477.html",
-   "published": "2026-11-25T13:48:13+00:00",
-   "snippet": "[allAfrica] Nigeria faces one of the world's highest maternal mortality rates.",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "f08e0c63b5e6c397",
-   "title": "Musasizi Cautions Workers Against Eroding Their Retirement Savings",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390542/musasizi-cautions-workers-against-eroding-their-retirement-savings",
-   "published": "2026-11-25T13:48:08+00:00",
-   "snippet": "Finance Minister Henry Musasizi has urged workers to resist excessive early withdrawals from pension schemes, warning that the practice could undermine retirement security even as calls for greater access to savings grow.",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-3.54.08-PM.jpeg",
-   "region": "Uganda",
-   "category": "Politics"
-  },
-  {
-   "id": "0f10c63e637905d3",
-   "title": "Tanzanian billionaire Abubakar Bakhresa enters milling hall of fame after 34-fold capacity growth",
-   "source": "Billionaires.Africa",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM3lpLXN4TXRHa0c1bVRhNENHeTZSdEt4SEZCUEk1VjlOWlpOdGFrYkJmeXJDTmhKLUFaTndKdlVGeDhaTUFTb2hHV1FSSFgxWGgwWjM2RzBzQmhHbVZTenhGWXllOWdpakNsZ2xOWXdXeUxuMTg4WnA1dU9nYlVMUzRXQ3RtTENISDlaaXRxUHJZUDE3RUFjZXFSZWF5Qlk1dWd5OXI2RGU3dkJaR1VQQlAxeVk0N2J6UUVEUkxvZ3ppWWEydjJXQzFVSnN3R2g4ek82YW9TS0k?oc=5",
-   "published": "2026-11-25T13:46:09+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "East Africa",
-   "category": "General"
-  },
-  {
-   "id": "132e93c5a8c552e8",
-   "title": "Bunyoro, Lango Lead Uganda in Teenage Motherhood",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390539/bunyoro-lango-lead-uganda-in-teenage-motherhood",
-   "published": "2026-11-25T13:45:19+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-3.56.48-PM.jpeg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "94118e0423654d79",
-   "title": "What Can a New Ugandan NGO Show a Donor Before Its First Audit? - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcHB5ckU0U250b2NaWjdNSmVtZ2drXzk5UFM0Y1R0M0gwUmd3R1pKMzQ2NEpMN0xaeEpuMUMtQUwtWjVHYmlnTFIzUXBDX3pmZTBuT0lTMlRsa1NOQUlZdWQxZjRsZnlnQU5sQVdMbDFOeVZoX1ZUcUg2RnhKc1lmeV9jMmpqWkJzS2l3LTJ4Vlo5ZWVOOTJkUEJoSlpnRi1RWWZ1bUFGU0l1NXh1THl6VkdFN0I0bEQ2VUp2RDBYTmtSdWR5YUdReWh30gHPAUFVX3lxTE40ZG4wNW1oODlTb2ZGZDJORHo1ZEZCeENhNTZTa2NRbnZQQm11LV92dVhRdW50ZU0zZ2FPQ3cxTWJCbEpYcWQ1SGxNVmpPNFdqa1BXSGtTX0p1WE9jTTVuRkhVQjMzbkcwVnVzUEtWMVVwZFJhOGtXWFJ6LUhNU1RwY2tOcjJ3MHBXVXlEdVAwMDJzUkJ2YkdZbERaVERDQjk3ODUzTnJxOHFPamItbXJRVGVxZDR5TzJ5LWJJcER1c2luTFE4VC1QRzNTbjlLWQ?oc=5",
-   "published": "2026-11-25T13:44:49+00:00",
-   "snippet": "What Can a New Ugandan NGO Show a Donor Before Its First Audit? fundsforNGOs",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "4bc05f7a7677abb4",
-   "title": "Apis acquires stake in African logistics fintech Korridor",
-   "source": "Africa Business Communities",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRTcwQ0VSWWRlRFp2cEZzRWRDcTh2eFRZSDVUdjlNa1FoUmdJM0hNeVVBSUdCTmZqZkJqZktNVk5CallCdE1xRU9ld3lJemFJY2lxeXR0QkF1SmhtMUJRaHR1LUtfSFNOeXMyYUxkd25KNVJYYkt1bko5TzZCa0dTRmdBM0hYUVVwazA4b0FDdU81M1VGcmJPUncxcmRtbnRNTy01eklydw?oc=5",
-   "published": "2026-11-25T13:41:30+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Tech"
-  },
-  {
-   "id": "bc08fa3c2ea37ea1",
-   "title": "Why investors are cautious on Somalia",
-   "source": "The EastAfrican",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU3hpaU5iYVBXenVmQVRFZFVsYmtyVEpVcUdpT1ZWTmhoQWxQd2h4TWlzZ05MbzZyTDNyU0xKaWhkZGs4aUhWLUJZSkJnbVB0OElkNS1vcnFCLVV4VFV5NFFYZW45blE3bDk3MlhVUlRGcW1jdWhLUllTV1NCYjc3UEV3d2JtdncyekFOYTBqTnZncC1KSV8yWnBtLVM1cHlO?oc=5",
-   "published": "2026-11-25T13:37:55+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "East Africa",
-   "category": "General"
-  },
-  {
-   "id": "d185294eb8220486",
-   "title": "Botswana and Uganda host new fintech partnerships",
-   "source": "Developing Telecoms",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMTFlTzhmTllGZ01ScFdVM1U0RjM3NENRbkdwOFkxZDNTazEzMEpBejluVE5wVnhubWZJMktlLUxqZW9KdmNWRjU4eE5DVmo2QjFlQUNoS3FqNTRWbWRDOTlTdDVEeWtVbHFDWlUyVG1Kc3pwaXdQRkpITHJURm1ud3JtNjRhQVp5eHNKMGl5TGJwRVZvZERpTDlKSWdSUXlsa25HTnBwalFZcml6NFp6WENtbmhadDBRMUVYM2pZNzZSWEpLY01tWENsWUNQdw?oc=5",
-   "published": "2026-11-25T13:35:36+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Tech"
-  },
-  {
-   "id": "b7c409bed87fc270",
-   "title": "South African president wins court battle over impeachment threat linked to 'Farmgate' scandal",
-   "source": "Anadolu Ajansı",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUERDdk1Xc25EQmxyYjZEMURxNWtTMlRUektYUlBPdmVwOF9BSUVlbkI3alhZd1hxSnVwTHJwY1VOWkZMbUgyY0VONDlKVlhjeGdVeFdTSnBMWVg1bThaUEU0RDQ0X3FkaG9PWDRNSmRqNi1JX1Q0V09pZjFMVjJ6bFZVX2luQ0hvajZBUmZkdTBzcXVSQ1RfaXhCbi0yZHh6YW1fcFp3NHEtYThId0ExbWVqZ0h3QlBib1RXZ3BDZTNkT0RUVklJZ1BxTHc?oc=5",
-   "published": "2026-11-25T13:28:19+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "East Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "4a9bccaa784b9fc9",
-   "title": "Uganda 6-0 New Caledonia (Nov 25, 2026) Final Score",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQZ2owTVN5ZDZlcW93eEJMZ0tpOF83cVh0a3VwVlVZYThHaXpwOGl6c0h3MXlabzBPaXV1NW84WFVacVo3WFc5YVQxeXFuWHVBMWl2TEQ2WHM1WE1yeFZJb1Z3?oc=5",
-   "published": "2026-11-25T13:26:54+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "47299bd456d4c490",
-   "title": "Police forensic analyst details gadgets submitted in Besigye treason probe",
-   "source": "Daily Monitor",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS0p2TGZLRmlzVWhzU1RmUlE4eUk0UHZOTlo3SndvZEZ6TzRGcnhjOVF4bWc3RTVVc2Y0ZXVjR0dndlFpUHZUR0RXd1lvaDJ3cDRtcEZtNFNPODFRQXZEUDd0SlEzZGtkbHY4XzU0bkJ2UzctV3M2TWdOQm5UN3lqbWhxeXVMVWtseGpncnFZaUhLRTYwdkdJb3VoSFk4Y0RJcXlKYWZMWnptSl9yNHo4czM4bTB3QmN4OXRLZHB0MzJpbEZ4SVZWXw?oc=5",
-   "published": "2026-11-25T13:26:31+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "16265523d6c26be7",
-   "title": "South Africa baobab trees replanted after smuggling attempt",
-   "source": "Semafor",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObjYwZC1qb0pLYzktYUVJNi1jSUR1N0R3ZWlpX3NiUWhuamhfck11MWpLdF8xWktzcjRuQU9RU2hONGxwNGpqSDVSVHg1Ukk1ZGs5TW4zVV9aZXRDTC1faVNoZHpwenh0SjU0UVBhY0pMcU1Mc2RKbEN1VjVVTGZSNy1Ca0hFaU5IUEJkU0hfZ2ZEMTd2M3VtdG10VzgybXA1T0NIZmxyeGRrSWVtWXVLMUNvNFBSd2JScDFyQlE5UlRGUy1mX1dGNzVPMEx6Zmt0?oc=5",
-   "published": "2026-11-25T13:26:00+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "c11add6c9a223498",
-   "title": "“I am not dying” South Africa’s 84-year-old former president Jacob Zuma asserts political relevance as Ramaphosa’s ANC support falls to historic low of 31%",
-   "source": "Business Insider Africa",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa0dqM3BjZ212SjdmcElTSjdJNkxhYk5OZmxwMnhvYk4tcWtJNkRldTR1c29xV05udS1DV091Sm1FNVVXTkZKUUQ3amxHRnh2V3loT2JydHdwNXRNcE1UcFBsTE9MYms4M3ZxaldBVXlCZ21UeDkwS3JKNDhnVjRycXFZQ01mNm1ick93dTNiakxuQjRYN2hjNkQwN0ROUEExeVNjUVFmLTUySk1fVmg4bTNqZmtQOTl4a2ttNDJidnNBdWFsaFE?oc=5",
-   "published": "2026-11-25T13:20:16+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "b022e3ff4147a321",
-   "title": "China pushes back against US plans for new tariffs",
-   "source": "Africanews",
-   "url": "http://www.africanews.com/2026/11/25/china-pushes-back-against-us-plans-for-new-tariffs/",
-   "published": "2026-11-25T13:15:22+00:00",
-   "snippet": "Beijing pushed back on Wednesday against US plans to raise tariffs on China, the European Union, and other countries.",
-   "image": "http://images.euronews.com/articles/stories/10/00/78/73/640x360_cmsv2_dc2df99f-97b3-59e8-a488-64bda00daf0f-10007873.jpg?1795607548",
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "19403733c5311a39",
-   "title": "CIO100 Symposium & Awards Opens In Diani",
-   "source": "CIO Africa",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWG1fNEFpYVVzYV9OUDdzMlhhdmNIYXB3aS13ZjVITE9RLVA1cjJJRm55V1NmMG01bXdYOTMtUnRQWWN3SEtYcnVCUFU4NXlZX3NHR1NDbW5EM3EyS3N0T1hIODgwT2lLR0tIVG8zRkxoQjFySUVtZmU3RkMzVlM3UldGSERxam1wODZhSE5mQmQtNXZNRWYzT18zR2dKazZoUlNzN1ZkcUt1Y0VDNlZrQw?oc=5",
-   "published": "2026-11-25T13:11:59+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "9e63108955be8680",
-   "title": "Kenya: What Does It Mean to Be 'On SHA'? a Guide to Kenya's New Health System",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250416.html",
-   "published": "2026-11-25T13:09:57+00:00",
-   "snippet": "[Africa Check] Millions more Kenyans are now protected from the cost of falling ill, Kenyan president William Ruto said in his 2026 state of the nation address.",
-   "image": null,
-   "region": "East Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "d25055d32d636a48",
-   "title": "Nigeria: Fabricated Newspaper Front Page Falsely Claims Nigerian President Bola Tinubu Promised Petrol At N200 Per Litre If Re-Elected",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250414.html",
-   "published": "2026-11-25T13:09:56+00:00",
-   "snippet": "[Africa Check] Fabricated newspaper front page falsely claims Nigerian president Bola Tinubu promised petrol at N200 per litre if re-elected",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "3bb8e6afda5ee068",
-   "title": "5 Donors to Approach for Girls’ Education and School Retention Projects in Uganda - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmJyTGVGOEdKRURxSDkxYXZYdDRDb24yTkUtVDZJZXNaT29UakR6bmlMWWxKZ2l6T0pPY01qOF9WTzBtdmdxTE9la3pHYUhOXzhtNExQX2EwV2pQU0lHaWowTW1aN1JqNHQtNjQ1U0Q3RE5icEFZZWlnZ1ptYWk1ckNLTFU4RDR2S240X1F5QXZQQU1XTHpyUjFYZFo2QW9vdWRVSEJ5R091V1JxaG5qa2lXMEVEZ9IBuwFBVV95cUxPYlNwa2t2NU5rSTZucEU3cUh0OGhLSlpDc083Nzc2OHh6Vlp1a0dVdF9LYjZwLThuUTVUa2EtOHQ5SGVEeGRpcW9XazlmQkRSa3YyT0NJZVJfVzZpLWQ0SzhJTlc2ejEzX2d3Sm5WTTJrSDkydmhOTmVDelpKMXF2REdsY0FRRjdCbG8tOXN6NUt3X09OVGU4d2NVeVc0Y2UyQklzVDhNeG5wMmE5TFJlMXd6bHN5QmR0bi1j?oc=5",
-   "published": "2026-11-25T13:07:28+00:00",
-   "snippet": "5 Donors to Approach for Girls’ Education and School Retention Projects in Uganda fundsforNGOs",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "ce2709f06acb3be6",
-   "title": "Mulder takes seven as South Africa sweep aside Bangladesh",
-   "source": "AFP.com",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM3ppd216b195VElYSkZIVXZwUzFSbzVyV1JuMnhISDBmYWROanVVSlY1YjNURlZ3ZWp3R29IQ3ZJRVlDZGIxT0lVQm1ydkdrR0l0cUxjZlJwVkx3alJ0Y09NVVJNSkFNbVdBNFgtMldxU1Z6dzNwUHRNa0VpcTljd3VHQQ?oc=5",
-   "published": "2026-11-25T13:03:41+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "ebf1804b54d8bf45",
-   "title": "Witonze challenges Africa to invest in crime preventio",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRnVMamxDakFFRmw2U040SWRZajZZWFdCSk5NT0lUb1lEMHRsNExHNlBWeko1VHFEUTB4TG9mcmU4THlLNnhMUGdaaG5EblgwMHI2NVhGd0xfeTdad2owd2xFYmhmTm8zOWZrQktfY3hJM0Z3OXNQWGtQQmY0Ny1zZlp4VGtpbHkyRTY1VzRfMm5fTlloNTgyem4xamZsQWlFN0s5MmRB?oc=5",
-   "published": "2026-11-25T13:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "134f94e08eacdc7a",
-   "title": "World: US targets Africa's critical minerals to counter riva",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSS1ZRVpFMzB4WXhrbmZEYXhYRzA3Z01IZS1GSm9pVVY0ZldUOGFpWklraEJFMGdLd09HQkNKWEU0ZGZfTG04OHdvV3VYaXExbnotLVNBNDJCS0RBeUU3U2hpN1dHM2s3ZFNIMkhKbG9fNXFBNzIwNkVjbFk3M0pHWWxScmE3bTBDVHVVbFdZaXBWN0xNNUpIejgyNFJvaURRbHE3ZlBhUGo?oc=5",
-   "published": "2026-11-25T13:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "787641db3ea5a53f",
-   "title": "Business: Uganda's forestry businesses struggle to secure fi",
-   "source": "NewVision.co.ug",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRDk2a3YtT19pZFZlVmc3eFhTaTR0U2tZUnRJTG16eUN1aE1wVVo0Q0ZuenBzaGsxeDhqR3JYSDg2ekpFU3N2LWFMdmluMW1SLXphWktwc2Z0eUg3a3VvZjRVR3RZcHFGZEZlSjZRTTlfclhjRGhsS3NUWFRRc09pdFRheUlTOTIwR3pxWFNsS0czRllrczBXY1IxcVp3b3dJLWFuMkQxZTJrdngw?oc=5",
-   "published": "2026-11-25T13:00:05+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "8afa89f4ac0c2955",
-   "title": "AfricaNenda Foundation launches State of Inclusive Payments in Africa 2026",
-   "source": "Finextra Research",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSHFKbU5pZVMtSWpFZm4tSHlMTVVhWE04dHphMGdfZ2ZLNV9qbTdfblNyYXQwSXAyTVlUQzhzSnIybF9qU3FuQWRsS3BpQVhSVW0tY3FicGpxcWtqVUQ1Rjh0bjBTbDlFSWxIY0FsSUJBSXhFZFpkS0R0YlhfcU52X2t2dzYzWDVhdTdQTDJhbUpFT01hX2piSFJobE1RbFVhXzJkYUR0aWNPNk1sMWNZSjFKb25CeVZP?oc=5",
-   "published": "2026-11-25T13:00:00+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "07827681ff450fca",
-   "title": "Uganda Calls on African Countries to Join UN Crime Prevention Institute",
-   "source": "UG Diplomat",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0p5UzNqSWI0WGJsOVhDaHN0WTFmdUJQOTE3WDk1ZDlVejlNcVhEOWhQcUc5VUFucjVid2RvNnlUTzRkblR4MWVzY0pXYk5MYTJJeDVlbWo2VHpBSnktdzFGaWVDNVItc1d5V1FTMkNFM1Y5TDFFUlpCOU43c3UycU5TSmNBeWc4cFZ5R280WFZDMDdNcUowSHFTUQ?oc=5",
-   "published": "2026-11-25T12:57:49+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "b7d1f7bd8f4d40d7",
-   "title": "Musenero Insists Uganda Must Deliver First Oil in December 2026",
-   "source": "UG Diplomat",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVFB6dExfeXpMRlA1UzEyZ2hnNUhncFZ1X3g3SnlIZXpsamJnd1d4U2NSTVlSSG9JeThmV3U3dzNhNVB5MmNBLXVIdDk5dGF2MHg1UnR6N29iMDdIUDNsbWlJemxJSjJ4ZUxPZFhnSnRQUlBqM3JFV3AtdExNNUhfVkNWb1VGLTFvV2ZZZ0ZUVlo?oc=5",
-   "published": "2026-11-25T12:57:49+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Business"
-  },
-  {
-   "id": "21e379fcd633eb63",
-   "title": "Kirumira denies owning disputed land opposite URC headquarters",
-   "source": "Daily Monitor",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUHhMVXZMS2RuajFsNFZsMGFJVEtoYkxkaEE5WnpLTFFkdmJwQUM4VmdZX2steFBKY0kzeWtrNTN0R1dFcUk5TndrZTJsZy1IT3N5RlRYaERfSjVqWWtyU3c5RFZ6UmszcDh6cXlNbjNSSWVaTE5tN2JVN0pjeTNIMFFRQk05RUg4VUduUmV5ZDdrdE5rbDhQeERmU29SQ3ZBSFpiNHRqNTlYRXFwMFlSVWozQzZlVVRv?oc=5",
-   "published": "2026-11-25T12:47:22+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "447bd2e0f08ea64a",
-   "title": "MP Kanushu Demands 10% of GROW Grants Be Reserved for Women With Disabilities",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390530/mp-kanushu-demands-10-of-grow-grants-be-reserved-for-women-with-disabilities",
-   "published": "2026-11-25T12:46:43+00:00",
-   "snippet": "The Gender Committee chairperson says women with disabilities risk being excluded from government enterprise funding because of digital application barriers and stringent eligibility requirements, calling for a dedicated funding allocation.",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-2.11.18-PM.jpeg",
-   "region": "Uganda",
-   "category": "Politics"
-  },
-  {
-   "id": "4f0adb771fbf1a9d",
-   "title": "Nigeria: Babachir Accuses Atiku of Seeking Subsidy Return to Loot Public Funds, Slams Adc Takeover",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250399.html",
-   "published": "2026-11-25T12:46:34+00:00",
-   "snippet": "[Premium Times] Former Secretary to the Government of the Federation (SGF), Babachir Lawal, has launched a blistering attack on former Vice President Atiku Abubakar, accusing him of campaigning for the restoration of the fuel subsidy to…",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "92711b08be18e6bd",
-   "title": "How to Find Ugandan Corporate Foundations That Have Funded Projects Like Yours - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPREhIMl9QVUNjTzJXVEJrb0dwMHIwQ0F6dFZOVGJIcXoybko2YmdEa0RrVU44NjVaQTFSV1hfY3VPRFNTTDk5T1JlTURBVEdteHVRajI2bS1TNWxqZzZzSV9aWmJwejJMNTA3anZibjJQckdCYS1zRDFDS3F2R0dLbzR0dGpFRE53a2FpaUVhdkFQMnVKWFloelRJQm5RS3JKaWQ2OTRRcnFoakVsdGEzUnNTWE1VaE5qTWhLRTVmMGVIc2FwT2VjM0pMdjlKcFRqZUdiZ3pIRXlLaHRBRWw40gHkAUFVX3lxTE9rRV9mOS1yeDVkNmNfX2JvMmlNMV9zcVdwNEhuNEpCYkQ2Ny1IX0ZLaGx1WEswN0EzcDhfRWVVb1dxWm5pX2hOYmtIOTVFeExVd0I2QnNXMl9QTHRWeUszdXI1bldDRXdHbURyWUdXSGc4UGtTbzFXLUhUdzVpekxZalNmMnpaRVJXYnp0NEFLc2ZJZkZMN2JjNDJNV2hmQjk0NEtsdm5fS2VxYnVDYU9BRDVueC1zU09PUXlwSGtnVW9Kb3NHbGJ4UWxBeE92R0pUekRtdGNSZUtnYlV2M2xDNERJcg?oc=5",
-   "published": "2026-11-25T12:45:24+00:00",
-   "snippet": "How to Find Ugandan Corporate Foundations That Have Funded Projects Like Yours fundsforNGOs",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "74478bdd7091f45e",
-   "title": "Butiki League Takes Season 6 Finale to Jinja for a Weekend of Football, Music and Guinness",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/sports/390531/butiki-league-takes-season-6-finale-to-jinja-for-a-weekend-of-football-music-and-guinness",
-   "published": "2026-11-25T12:45:23+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/b2350a93-8919-4b8b-8736-3550179c341e.jpg",
-   "region": "Uganda",
-   "category": "Sports"
-  },
-  {
-   "id": "0b0b7bd056cfcf6f",
-   "title": "Kenya: IEBC Denies Clearing Gachagua for 2027 Presidential Race",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250395.html",
-   "published": "2026-11-25T12:44:48+00:00",
-   "snippet": "[Capital FM] Nairobi -- The Independent Electoral and Boundaries Commission (IEBC) has dismissed reports claiming it has cleared former Deputy President Rigathi Gachagua to contest the 2027 Presidential Election.",
-   "image": null,
-   "region": "East Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "b1c80ad1819477c6",
-   "title": "AU-SAFGRAD Organizes Knowledge Exchange and Experience Sharing Workshop on Scaling Sustainable Irrigation for Agrifoods Systems Transformation in Africa",
-   "source": "African Union",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaTBxeFdVTnhMZkNUUnlDRElIbEFfOE1qekdKb21YZmJ2MVFxeXd2bHBiOTBCMEhoVkNLSXhEdHFLZWJTQm8tbUNNaDJ2b29SbWVIOThtLWw0VGo5VjF2eHFRV2RnMENZV0xYZ3RKSnl3ZW5QV05KTzBydUxNWU8zR3dqSHJXNVZFZkRqNXZVTU9RcDZzZVpXblNTYy1SZVVSSi1ueURzb1FzeExmbWtrRGFB?oc=5",
-   "published": "2026-11-25T12:44:39+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "26c17d45a82904e3",
-   "title": "Ethiopia: Ethiopia, Pakistan Agree to Deepen Defence and Aviation Cooperation",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250391.html",
-   "published": "2026-11-25T12:42:58+00:00",
-   "snippet": "[ENA] Addis Ababa -- Ethiopia and Pakistan have agreed to strengthen bilateral cooperation in defence and aviation, opening further avenues for strategic partnership between the two countries.",
-   "image": null,
-   "region": "East Africa",
-   "category": "General"
-  },
-  {
-   "id": "42da21249535931d",
-   "title": "Housing Finance Bank Partners Next Media for Eighth Housing Baraza",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/business/390518/housing-finance-bank-partners-next-media-for-eighth-housing-baraza",
-   "published": "2026-11-25T12:40:02+00:00",
-   "snippet": "The November 26 forum will bring together policymakers, financiers and property developers to examine why decent housing remains beyond the reach of many Ugandans and explore practical pathways to affordable homeownership.",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-1.58.31-PM.jpeg",
-   "region": "Uganda",
-   "category": "Politics"
-  },
-  {
-   "id": "f898008f5cc950a6",
-   "title": "Parliament Faults Water Ministry Over Shs 2.7bn Debt Stalling Ibanda Water Project",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390521/parliament-faults-water-ministry-over-shs-27bn-debt-stalling-ibanda-water-project",
-   "published": "2026-11-25T12:39:21+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/a79e2fe7-1b88-42d0-bfd5-dd89adaa8d4d.jpg",
-   "region": "Uganda",
-   "category": "Politics"
-  },
-  {
-   "id": "5d0e08f16bbbd973",
-   "title": "View / Africa’s cashless revolution faces AI challenge",
-   "source": "Semafor",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUHlIZEF2Ny02Rzh2Y3pGeDNuSEh3Rlhsb3V2WUNPODZWeW1leVYzOXVfZHJhZ0NIeVpsT19KX2Z0U3prYmMzQnllU2NtSWFNMzB4bzRlYk9qUWIyUmlyaExZN28zOXVtVzJjMmhESEtWcmNKRE5mUVNzTHVlMWFnZXRvQkVhaGxuVzk2X1g5bkwxNVE?oc=5",
-   "published": "2026-11-25T12:38:00+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Tech"
-  },
-  {
-   "id": "758336568ce975e7",
-   "title": "NRM Pledges to Mobilise African Parties Against Sanctions on Cuba",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390516/nrm-pledges-to-mobilise-african-parties-against-sanctions-on-cuba",
-   "published": "2026-11-25T12:36:34+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/e1a68aba-2182-4edc-816f-74cc61a7209a.jpg",
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "2edf6bc7ccaea6bc",
-   "title": "Govt Demarcates Forest Boundaries Along River Nile to Curb Encroachment in Kayunga",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390511/govt-demarcates-forest-boundaries-along-river-nile-to-curb-encroachment-in-kayunga",
-   "published": "2026-11-25T12:33:25+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/f7155647-74b8-4063-ae09-99eced78e54b.jpg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "92c605474eb386aa",
-   "title": "In Africa, population size does not equal market size",
-   "source": "How we made it in Africa",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UQmhORE1qcm9TUFdaaXNXVTJNWTYtc2xnWWJGUllTeC1oR0RsQlQwYnhrdU9UakxwUE5pODNmcWxjR0RBQ3dvVmJpYXdRcTI4QS16Q0VZSDlOWTZ5SUF1RUR3VnFuZ01JUDM2ajR2cW9ncWxQWXozalI0bGc?oc=5",
-   "published": "2026-11-25T12:31:52+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Business"
-  },
-  {
-   "id": "e8e76d4294791fe8",
-   "title": "Uganda, Somalia Agree to Intensify Military Offensive Against Al-Shabaab",
-   "source": "allAfrica.com",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wanZxRVgyU3Nuc1Z2RzVKWVRDb082YV9BR2F4R2Y3elVrQ0tfZzZBX1l5eDBDcGQ1LWtGOGIwcVQxOHAxWW96SlRhNmdpa09iTEFqMGsxR1BzbVk?oc=5",
-   "published": "2026-11-25T12:30:41+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "70fce93f3475bd29",
-   "title": "Mutilated Body of Unidentified Woman Found in Kiboga as Police Investigate Suspected Ritual Killing",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/crime/390506/mutilated-body-of-unidentified-woman-found-in-kiboga-as-police-investigate-suspected-ritual-killing",
-   "published": "2026-11-25T12:29:23+00:00",
-   "snippet": "Police have launched a homicide investigation after a woman believed to be in her mid-twenties was found murdered in Kapeke Sub-county, with investigators examining suspected ritual-related elements at the scene.",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-2.49.22-PM.jpeg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "b42c3ca76086e775",
-   "title": "Uganda: Uganda, Somalia Agree to Intensify Military Offensive Against Al-Shabaab",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250346.html",
-   "published": "2026-11-25T12:29:11+00:00",
-   "snippet": "[Independent (Kampala)] Kampala -- Uganda and Somalia have agreed to intensify military operations against Al-Shabaab militants and explore alternative funding mechanisms to sustain security operations in Somalia. The agreement was reached…",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "fc21203734cc6833",
-   "title": "Education Ministry Urges Students to Report Cyberbullying and Online Abuse",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390505/education-ministry-urges-students-to-report-cyberbullying-and-online-abuse",
-   "published": "2026-11-25T12:26:57+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/3ad334f3-a554-4633-850c-da96416e6058.jpg",
-   "region": "Uganda",
-   "category": "Tech"
-  },
-  {
-   "id": "378ecfb164293e63",
-   "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-   "source": "BBC Africa",
-   "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-25T12:24:12+00:00",
-   "snippet": "Odochie rose to prominence in 1987 after starring in a television adaptation of Chinua Achebe's acclaimed novel Things Fall Apart.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62c6/live/0b9efbb0-e88c-11f1-b10e-f37861cef9d5.jpg",
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "825fd0aea7669211",
-   "title": "BoU Launches Dashboard to Track Financing for Women-Owned Businesses",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/business/390502/bou-launches-dashboard-to-track-financing-for-women-owned-businesses",
-   "published": "2026-11-25T12:22:37+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/696df1b9-7f24-4d07-a6ab-1a48720c8c21.jpg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "83ddac5f46eb61a8",
-   "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
-   "source": "BBC World",
-   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-25T12:21:49+00:00",
-   "snippet": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e4e/live/dce0d700-e8c5-11f1-99b6-a35a62fa4264.jpg",
-   "region": "World",
-   "category": "General"
-  },
-  {
-   "id": "6220a0793b1ae250",
-   "title": "Iran warns of destructive response if key facilities are attacked",
-   "source": "Africanews",
-   "url": "http://www.africanews.com/2026/11/25/iran-warns-of-destructive-response-if-key-facilities-are-attacked/",
-   "published": "2026-11-25T12:20:25+00:00",
-   "snippet": "Izadi's latest comments signal a hardening of that position, with the Iranian military warning that any strike against key national facilities could carry consequences extending well beyond Iran's borders. There was no im",
-   "image": "http://images.euronews.com/articles/stories/10/00/71/05/640x360_cmsv2_57981b73-2155-5e1e-8aa7-38d6f4690dce-10007105.jpg?1795589033",
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "f13ca7ee22d2320c",
-   "title": "Uganda's Consociational Democracy Talks Face Uncertainty as Opposition Questions Process",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/politics/390499/ugandas-consociational-democracy-talks-face-uncertainty-as-opposition-questions-process",
-   "published": "2026-11-25T12:18:43+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/images-16.jpg",
-   "region": "Uganda",
-   "category": "Politics"
-  },
-  {
-   "id": "7efcc89dcf80263f",
-   "title": "AU Commission Chairperson Reaffirms Commitment to Deepening the Strategic Partnership between Africa and India",
-   "source": "African Union",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa3JzQlhiYjZGWDV5UWJTdTFkTkRlZnVaeXdFYlNwZGtvS1dxVmVfYzJUMFNpWkY2NllBc3dBWVBLRllLU3M1dWg3TWhBbDFNYm5DNXNWdGxBOHplREpOeHpubGdkX3BBc3pYZk1Cd0ZQQ1JnaV9zOWNKU1FIN1Q5WV9XMzhLY2tSOHgyWmM5cE5RUDV6MGYwdzZGZjBleWxJM003eE9WcE9Td05HQjMxWG9QY1k0WE0?oc=5",
-   "published": "2026-11-25T12:16:21+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "4270165a26f18683",
-   "title": "Speaker to Lead Driving Licence Renewal Exercise for Parliament Staff",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390495/speaker-to-lead-driving-licence-renewal-exercise-for-parliament-staff",
-   "published": "2026-11-25T12:13:30+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/8236e4aa-f204-49b6-af11-691f3e5b2e1c.jpg",
-   "region": "Uganda",
-   "category": "Politics"
-  },
-  {
-   "id": "2e36eb603afb675c",
-   "title": "Nigeria: Children Demand Equal Access to Education, Healthcare",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250309.html",
-   "published": "2026-11-25T12:11:30+00:00",
-   "snippet": "[Leadership] At World Children's Day, Nigerian children have called on the government, development partners and private sector to increase investment in education, healthcare and nutrition to ensure that every child has an equal…",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "4b42a1917b2ca1b2",
-   "title": "Col Nakalema Challenges University Students to Embrace AI, Create Jobs",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390492/col-nakalema-challenges-university-students-to-embrace-ai-create-jobs",
-   "published": "2026-11-25T12:10:15+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/d821b567-af0d-4fd3-a8a2-900e70374d8b.jpg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "041ecb4e02551441",
-   "title": "Nigeria: 2027 - INEC to Test Bvas, Irev in 336 Taraba Polling Units",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250305.html",
-   "published": "2026-11-25T12:09:17+00:00",
-   "snippet": "[Leadership] The Independent National Electoral Commission (INEC), has finalised arrangement to test the BVAS and IReV results upload in the 336 polling units across Taraba State on Saturday, November 28, ahead of the 2027 general…",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "9ffbdfb42b0c75d4",
-   "title": "Who Pays for Repairs After a School Borehole Breaks? 5 Donors for Ugandan WASH NGOs to Explore - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQekZ1YTVDRUtzejFEZGh5R1VIdXF5d0JobHljYjRyS0JkR0xuaTREWkRhUzJHQU1xQzU3RFRFN0J1WU5RbkYzdWdNTVoyNG9uZGo2LWxKeEd0R2VFWDk0NldsbHdlc09IVHBTeDFHbm91R2J1bHowNmR6eVRqMEktWVZHLV9ITkE0cnF2Nk4xTHZoUUVCdEFydHNLOVdnYVYxMkFLSUFkdWlqU2QtOVRhYktpWGlSRTFDd25VQnJ0ek9PWkpSTjcw0gHMAUFVX3lxTE1lcHVKZlNpQUN3Z3JNTml6bG9ESW1SUVBtUjRDbmFtMGJmaDMzOGFITmotY01heHRLNjZkaEZiUF8weXNDd2RxRWY1NWhFaFpOVmpMUl93ak1YbUZjSHJWLVNvbWw4UE9rTG1oX0QzaHNab09JbzRvTVlrZ3hpUDUwaThYTDRrcG03bzUxdF90NzBaUjlscEJEdG9fVUw0WEdzaE5WMlhqM3p2YjVWdGpmX014NXpORUlPTExOZTVnZ1Rtc1FMYmMybWhyag?oc=5",
-   "published": "2026-11-25T12:09:08+00:00",
-   "snippet": "Who Pays for Repairs After a School Borehole Breaks? 5 Donors for Ugandan WASH NGOs to Explore fundsforNGOs",
-   "image": null,
-   "region": "Uganda",
-   "category": "Health"
-  },
-  {
-   "id": "35e6904444f0328e",
-   "title": "Mozambique: Mrm Disburses Six Million Meticais to Support 750 Farming Families",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250304.html",
-   "published": "2026-11-25T12:08:53+00:00",
-   "snippet": "[AIM] Maputo -- The Montepuez Ruby Mining company (MRM), which operates in the Namanhumbir administrative post, in Montepuez district, northern Mozambican province of Cabo Delgado, has disbursed six million meticais (97.700 Us dollars at…",
-   "image": null,
-   "region": "Africa",
-   "category": "Business"
-  },
-  {
-   "id": "2947c4e288b05580",
-   "title": "Signaling Security and Africa’s Mobile Wallets: What the BICS and Airtel Deal Covers",
-   "source": "TechAfrica News",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcTJHQnMwSndJLVJKclJMbFRIaktJQlM2Vkl5aDVzQnVTV0dqWTBGejRQS3QtdXNpYzlkdy1NNGIyRkk2RnZSUnRUU3hOWGNNXzEtZEtNdjNPRmc1S2ZadkdNMm9BcHUwNW1oYkFZN2EwU1V5dTdMaVZDc2lzS0lUdVR3MEV6UVZ4ei1TNFhkSnpPa2FBSW4zemVsQWJqRXBjVGhaSXNNV0NpUFBQekF1VUVvMEYyYTdMZjhJQzh3?oc=5",
-   "published": "2026-11-25T12:08:40+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Tech"
-  },
-  {
-   "id": "113945278f1b9664",
-   "title": "Gen Muhoozi Donates 350,000 Coffee Seedlings Worth Shs 800m to Masaka Farmers",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390489/gen-muhoozi-donates-350000-coffee-seedlings-worth-shs-800m-to-masaka-farmers",
-   "published": "2026-11-25T12:06:43+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/8f46d89c-462e-4a4d-bc3c-c15df704a50d.jpg",
-   "region": "Uganda",
-   "category": "Business"
-  },
-  {
-   "id": "294806dfe9c97de4",
-   "title": "French billionaire Xavier Niel becomes top shareholder of meal-voucher giant Edenred with 10.55%",
-   "source": "Billionaires.Africa",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX3d3YzA1VWo3eXg4Wk5rQ2V5eHhwM3NUMDNmZVh3Q1ViUWdSdWNUQTFVamRDRFBkaFctcWY0bUw1d2kwNjN5SG4yUDZjREpFSzBUWDIxdGxFZ01sOUxnVTdDaDY3UVhTOGszYXd1TzRaY0xjSnloeGVrcElaYll1UGRfekZ6YnMyOEExSGpGZ1d1cW45NHUwQVoyUEZfb0hMOG04ZnhRa05wT05qWnc3bEktRlVZMkhHem9DVmphMEU3YkxQOC1oekhtTTdaYXladFdvdkRn?oc=5",
-   "published": "2026-11-25T12:06:08+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "d82b016718eef09e",
-   "title": "Hotel ordered to pay Shs10.2m to client for serving her expired beer",
-   "source": "Daily Monitor",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZnl1WHhkaEljci1OQ2Q5T2lrSG1KSmxiTnYyaEFwbldfSjZsNmZEZXlvclJtTnJqb3R4RFQ5cEZaOFVLbDducVdBN1hNSVA3V21iZ1l5VkczcWtEZWR6NlQ5dmF2S09GX29paHd3WmQzelV0djNGRVdYWTlDU3Jsbld0V1hEVzZwcmJVeWlSb0ZObUJtQlh1ZjRXUENGRldSQkNHVV9hRnZNUXRUVnFjT21sT3JLYXBfUWNDUkpPV2g?oc=5",
-   "published": "2026-11-25T12:03:59+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "Tourism"
-  },
-  {
-   "id": "d869c41bd6758222",
-   "title": "Four Teams Battle for Shs5M as Oscar Mutebi Christmas Cup Kicks Off",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/sports/390486/four-teams-battle-for-shs5m-as-oscar-mutebi-christmas-cup-kicks-off",
-   "published": "2026-11-25T12:03:22+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/b5cf5497-f743-4f68-9160-4ca0473a9044.jpg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "da393eff667a12aa",
-   "title": "EAC announces 68 jobs to address staffing gaps",
-   "source": "The EastAfrican",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUkVjRW1qVEF6Y2pBQTNEUlMtWXlvSjBpN21GUjhKZlBJUGE0VTFXX1JyR0YyN0pSSVJvTnRLSW0xNUQtSVBSQmNwSFdLQmhCemJaWGE4SmUxSnJxYlp0RkpLcU5BYlJCcEFhRVRLdVRzZVNqeGxpcDEtTm9qMXhNc2ZkZDlpVDZBTDRCSTRYNUJpMTBEMUZPSWJIdlFpSGxJcmZTZWJ3aHYtQnBL?oc=5",
-   "published": "2026-11-25T12:03:20+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "East Africa",
-   "category": "General"
-  },
-  {
-   "id": "ab6dceb2db0bd5b5",
-   "title": "Ghana: Ghana Protests to Iraq Over Assault On Ghanaian Domestic Worker",
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/stories/202611250295.html",
-   "published": "2026-11-25T12:03:10+00:00",
-   "snippet": "[Ghanaian Times] THE Government has formally protested to Iraqi authorities over the assault of a Ghanaian domestic worker, Stephanie Nkrumah, by her employer, and demanded appropriate action against those responsible.",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "36189fa61952c0ff",
-   "title": "AfDB and EBRD set out a shared vision for a stronger partnership across Africa",
-   "source": "African Development Bank Group",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMUlmZzNacHBuNFNwNHhJR095aU1VMy14N2VsQVU0STZxNTR5Skx1UXFyVExLMVA2cWJibzIycVhfOUR0ZkVWbEd2ZGZja1JoYmxBZk9hMHNTY041aEJuelNBdFgxSmdtMXZOX29GU09qcFlRTFQ5ZUtvdVB2c3B4Mk9teWxIMkUxelV4bmdiRV9ydlhvSjh4SXhndHdVM3FkbzVV?oc=5",
-   "published": "2026-11-25T12:02:47+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Business"
-  },
-  {
-   "id": "3518022500e84628",
-   "title": "South Africa’s Ramaphosa wins court battle over $580,000 cash theft scandal that threatened to cost him his presidency",
-   "source": "Business Insider Africa",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT2ZpNUZtNVA4SDViUm8xak9uZE82TXVOdXNrWmI0U1Q4c2V5bVVfNktTNEdPQ2owR2pkM1dOZWlDSmo0UVZIcWhCUjRjblFadGNfQ0F3QVJpWXpGckNyempmNmJTeWh4WHEyT1hVZ0lxb0UzUk9QNVZVck0zbXlSelVpVG9VR24zblduZ1dydDI0R2V6dEtDOHRFVVhLQ0dIenAtY25pMkczZW5NM1BaaHFTUW03SkhFM0VSWllmSE8zOXk1WTNoZEtITFpNems?oc=5",
-   "published": "2026-11-25T12:02:42+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "2a87ea331bdd95ab",
-   "title": "Uganda Railways Launches Kampala–Jinja Passenger Train Service",
-   "source": "ChimpReports",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb2JaX2tNZTRtM3AweHJiNGJUa3RkdG1MWHE4ZmFfNUx1R0xCaXpZTzdyT2t2M0hGUDdQVkUwdGlXZmRrRDY0aE40Y1IyODVUc1ZhcGFPcExjY1lSV0txSzNKTjNLWEQ4aEhmbnhEUTlfV1NGVnp5STM1ek81a1F5alg4T0pRdFdrYm5mOElEQ2dwUQ?oc=5",
-   "published": "2026-11-25T12:00:17+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "0fc4bfbc7228ea7a",
-   "title": "Buganda Speaker Urges Households to Embrace Wealth Creation",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390483/buganda-speaker-urges-households-to-embrace-wealth-creation",
-   "published": "2026-11-25T11:59:05+00:00",
-   "snippet": "",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/4c79ad5a-3b87-4e2c-9530-65a0fab9ce70.jpg",
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "6fd176df5fd4a482",
-   "title": "Overnight RSF drone attacks kill 19 in Sudan",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
-   "published": "2026-11-25T11:58:15+00:00",
-   "snippet": "The attacks also injured at least 20 people – the latest casualties in a drone war that is quickly escalating.",
-   "image": null,
-   "region": "Africa",
-   "category": "General"
-  },
-  {
-   "id": "607249da43ede843",
-   "title": "Which Embassies in Kampala Offer Small Grants for Community Projects Outside the Capital? - fundsforNGOs",
-   "source": "Grants and Resources for Sustainability",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdGtiay0zWkdJOW9EWnc3ZUhiWm1LWVNsQUREWi1IYllfc2gtQzdQN2t1ZkZFTk9uVTFLTTNsZU9SSWpEb3pvWXZaSzNRcjJ1ZjJCY0s1aVNrTWtiQjVvUzJONnJ0Z1RJdjkzNUkzeWNpVXJ6SDVkVy1YRHhNb0hFVEc2aUVlV0gydE9IQXpLQjRUZnJCRGZfM1Z0WUVqTWxGVDhqeWNKR0Q1U3V4UFFNalIxckR3SlRZWnZVc0hZd3JZc1ZQa0ctSEh3dXl2eGhWanpvR1FWcDF4Qmk1TUxBSnhueWRlZGItRnRrbdIB8gFBVV95cUxQOVBhREl3ZmFheVlEMU9fM2JpRU10MTBONmg1d0thcmxKdXRUNGc2UjZ5b29USDZKZDJFSENUZGlNazl2WGxyblliZTFlMU52SDZORnFaYUVlT3FMVkN6aFBaLV9VS2VWNEhVZlBsNFpLRS1ZOTF5TkhYTldxQ2FsZGZ4czExS0FiRlZFWnozbDRqVHkwbUF5NlhjR25MTnRzb2RSMm9IM0NRb0Z3dWtpZEFZYjdud0lWZXNRZ3hMQTJKYkFTQWNsdldOQ2I5RWNQZjRTOFdpcG0zQWh1YUVLeF9pYlJod25uTmhCeUo2dHNwUQ?oc=5",
-   "published": "2026-11-25T11:57:04+00:00",
-   "snippet": "Which Embassies in Kampala Offer Small Grants for Community Projects Outside the Capital? fundsforNGOs",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "8583db0280822a35",
-   "title": "Next Media Hosts Rotary International President Ahead of All Africa Zone Institute",
-   "source": "Nile Post",
-   "url": "https://nilepost.co.ug/news/390475/next-media-hosts-rotary-international-president-ahead-of-all-africa-zone-institute",
-   "published": "2026-11-25T11:56:26+00:00",
-   "snippet": "Rotary International President Olayinka Hakeem Babalola visited the Next Media Park ahead of the 7th All Africa Zone Institute, sharing Rotary’s vision for lasting community impact, peace and youth leadership.",
-   "image": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-2.22.44-PM.jpeg",
-   "region": "East Africa",
-   "category": "Politics"
-  },
-  {
-   "id": "f8d1d07765d5224e",
-   "title": "18 die of snakebites in Bukedea as Uganda battles shortage of antivenoms",
-   "source": "Daily Monitor",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTTZBWkJPM2trWGowaXU3NDNtN0lJcXhfZlNSNnU5clpQLUhSMWxoZi1hSmxQd1VLVTUwZC1yZnZUNXZ4SjBEbjdTQU96VEtFM3pocklIbi0tUG50NFp2ZzhpOG43dmY3YXljbDVCblJzZnhGSE1zVWZURlZjaS1Va19BNXNtUFc3Z0hQT19RcVFVVDNrdjk0bW1qd3BDdlRmd3M4RW5FcEJ0Z3RIcjFQcWpHcUVZS0FXTjl4ODN0S3A3UkUtUnc?oc=5",
-   "published": "2026-11-25T11:52:44+00:00",
-   "snippet": "",
-   "image": null,
-   "region": "Uganda",
-   "category": "General"
-  },
-  {
-   "id": "01ef321a3ee8e10e",
-   "title": "Ex England star Sterling given suspended sentence for dangerous driving",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/sports/2026/11/25/ex-england-star-sterling-given-suspended-sentence-for-dangerous-driving?traffic_source=rss",
-   "published": "2026-11-25T11:50:52+00:00",
-   "snippet": "Raheem Sterling admitted inhaling 'laughing ⁠gas' and driving erratically before ​crashing his car.",
-   "image": null,
-   "region": "World",
-   "category": "General"
   }
  ]
 }
